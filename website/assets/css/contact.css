@@ -18,10 +18,23 @@
 .contact-parent{
   text-align: center;
 }
-.contact-btn{
+.contact-btn {
   width: 40%;
   border-radius: 10px;
   text-align: center;
+}
+
+.call-btn, .email-btn{
+  width:60%;
+  border-radius: 10px;
+  border: 0;
+  text-align: center;
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+}
+
+.contact-text{
+  color: var(--blackColor);
 }
 
 

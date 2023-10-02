@@ -552,9 +552,12 @@ Services Area Two
 }
 
 .services-card {
+ 
   position: relative;
+  color: var(--blackColor);
   z-index: 1;
-  margin-bottom: 30px;
+  margin-bottom: -10px;
+  margin-left: -10px;
   padding: 35px 40px;
   background-color: var(--whiteColor);
   position: relative;
