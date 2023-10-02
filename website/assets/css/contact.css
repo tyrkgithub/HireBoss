@@ -5,6 +5,25 @@
   margin-bottom: 30px;
 }
 
+.contact-h3{
+  padding: 30px;
+  color: var(--blackColor)!important;
+  text-align: left;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+.contact-desc{
+  padding: 30px;
+  color: var(--blackColor);
+  text-align: left;
+  width: 50%;
+}
+
+.contact-widget-area{
+  background-color: var(--blackColor);
+}
+
 .contact-widget-form .contact-form h3 {
   font-size: 24px;
   margin-bottom: 30px;
