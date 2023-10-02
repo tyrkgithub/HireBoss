@@ -202,7 +202,7 @@ img {
   border-radius: 50px !important;
 }
 
-.default-btn {
+.default-btn, .contact-btn {
   padding: 10px 30px;
   color: var(--whiteColor);
   text-align: center;
@@ -215,7 +215,7 @@ img {
   outline: none;
 }
 
-.default-btn::before {
+.default-btn::before, .contact-btn::before {
   content: '';
   position: absolute;
   top: 0;
@@ -230,7 +230,7 @@ img {
   transition: var(--transition);
 }
 
-.default-btn:hover {
+.default-btn:hover, .contact-btn:hover {
   color: var(--whiteColor);
 }
 

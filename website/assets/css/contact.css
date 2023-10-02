@@ -10,12 +10,15 @@
   margin-bottom: 30px;
 }
 
-.contact-widget-form .contact-form{
+.contact-widget-form .contact-form .default-btn{
   width: 100%;
   text-align: center;
 }
 
-.default-btn{
+.contact-parent{
+  text-align: center;
+}
+.contact-btn{
   width: 40%;
   border-radius: 10px;
   text-align: center;
