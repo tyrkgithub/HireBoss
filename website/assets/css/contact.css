@@ -22,6 +22,8 @@
 
 .contact-widget-area{
   background-color: var(--blackColor);
+  padding: 100px;
+
 }
 
 .contact-widget-form .contact-form h3 {
