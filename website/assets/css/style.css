@@ -60,12 +60,19 @@ Default CSS
 :root {
   --headerFonts: 'Poppins', sans-serif;
   --bodyFonts: 'Roboto', sans-serif;
-  --orangeColor: #f85f0a;
+  --orangeColor: #dda83f;
   --lightColor: #f88240;
-  --greenColor: #0ebc40;
+  --greenColor: #2b4743;
+  --pinkColor: #ffd3db;
+  --peachColor: #ddc1a7;
+  --brownColor: #745e4d;
   --titleColor: #00042e;
   --bodyColor: #4e4e4e;
   --whiteColor: #ffffff;
+  --redColor: #ef3a5d;
+  --blackColor: #080704;
+  --blueColor: #cedeeb;
+
   --fontSize: 16px;
   --transition: .5s;
 }
