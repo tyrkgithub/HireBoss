@@ -566,7 +566,7 @@ Services Area Two
 
 .services-card .service-icon {
   font-size: 55px;
-  color: #C97358;
+  color: var(--redColor);
   line-height: 1;
   margin-bottom: 10px;
 }
