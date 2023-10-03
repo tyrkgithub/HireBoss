@@ -263,7 +263,7 @@ About Area
 ===================================*/
 .about-area {
   margin-bottom: 80px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .about-img {
