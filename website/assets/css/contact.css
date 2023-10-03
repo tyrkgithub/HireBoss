@@ -159,6 +159,63 @@
   margin-bottom: 30px;
 }
 
+.calendleyDiv{
+  height: 1000px;
+  background-color: var(--redColor);
+ 
+}
+
+.miniFaqSection{
+  height: auto;
+  padding: 50px;
+  margin: auto;
+  width: 80%;
+}
+
+.miniFaqh4{
+  text-align: center;
+  font-size: 40px;
+}
+
+.miniFaqTag{
+text-align: center;
+}
+
+.miniFaq{
+  height:auto;
+  padding-top: 20px;
+}
+
+.miniFaqQ{
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 30px;
+  
+}
+
+.miniFaqA{
+  padding: 20px;
+  
+}
+
+.btn-parent{
+  text-align: right;
+}
+
+.faqs-btn{
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: var(--whiteColor);
+  text-align: center;
+  background-color: var(--redColor);
+  outline: none;
+  position: relative;
+  
+}
+
 /*=================================
 Responsive Css 
 ====================================*/
