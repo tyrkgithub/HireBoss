@@ -7,22 +7,25 @@
 
 .contact-h3{
   padding: 30px;
+  padding-left: 90px;
   color: var(--blackColor)!important;
   text-align: left;
   width: 70%;
-  margin-bottom: 30px;
+
 }
 
 .contact-desc{
   padding: 30px;
+  padding-left: 90px;
   color: var(--blackColor);
   text-align: left;
-  width: 50%;
+  width: 60%;
+  font-size: 15px;
 }
 
 .contact-widget-area{
-  background-color: var(--blackColor);
-  padding: 100px;
+
+  padding: 50px;
 
 }
 
@@ -46,9 +49,10 @@
 }
 
 .call-btn, .email-btn{
-  width:60%;
+  padding: 10px 30px;
+  font-size: 15px;
+  border: none;
   border-radius: 10px;
-  border: 0;
   text-align: center;
   background-color: var(--blackColor);
   color: var(--whiteColor);
@@ -56,6 +60,7 @@
 
 .contact-text{
   color: var(--blackColor);
+  font-size: 15px;
 }
 
 
@@ -111,7 +116,7 @@
 }
 
 .contact-card:hover i {
-  background-color: var(--orangeColor);
+  background-color: var(--blueColor);
   color: var(--whiteColor);
 }
 
@@ -159,11 +164,19 @@
   margin-bottom: 30px;
 }
 
+/* CALENDLEY 
+////////////
+*/
+
 .calendleyDiv{
   height: 1000px;
   background-color: var(--redColor);
  
 }
+
+/* MINI FAQS
+////////////
+*/
 
 .miniFaqSection{
   height: auto;
@@ -200,7 +213,7 @@ text-align: center;
   
 }
 
-.btn-parent{
+.faqs-btn-parent{
   text-align: right;
 }
 
@@ -215,6 +228,51 @@ text-align: center;
   position: relative;
   
 }
+
+/* ABOVE FOOTER
+////////////
+*/
+
+.aboveFooterSection{
+  height:auto;
+  background-color: var(--redColor);
+  padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.aboveFooter{
+width: auto;
+width: 80%;
+}
+
+.aboveFooterh4{
+  font-size: 40px;
+  color: var(--blackColor);
+  margin-bottom: 40px;
+}
+
+.aboveFooterP{
+font-size: 20px;
+color: var(--blackColor);
+}
+
+.aboveFooter-btn-parent{
+  text-align: right;
+}
+
+.aboveFooter-btn{
+  border: none;
+  border-radius: 10px;
+  padding: 30px 60px;
+  color: var(--whiteColor);
+  text-align: center;
+  background-color: var(--blackColor);
+  outline: none;
+  position: relative;
+}
+
 
 /*=================================
 Responsive Css 
