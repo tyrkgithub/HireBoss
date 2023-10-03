@@ -351,6 +351,19 @@ About Area
   margin-top: 15px;
 }
 
+.about-card {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+  padding: 35px 40px;
+  background-color: var(--whiteColor);
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
 /*================================
 About Area End
 ===================================*/
