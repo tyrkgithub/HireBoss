@@ -37,9 +37,22 @@
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
+/* CALENDLEY 
+////////////
+*/
+
+.calendleyDiv{
+  background-color: var(--redColor);
+ 
+}
+
+.calendly-inline-widget{
+  
+}
+
+
+
 /*///////////////////////////////////*/
-
-
 .contact-map iframe {
   display: block;
   width: 100%;
@@ -68,6 +81,7 @@
 .contact-widget-area{
 
   padding: 50px;
+  margin-bottom: 50px;
 
 }
 
@@ -206,15 +220,7 @@
   margin-bottom: 30px;
 }
 
-/* CALENDLEY 
-////////////
-*/
 
-.calendleyDiv{
-  height: 1000px;
-  background-color: var(--redColor);
- 
-}
 
 /* MINI FAQS
 ////////////
@@ -223,6 +229,8 @@
 .miniFaqSection{
   height: auto;
   padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin: auto;
   width: 80%;
 }
@@ -280,8 +288,9 @@ text-align: center;
   height:auto;
   background-color: var(--redColor);
   padding: 50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 80px;
 
 }
 
