@@ -720,7 +720,7 @@ Testimonial Area
 }
 
 .testimonial-item .content span {
-  color: #C97358;
+  color: var(--redColor);
   font-size: 15px;
 }
 
