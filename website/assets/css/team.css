@@ -1,3 +1,21 @@
+.bg-div{
+  position: relative;
+  left: 2%;
+  bottom: 2%;
+  padding: 3% .5% 0% 0%;
+  background-color: var(--blackColor);
+}
+
+.front-bg{
+  position: relative;
+  right: 3%;
+  background-color: var(--whiteColor);
+}
+
+.team-card {
+  padding-top: 30px;
+}
+
 .img-wrapper {
   display: inline-block; 
   position: relative; 
@@ -5,13 +23,16 @@
   height: 200px; 
   overflow: hidden; 
   border-radius: 50%;
-  /* border: 1px solid red; */
 }
 
 .t-img {
   margin-left: -5px;
   max-width: 120%;
   height: 100%;
+}
+
+.content h3{
+  color: var(--redColor);
 }
 
 
