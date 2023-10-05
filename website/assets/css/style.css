@@ -36,6 +36,7 @@ This files table contents are outlined below>>>>>
 *******************************************
 /*
 ******************************************* */
+@import url("about.css");
 @import url("navbar.css");
 @import url("home-one.css");
 @import url("home-two.css");
