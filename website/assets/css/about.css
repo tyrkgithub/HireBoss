@@ -1,0 +1,149 @@
+/*================================
+Banner Area
+===================================*/
+
+
+/*================================
+About Area
+===================================*/
+.about-area {
+    margin-bottom: 80px;
+    /* margin-top: 50px; */
+  }
+  
+  .about-img {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .about-img::after {
+    content: "";
+    left: 0;
+    position: absolute;
+    background-color: var(--whiteColor);
+    height: 10%;
+    top: -30px;
+    -webkit-transform: skewY(-175deg);
+            transform: skewY(-175deg);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .about-img::before {
+    content: "";
+    left: 0;
+    position: absolute;
+    background-color: var(--whiteColor);
+    height: 10%;
+    bottom: -30px;
+    -webkit-transform: skewY(175deg);
+            transform: skewY(175deg);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .about-img .line {
+    position: absolute;
+    z-index: -1;
+    top: 60px;
+    left: -30px;
+  }
+  
+  .about-content {
+    max-width: 610px;
+  }
+  
+  .about-content .section-title {
+    margin-bottom: 20px;
+  }
+  
+  .about-content .about-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-content .about-list li {
+    display: block;
+    font-size: 18px;
+    color: var(--titleColor);
+    margin-bottom: 10px;
+    font-weight: 500;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  
+  .about-content .about-list li i {
+    color: #C97358;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+  }
+  
+  .about-content .about-list li:hover {
+    color: #C97358;
+    letter-spacing: 0.25px;
+    margin-left: 2px;
+  }
+  
+  .about-content .about-list li:hover i {
+    color: var(--titleColor);
+  }
+  
+  .about-content .default-btn {
+    margin-top: 15px;
+  }
+  
+  .about-card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    padding: 35px 40px;
+    background-color: var(--whiteColor);
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  /*================================
+  Work Area Two
+  ===================================*/
+
+  .work-area-two {
+    position: relative;
+    z-index: 1;
+    background-image: url(../images/work-img2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .work-area-two::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--whiteColor);
+    opacity: 0.9;
+  }
+  
+  .work-img-three {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+  }
+  
+  .work-img-three .line {
+    position: absolute;
+    z-index: -1;
+    top: 30px;
+    left: -30px;
+  }
+  
