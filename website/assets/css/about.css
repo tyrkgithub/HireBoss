@@ -6,7 +6,7 @@ Banner Area
 /*================================
 About Area
 ===================================*/
-.about-area {
+  .about-area {
     margin-bottom: 80px;
     /* margin-top: 50px; */
   }
@@ -96,22 +96,10 @@ About Area
     margin-top: 15px;
   }
   
-  .about-card {
-    position: relative;
-    z-index: 1;
-    margin-bottom: 30px;
-    padding: 35px 40px;
-    background-color: var(--whiteColor);
-    position: relative;
-    z-index: 1;
-    border-radius: 10px;
-    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-  }
   
-  /*================================
+/*================================
   Work Area Two
-  ===================================*/
+ ===================================*/
 
   .work-area-two {
     position: relative;
@@ -147,3 +135,90 @@ About Area
     left: -30px;
   }
   
+/*================================
+    Solutions Area
+  ===================================*/
+
+  .about-card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    padding: 35px 40px;
+    background-color: var(--whiteColor);
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+
+
+/*================================
+    Services Area
+  ===================================*/
+  .services-card .service-icon {
+    font-size: 55px;
+    color: var(--redColor);
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  
+  .services-card h3 {
+    margin-bottom: 15px;
+  }
+  
+  .services-card h3 a {
+    color: var(--titleColor);
+  }
+  
+  .services-card p {
+    margin-bottom: 20px;
+    max-width: 340px;
+  }
+
+  .services-card::before {
+    background-color: var(--blackColor);
+  }
+
+  .services-card:hover .service-icon {
+    color: var(--whiteColor);
+  }
+  
+  .services-card:hover h3 a {
+    color: var(--redColor);
+  }
+  
+  .services-card:hover p {
+    color: var(--whiteColor);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+ /* 
+
+  .services-card .services-bottom .services-bottom-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    background-color: var(--orangeColor);
+    right: 0;
+    z-index: -1;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    border-radius: 5px;
+  }
+  
+  .services-card .services-bottom .services-bottom-btn:hover {
+    color: var(--whiteColor);
+  } */
