@@ -222,3 +222,12 @@ About Area
   .services-card .services-bottom .services-bottom-btn:hover {
     color: var(--whiteColor);
   } */
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-area {
+    margin-bottom: 60px;
+  }
+  .about-img .line img {
+    height: 450px;
+  }
+}

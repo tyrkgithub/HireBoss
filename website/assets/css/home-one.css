@@ -1911,13 +1911,13 @@ Services Area End
   .banner-shape img {
     max-width: 105px;
   }
-  .about-area {
+  /* .about-area {
     margin-top: 40px;
     margin-bottom: 60px;
   }
   .about-img .line img {
     height: 450px;
-  }
+  } */
   .services-slider .owl-nav {
     margin-top: 0;
   }
