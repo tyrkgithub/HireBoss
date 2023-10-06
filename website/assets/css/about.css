@@ -244,10 +244,16 @@ About Area
   } */
 
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-area {
+  /* .about-area {
     margin-bottom: 60px;
-  }
+  } */
   .about-img .line img {
     height: 450px;
   }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px){
+/* .about-area {
+    margin-bottom: 60px;
+}  */
 }
