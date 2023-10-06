@@ -32,11 +32,13 @@ About Area
   }
   
   .about-img {
+    /* justify-content: center; */
+    float: right;
     position: relative;
     z-index: 1;
   }
   
-  .about-img::after {
+  /* .about-img::after {
     content: "";
     left: 0;
     position: absolute;
@@ -60,14 +62,15 @@ About Area
             transform: skewY(175deg);
     width: 100%;
     z-index: 1;
-  }
+
+    .about-img .line {
+      position: absolute;
+      z-index: -1;
+      top: 60px;
+      left: -30px;
+    }
+  } */
   
-  .about-img .line {
-    position: absolute;
-    z-index: -1;
-    top: 60px;
-    left: -30px;
-  }
   
   .about-content {
     max-width: 610px;
@@ -77,7 +80,7 @@ About Area
     margin-bottom: 20px;
   }
   
-  .about-content .about-list {
+  /* .about-content .about-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -114,7 +117,7 @@ About Area
   
   .about-content .default-btn {
     margin-top: 15px;
-  }
+  } */
   
   
 /*================================
