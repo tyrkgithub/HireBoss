@@ -552,9 +552,12 @@ Services Area Two
 }
 
 .services-card {
+ 
   position: relative;
+  color: var(--blackColor);
   z-index: 1;
-  margin-bottom: 30px;
+  margin-bottom: -10px;
+  margin-left: -10px;
   padding: 35px 40px;
   background-color: var(--whiteColor);
   position: relative;
@@ -583,7 +586,6 @@ Services Area Two
 
 .services-card p {
   margin-bottom: 20px;
-  max-width: 340px;
 }
 
 .services-card .read-btn {
@@ -1218,6 +1220,15 @@ Testimonial Area Two End
 /*================================
 Contact Area
 ===================================*/
+.contact-form{
+ border-radius: 10px;
+  padding: 10px;
+}
+
+.form-group{
+  margin: 40px;
+}
+
 .contact-area {
   position: relative;
   z-index: 1;
@@ -1241,6 +1252,7 @@ Contact Area
   z-index: 1;
   margin-bottom: 0;
   max-width: 640px;
+  background-color: var(--redColor);
 }
 
 .contact-form .section-title {
@@ -1279,12 +1291,12 @@ Contact Area
 .contact-form .form-group .form-control {
   height: 60px;
   color: var(--bodyColor);
-  border: none;
   background-color: #f0eeee;
   font-size: 15px;
   padding: 15px 20px;
   width: 100%;
-  border-radius: 0;
+  border-radius: 10;
+
 }
 
 .contact-form .form-group .form-control:focus {
@@ -1298,9 +1310,14 @@ Contact Area
   height: auto;
 }
 
+.agree-label{
+  margin-left: 40px;
+}
+
 .contact-form .agree-label {
   margin-bottom: 15px;
   position: relative;
+  color: var(--whiteColor);
 }
 
 .contact-form .agree-label #chb1 {
@@ -1311,12 +1328,12 @@ Contact Area
 
 .contact-form .agree-label label {
   font-weight: 500;
-  color: var(--titleColor);
+  color: var(--whiteColor);
   margin-left: 25px;
 }
 
 .contact-form .agree-label label a {
-  color: var(--orangeColor);
+  color: var(--blueColor);
 }
 
 .contact-form .agree-label label a:hover {

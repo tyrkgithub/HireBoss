@@ -72,7 +72,7 @@ Default CSS
   --redColor: #ef3a5d;
   --blackColor: #080704;
   --blueColor: #cedeeb;
-
+  
   --fontSize: 16px;
   --transition: .5s;
 }
@@ -203,7 +203,7 @@ img {
   border-radius: 50px !important;
 }
 
-.default-btn {
+.default-btn, .contact-btn {
   padding: 10px 30px;
   color: var(--whiteColor);
   text-align: center;
@@ -211,12 +211,12 @@ img {
   overflow: hidden;
   z-index: 1;
   text-transform: capitalize;
-  background-color: #C97358;
+  background-color: var(--blackColor);
   border: none;
   outline: none;
 }
 
-.default-btn::before {
+.default-btn::before, .contact-btn::before {
   content: '';
   position: absolute;
   top: 0;
@@ -231,7 +231,7 @@ img {
   transition: var(--transition);
 }
 
-.default-btn:hover {
+.default-btn:hover, .contact-btn:hover {
   color: var(--whiteColor);
 }
 
