@@ -91,19 +91,14 @@ About Area
   
    .about-card {
      background-color: var(--whiteColor);
-     padding-top: 25px;
+     padding: 25px;
+     margin-bottom: 30px;
      border-radius: 5px;
    }
-   /*  position: relative;
-    z-index: 1;
-    margin-bottom: 30px;
-    position: relative; 
-    padding: 35px 40px; 
-    z-index: 1;
-    border-radius: 10px;
-    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-  } */
+
+   figure {
+    margin-bottom: 0rem;
+   }
 
   .service-img1,  .service-img2{
     height: 210px;
