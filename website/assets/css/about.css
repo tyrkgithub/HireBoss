@@ -3,15 +3,15 @@ Banner Area
 ===================================*/
 .ab-inner-banner {
   position: relative;
-  background-position: center center;
+  background-position:center center;
   background-size: cover;
 }
 
 .inner-bg3 {
-  opacity: 0.78;
+  opacity: 0.8;
 }
 
-.ab-inner-banner::before {
+.ab-inner-banner::after {
   content: '';
   position: absolute;
   z-index: -1;
@@ -20,7 +20,7 @@ Banner Area
   top: 0;
   left: 0;
   right: 0;
-  background-color: var(--blackColor);
+  background-color: var(--titleColor);
   opacity: 0.2;
 }
 /*================================
