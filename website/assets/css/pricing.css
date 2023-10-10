@@ -122,7 +122,7 @@ padding-bottom: 30px;
 Pricing Area
 ===================================*/
 .pricing-area {
-  background-color: #fbfbfb;
+  background-color: var(--whiteColor);
 }
 
 .pricing-bg2 {
@@ -130,11 +130,48 @@ Pricing Area
 }
 
 .pricing-card {
-  padding: 45px;
-  background-color: var(--whiteColor);
-  margin-bottom: 30px;
+
+  margin: 10px;
   position: relative;
-  z-index: 1;
+  border-radius: 10px;
+  min-height: 250px;
+  font-family: var(--bodyFonts);
+  padding: 35px;
+}
+
+
+.row{
+  --bs-gutter-x:none;
+}
+
+.col-4, .col-md-2, .col-sm-3{
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: none!important;
+  padding-right: none!important;
+}
+
+.card-2{
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+}
+.card-1{
+color: var(--redColor);
+justify-content: left;
+}
+.h4-card-2{
+  color: var(--blackColor);
+}
+
+.boss-card{
+  background-color: var(--redColor);
+  color: var(--whiteColor);
+
+}
+
+.compareHR{
+  color: var(--whiteColor);
+  height: 1px;
 }
 
 .pricing-card .top img {
@@ -175,9 +212,10 @@ Pricing Area
 
 .pricing-card h4 {
   font-size: 24px;
-  color: var(--lightColor);
+  color: var(--whiteColor);
   text-align: center;
   margin-bottom: 20px;
+  font-family: var(--bodyFonts);
 }
 
 .pricing-card h4 span {
@@ -189,7 +227,7 @@ Pricing Area
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  text-align: center;
+  
 }
 
 .pricing-card ul li {
