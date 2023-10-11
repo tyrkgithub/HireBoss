@@ -403,13 +403,50 @@ VS Cards
 
 .vsSection{
   height: auto;
-  background-image: url(../images/rope-pulling.jpg);
+  background-image: url("/Users/tia/Desktop/Hire Boss/HireBoss/website/assets/images/blog-sub3.jpg");
+  padding-top: 40px;
 }
 
-.col-sm-4{
+
+
+.vs{
+  margin-top: 170px;
+}
+
+.col-sm-5{
   justify-content: center;
 }
 
 .vsCardA, .vsCardB{
   justify-content: center;
+  color: var(--whiteColor);
+  border-radius: 10px;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.vsCardA{
+  background-color: var(--blackColor);
+}
+
+.vsCardB{
+  background-color: var(--redColor);
+}
+
+.vsCardAul, .vsCardBul{
+  list-style: none;
+}
+
+.vsCardAh6, .vsCardBh6{
+  color: var(--whiteColor);
+  text-align: center;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.vsCardAli, .vsCardBli{
+  margin: 10px;
+padding-top: 15px;
+padding-bottom: 15px;
 }
