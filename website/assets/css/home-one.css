@@ -1342,37 +1342,7 @@ Services Area End
     margin-right: 10px;
   }
   /* Banner Area End */
-  /*  About Area  */
-  .about-area {
-    margin-bottom: 0;
-    padding-top: 50px;
-    padding-bottom: 45px;
-  }
-  .about-img {
-    margin-bottom: 30px;
-  }
-  .about-img::after {
-    display: none;
-  }
-  .about-img::before {
-    display: none;
-  }
-  .about-img .line {
-    display: none;
-  }
-  .about-content .section-title {
-    margin-bottom: 15px;
-  }
-  .about-content .about-list li {
-    font-size: 16px;
-  }
-  .about-content .default-btn {
-    margin-top: 5px;
-  }
-  .about-area {
-    margin-top: 0;
-  }
-  /*  About Area End */
+
   /*  Services Area  */
   .services-area .section-title {
     max-width: 100%;
@@ -1712,34 +1682,8 @@ Services Area End
     display: none;
   }
   /* Banner Area End */
-  /*  About Area  */
-  .about-area {
-    margin-bottom: 0;
-    padding-top: 50px;
-    padding-bottom: 45px;
-  }
-  .about-img {
-    margin-bottom: 30px;
-  }
-  .about-img::after {
-    display: none;
-  }
-  .about-img::before {
-    display: none;
-  }
-  .about-img .line {
-    display: none;
-  }
-  .about-content .section-title {
-    margin-bottom: 15px;
-  }
-  .about-content .about-list li {
-    font-size: 16px;
-  }
-  .about-content .default-btn {
-    margin-top: 5px;
-  }
-  /*  About Area End */
+
+  /* Services Area Start */
   .services-item {
     margin-top: 30px;
     padding-top: 0;
@@ -1769,6 +1713,8 @@ Services Area End
   .services-item:hover .services-bottom {
     display: none;
   }
+  /* Services Area End */
+
   /*  Choose Area  */
   .choose-area .container-fluid {
     width: 720px;

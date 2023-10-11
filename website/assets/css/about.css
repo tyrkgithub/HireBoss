@@ -27,15 +27,15 @@ Banner Area
 About Area
 ===================================*/
   .about-area {
-    margin-bottom: 80px;
-    /* margin-top: 50px; */
+    margin-bottom: 50px;
   }
   
   .about-img {
-    /* justify-content: center; */
     float: right;
     position: relative;
     z-index: 1;
+    border-radius: 5px;
+
   }
   
   .about-content {
@@ -153,27 +153,57 @@ About Area
 
 
 
+  @media only screen and (max-width: 767px){
 
-
- /* 
-
-  .services-card .services-bottom .services-bottom-btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 20%;
-    height: 100%;
-    background-color: var(--orangeColor);
-    right: 0;
-    z-index: -1;
-    -webkit-transition: var(--transition);
-    transition: var(--transition);
-    border-radius: 5px;
+    .about-area {
+      margin-bottom: 0;
+      padding-top: 50px;
+      padding-bottom: 45px;
+    }
+    .about-content {
+      margin-bottom: 25px;
+    }
+    .about-img {
+      margin-bottom: 30px;
+    }
+/* 
+    .about-content .default-btn {
+      margin-top: 5px;
+    } */
+    .about-area {
+      margin-top: 0;
+    }
   }
-  
-  .services-card .services-bottom .services-bottom-btn:hover {
-    color: var(--whiteColor);
-  } */
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .about-area {
+      margin-bottom: 0;
+      padding-top: 50px;
+      padding-bottom: 45px;
+    } 
+    .about-content{
+      max-width: 100%;
+      padding-bottom: 30px;
+      /* text-align: center; */
+    }
+    .about-img-wr{
+      text-align: center;
+    }
+    .about-img {
+      height: 380px;
+      float:none;
+    }
+    .about-content .section-title {
+      margin-bottom: 15px;
+    }
+    .about-content .about-list li {
+      font-size: 16px;
+    }
+    .about-content .default-btn {
+      margin-top: 5px;
+    }
+  }
 
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* .about-area {
