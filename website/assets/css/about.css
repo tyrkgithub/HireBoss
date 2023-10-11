@@ -35,17 +35,11 @@ About Area
     position: relative;
     z-index: 1;
     border-radius: 5px;
+  }
 
-  }
-  
-  .about-content {
-    max-width: 610px;
-  }
-  
   .about-content .section-title {
     margin-bottom: 20px;
   }
-  
   
 /*================================
   Work Area Two
@@ -147,12 +141,6 @@ About Area
 
 
 
-
-
-
-
-
-
   @media only screen and (max-width: 767px){
 
     .about-area {
@@ -161,47 +149,52 @@ About Area
       padding-bottom: 45px;
     }
     .about-content {
+      display:flex;
+      justify-content: center;
+      flex-direction:column;
       margin-bottom: 25px;
     }
+  
     .about-img {
-      margin-bottom: 30px;
-    }
-/* 
-    .about-content .default-btn {
-      margin-top: 5px;
-    } */
-    .about-area {
-      margin-top: 0;
+      text-align: center;
+      height: 350px;
+      object-fit: cover;
+      float:none;
+      /* margin-bottom: 20px; */
     }
   }
 
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-
+ 
     .about-area {
       margin-bottom: 0;
       padding-top: 50px;
       padding-bottom: 45px;
     } 
-    .about-content{
-      max-width: 100%;
-      padding-bottom: 30px;
-      /* text-align: center; */
+     .about-content{
+      display:flex;
+      align-items: center;
+      flex-direction:column;
+      margin-bottom: 25px;
     }
-    .about-img-wr{
-      text-align: center;
-    }
-    .about-img {
-      height: 380px;
-      float:none;
-    }
+
     .about-content .section-title {
       margin-bottom: 15px;
     }
-    .about-content .about-list li {
-      font-size: 16px;
+
+    .about-p{
+      max-width:85%;
+      justify-content: center;
     }
-    .about-content .default-btn {
-      margin-top: 5px;
+
+    .about-img-wr{
+      text-align: center;
+    }
+
+    .about-img {
+      height: 370px;
+      float: none;
+      margin-bottom: 20px;
     }
   }
 
