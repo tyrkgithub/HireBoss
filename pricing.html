@@ -30,6 +30,8 @@
 
 		<link rel="stylesheet" href="website/assets/css/pricing.css">
 
+		<link rel="stylesheet" href="website/assets/css/contact.css">
+
 		<link rel="stylesheet" href="website/assets/css/theme-dark.css">
 
 		<link rel="icon" type="image/png" href="website/assets/images/full-logo-1-1.png">
@@ -481,7 +483,7 @@
 			  Got a Question? Find Your Answers Here Or Over On Our FAQs Page
 			</h5>
 			<div class="miniFaq">
-			  <button class="accordion miniFaqQ">How Does Billing Work?</button>
+			  <button class="accordion miniFaqQ activeAccordion">How Does Billing Work?</button>
 			  <div class="panel">
 				<p class="miniFaqA">
 				  Once you've decided how many hours you'd like to start with, you'll
@@ -706,6 +708,26 @@
 				});
 			}, 10000);
 		</script>
+		 <script type="text/javascript">
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+	  
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function () {
+				/* Toggle between adding and removing the "active" class,
+		  to highlight the button that controls the panel */
+				this.classList.toggle("activeAccordion");
+	  
+				/* Toggle between hiding and showing the active panel */
+				var panel = this.nextElementSibling;
+				if (panel.style.display === "block") {
+				  panel.style.display = "none";
+				} else {
+				  panel.style.display = "block";
+				}
+			  });
+			}
+		  </script>
 
 
 
