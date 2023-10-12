@@ -1,15 +1,20 @@
-.bg-div{
+/* .bg-div{
   position: relative;
   left: 2%;
   bottom: 2%;
   padding: 3% .5% 0% 0%;
   background-color: var(--blackColor);
-}
+} */
 
+.team-container{
+  display: flex;
+  justify-content: center;
+}
 .front-bg{
-  position: relative;
-  right: 3%;
   background-color: var(--whiteColor);
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  width: 95%;
 }
 
 .team-card {
@@ -19,16 +24,15 @@
 .img-wrapper {
   display: inline-block; 
   position: relative; 
-  width: 200px; 
-  height: 200px; 
+  width: 180px; 
+  height: 180px; 
   overflow: hidden; 
   border-radius: 50%;
 }
 
 .t-img {
-  margin-left: -5px;
-  max-width: 120%;
-  height: 100%;
+  object-fit: contain;
+
 }
 
 .content{
