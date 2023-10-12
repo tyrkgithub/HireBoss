@@ -2,9 +2,18 @@
 padding-bottom: 30px;
 }
 
+.price-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+
+}
+
 .priceHR{
     color: var(--blackColor);
-    height: 1px;
+    height: 2px;
 }
 .pricing-h3 {
     padding: 30px;
@@ -24,6 +33,7 @@ padding-bottom: 30px;
   .pricing-desc {
     padding: 30px;
     padding-left: 90px;
+    padding-bottom: 70px;
     color: var(--whiteColor);
     text-align: left;
     width: 60%;
@@ -31,9 +41,9 @@ padding-bottom: 30px;
   }
 
 .price-container{
-
-    margin-bottom: 50px;
-
+    width: 90%;
+    margin: auto;
+    margin-bottom: 70px;
 }
 
 .price-row {
@@ -108,7 +118,7 @@ padding-bottom: 30px;
 
 .perMonth{
     color: var(--redColor);
-    font-size: 10px;
+    font-size: 13px;
     margin-bottom: 10px;
 }
 
@@ -116,14 +126,26 @@ padding-bottom: 30px;
     color: var(--whiteColor);
     background-color: var(--blackColor);
     border-radius: 10px;
+    font-size: 15px;
 }
 
 /*================================
 Pricing Area
 ===================================*/
 .pricing-area {
-  background-color: var(--whiteColor);
+  background-color: var(--blackColor);
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
+.decision{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 60px;
+}
+
+
 
 .pricing-bg2 {
   background-color: #e9e9e9;
@@ -131,7 +153,7 @@ Pricing Area
 
 .pricing-card {
 
-  margin: 10px;
+
   position: relative;
   border-radius: 10px;
   min-height: 250px;
@@ -155,23 +177,41 @@ Pricing Area
   background-color: var(--blackColor);
   color: var(--whiteColor);
 }
-.card-1{
-color: var(--redColor);
+.pricing-card.card-1{
+color: var(--whiteColor);
 justify-content: left;
+background-color: var(--blackColor);
 }
 .h4-card-2{
   color: var(--blackColor);
 }
 
+
 .boss-card{
   background-color: var(--redColor);
   color: var(--whiteColor);
 
+
+
+}
+.bossParent{
+  background-color: var(--blueColor);
+
+ border-radius: 10px;
 }
 
 .compareHR{
   color: var(--whiteColor);
   height: 1px;
+}
+
+.compare-ul.compare{
+  
+ 
+}
+
+.compare-li{
+
 }
 
 .pricing-card .top img {
@@ -341,9 +381,10 @@ What's Included
   height: auto;
   background-color: var(--redColor);
   padding: 50px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   position: relative;
+
 }
 .included {
   width: auto;
@@ -403,14 +444,17 @@ VS Cards
 
 .vsSection{
   height: auto;
-  background-image: url("../images/business-people-competition.jpg");
-  padding-top: 40px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: var(--blueColor);
 }
 
 
 
 .vs{
   margin-top: 170px;
+  
+color: var(--redColor);
 }
 
 .col-sm-5{
@@ -456,48 +500,97 @@ VS Cards
 ===================================*/
 
 /*================================
-Mini Faqs
+Media Queries
 ===================================*/
 
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
+@media only screen and (max-width: 831px) {
+  .price-col-p{
+    font-size: 15px;
+  }
+  .price{
+    font-size: 20px;
+  }
+  .price-col-ul-li{
+    font-size: 12px;
+  }
+  .perMonth{
+    font-size: 10px;
+  }
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.accordion:hover {
-  background-color: #ccc;
+@media only screen and (max-width: 724px) {
+  .price-col-p{
+    font-size: 12px;
+    padding-bottom: 0;
+  }
+  .price{
+    font-size: 18px;
+  }
+  .price-col-ul-li{
+    font-size: 10px;
+  }
+  .perMonth{
+    font-size: 8px;
+  }
+
+  .price-row{
+    grid-gap: 10px;
+  }
+  .plan-btn{
+    font-size: 10px;
+  }
 }
 
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
+@media only screen and (max-width: 550px) {
+  .price-col-p{
+    font-size: 10px;
+   
+  }
+  .price{
+    font-size: 15px;
+  }
+  .price-col-ul-li{
+    font-size: 8px;
+  }
+  .perMonth{
+    font-size: 7px;
+  }
+
+  .price-row{
+    grid-gap: 10px;
+  }
 }
 
-.accordion:after {
-  content: "\02795"; /* Unicode character for "plus" sign (+) */
+@media only screen and (max-width: 480px) {
+.price-row{
+  display: block;
+}
+
+.price-col-p{
+  font-size: 15px;
+ 
+}
+.price{
+  font-size: 20px;
+}
+.price-col-ul-li{
   font-size: 13px;
-  color: #777;
-  float: right;
-  margin-right: 10px;
-  margin-top: 0px;
+}
+.perMonth{
+  font-size: 10px;
 }
 
-.activeAccordion:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+.price-row{
+  grid-gap: 10px;
 }
 
-.help-block.with-errors {
-  color: var(--whiteColor);
+.price-col{
+  margin: auto;
+  width: 70%;
+}
+.pricing-desc{
+  padding-bottom: 20px;
+  width: 80%;
+}
+
 }
