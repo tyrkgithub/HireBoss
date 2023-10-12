@@ -15,6 +15,7 @@
   padding-bottom: 50px;
   margin-bottom: 30px;
   width: 95%;
+  border-radius: 5px;
 }
 
 .team-card {
@@ -24,14 +25,16 @@
 .img-wrapper {
   display: inline-block; 
   position: relative; 
-  width: 180px; 
-  height: 180px; 
+  width: 140px; 
+  height: 140px; 
   overflow: hidden; 
   border-radius: 50%;
+  /* border: dotted 1px blue; */
 }
 
 .t-img {
-  object-fit: contain;
+  height: 180px;
+  object-fit: cover;
 
 }
 
@@ -193,12 +196,13 @@ Responsive Css
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .team-card .team-img .team-social li {
-    opacity: 1;
-    visibility: inherit;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+  .front-bg{
+    width: 100%;
   }
+/* 
+  .team-card{
+    margin: 0px 20px;
+  } */
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
