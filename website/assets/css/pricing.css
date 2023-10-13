@@ -33,7 +33,7 @@ padding-bottom: 30px;
   .pricing-desc {
     padding: 30px;
     padding-left: 90px;
-    padding-bottom: 70px;
+
     color: var(--whiteColor);
     text-align: left;
     width: 60%;
@@ -379,59 +379,63 @@ What's Included
 ===================================*/
 .includedSection{
   height: auto;
-  background-color: var(--redColor);
-  padding: 50px;
+  background-color: var(--whiteColor);
+
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
 
 }
 .included {
-  width: auto;
+  margin: auto;
   width: 80%;
 }
 
 .includedh4 {
+  text-align: center;
   font-size: 30px;
   color: var(--blackColor);
   margin-bottom: 40px;
-  margin-right: 10px;
+
 }
 
 .includedImg {
-  font-size: 20px;
-  color: var(--blackColor);
+margin-left: 40%;
+margin-right: 40%;
+height: 70px;
+
+
 }
 
 .included-ul{
-  text-align: center;
-  background-color: var(--whiteColor);
+ 
+  background-color: var(--redColor);
   border-radius: 10px;
- list-style: none;
-  padding: 0;
+  list-style: none;
   margin: 0;
-  padding: 10px;
-  padding-top: 5px;
-  background-color: var(--blackColor);
+  padding: 30px;
+
 }
 
 .included-li {
   border: none;
-  text-align: center;
+  text-align: left;
  position: relative;
  height: 34px;
-
 margin-top: 15px;
  margin-bottom: 15px;
  color: var(--whiteColor);
 }
+.included-li:before {
+  content: '✓'; 
+  padding-right: 50px;
+ }
 
 
-.includedImg{
-  height: 50px;
-  margin: auto;
 
-  
+
+.col-md-4{
+  padding-right: 20px;
 }
 
 /*================================
@@ -543,6 +547,16 @@ Media Queries
 }
 
 @media only screen and (max-width: 550px) {
+  .pricing-h3{
+    padding: 0px;
+    padding-left: 40px;
+  }
+  .pricing-desc{
+    padding: 0px;
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+
   .price-col-p{
     font-size: 10px;
    
@@ -568,17 +582,17 @@ Media Queries
 }
 
 .price-col-p{
-  font-size: 15px;
+  font-size: 20px;
  
 }
 .price{
-  font-size: 20px;
+  font-size: 30px;
 }
 .price-col-ul-li{
-  font-size: 13px;
+  font-size: 15px;
 }
 .perMonth{
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .price-row{
@@ -592,6 +606,9 @@ Media Queries
 .pricing-desc{
   padding-bottom: 20px;
   width: 80%;
+}
+.plan-btn{
+  font-size:15px ;
 }
 
 }
