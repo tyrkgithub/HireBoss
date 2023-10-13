@@ -35,7 +35,7 @@ About Area
     position: relative;
     z-index: 1;
     border-radius: 5px;
-    box-shadow: 15px -15px 0px var(--redColor);
+    box-shadow: 15px -15px 0px var(--blueColor);
 
   }
 
@@ -79,7 +79,7 @@ About Area
     object-fit: cover;
     float: left;
     border-radius: 5px;
-    box-shadow: -15px -15px 0px var(--blackColor);
+    box-shadow: -15px -15px 0px var(--blueColor);
   }
 
   .about-content-2{
