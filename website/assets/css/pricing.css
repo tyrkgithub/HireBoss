@@ -452,7 +452,7 @@ VS Cards
 
 
 .vs{
-  margin-top: 170px;
+  margin-top: 160px;
   
 color: var(--redColor);
 }
@@ -466,7 +466,7 @@ color: var(--redColor);
   color: var(--whiteColor);
   border-radius: 10px;
   margin: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .vsCardA{
@@ -479,6 +479,7 @@ color: var(--redColor);
 
 .vsCardAul, .vsCardBul{
   list-style: none;
+  padding-right: 15px;
 }
 
 .vsCardAh6, .vsCardBh6{
@@ -586,7 +587,7 @@ Media Queries
 
 .price-col{
   margin: auto;
-  width: 70%;
+  width: 60%;
 }
 .pricing-desc{
   padding-bottom: 20px;
@@ -594,3 +595,99 @@ Media Queries
 }
 
 }
+@media only screen and (max-width: 658px) {
+  .vsCardBli.noHassle{
+    padding-bottom: 40px;
+  }
+  .vs{
+    margin-top: 170px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .vsCardBli.noHassle{
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .vsCardB, .vsCardA{
+    margin: 0px;
+    padding-bottom: 5px;
+  }
+  .vsCardB{
+margin-left: 10px;
+  }
+  .vsCardA{
+    margin-right: 10px;
+      }
+      .vsCardBul, .vsCardAul{
+        padding-left: 15px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+      }
+      .vs{
+        margin-top: 150px;
+      }
+}
+
+@media only screen and (max-width: 545px) {
+  .vsCardBli.noHassle{
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 487px) {
+  .vsCardBli.noHassle{
+    padding-bottom: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .vsCardBli.noHassle{
+    padding-bottom: 35px;
+  }
+  .vsCardBh6, .vsCardAh6{
+  
+    padding-bottom: 0px;
+  }
+  .vs{
+    margin-top: 110px;
+  }
+  .vsCardBul, .vsCardAul{
+    padding-left: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .vsCardBli, .vsCardAli{
+ 
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 439px) {
+  .vsCardBli.noHassle{
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .vsCardBli.efficient{
+    padding-bottom: 35px;
+  }
+  .vs{
+    margin-top: 130px;
+  }
+}
+
+
+
+@media only screen and (max-width: 377px) {
+  .vsCardBli.support{
+    padding-bottom: 35px;
+  }
+  .vs{
+    margin-top: 150px;
+  }
+}
+
