@@ -149,8 +149,17 @@ About Area
   .services-card:hover h3 a {
     color: var(--redColor);
   }
-  
 
+
+
+  /*================================
+    Media Quries
+  ===================================*/
+
+  
+  @media (max-width: 575.98px) { 
+    
+  }
 
 
   @media only screen and (max-width: 767px){
@@ -164,15 +173,17 @@ About Area
       display:flex;
       justify-content: center;
       flex-direction:column;
-      margin-bottom: 25px;
+      margin-bottom: 35px;
+    }
+
+    .about-content .section-title{
+      margin-bottom: 15px;
     }
   
     .about-img {
-      text-align: center;
-      height: 350px;
+      height: 300px;
       object-fit: cover;
       float:none;
-      /* margin-bottom: 20px; */
     }
 
     .about-img-wr2{
@@ -199,9 +210,8 @@ About Area
       display:flex;
       align-items: center;
       flex-direction:column;
-      margin-bottom: 25px;
+      margin-bottom: 35px;
     }
-
     .about-content .section-title {
       margin-bottom: 15px;
     }
@@ -212,12 +222,14 @@ About Area
     }
 
     .about-img-wr{
-      text-align: center;
+      display: flex;
+      justify-content: center;
     }
-
+    
     .about-img {
-      height: 370px;
+      height: 300px;
       float: none;
+      text-align: center;
       margin-bottom: 20px;
     }
 
@@ -240,6 +252,14 @@ About Area
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
 
 .about-img{
+  height: 300px;
    object-fit: cover;
 }
+}
+
+@media only screen and (min-width: 1400px){
+  .about-img{
+    height: 330px;
+     object-fit: cover;
+  }
 }
