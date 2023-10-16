@@ -407,7 +407,7 @@ What's Included
   margin-top: 15px;
   margin-bottom: 15px;
   color: var(--whiteColor);
-  font-size: 14px;
+  
 }
 .included-li::before {
   content: "✓";
@@ -697,9 +697,63 @@ Whats Included Media Queries
   }
 }
 
-@media only screen and (max-width: 882px) {
+@media only screen and (max-width: 937px) {
   .included-li:before {
     content: none;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .included-li.easily{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .included-li.easily{
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .included-li.easily{
+    margin-bottom: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 467px) {
+  .included-li.zoom{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 381px) {
+  .included-li.manager{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .included-li.assistant{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .included-li.reporting{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 338px) {
+  .included-li.time{
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .included-li.mind{
+    margin-bottom: 30px;
   }
 }
 @media only screen and (max-width: 767px) {
