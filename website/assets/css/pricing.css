@@ -1,0 +1,792 @@
+.inner-bg1 {
+  padding-bottom: 30px;
+}
+
+.price-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+}
+
+.priceHR {
+  color: var(--blackColor);
+  height: 2px;
+}
+.pricing-h3 {
+  padding: 30px;
+  padding-left: 90px;
+  color: var(--whiteColor) !important;
+  text-align: left;
+  width: 70%;
+  font-size: 25px;
+}
+
+.price-col {
+  border-radius: 10px;
+  background-color: var(--redColor);
+}
+
+.pricing-desc {
+  padding: 30px;
+  padding-left: 90px;
+
+  color: var(--whiteColor);
+  text-align: left;
+  width: 60%;
+  font-size: 15px;
+}
+
+.price-container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.price-row {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  border-radius: 10px !important;
+}
+
+.p-crystal,
+.p-crystal2,
+.p-designs,
+.p-slay,
+.p-gold {
+  background: var(--whiteColor);
+  padding: 10% 15%;
+  color: aliceblue;
+  text-align: center;
+  border-radius: 10px !important;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.price-col-p {
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  color: var(--blackColor);
+  background-color: var(--whiteColor);
+}
+
+.price-col-h3 {
+  font-size: 44px;
+  margin: 20px 0 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.price-col-ul {
+  margin: 20px 0;
+  color: var(--blackColor);
+  list-style: none;
+  position: static;
+  padding: 0;
+}
+.price {
+  font-size: 30px;
+}
+
+.price-col-ul-li {
+  margin: 15px 0;
+  font-size: 12px;
+  color: var(--blackColor);
+}
+
+.priceBooking-h3 {
+  color: var(--blackColor);
+  text-shadow: 2px 2px var(--blackColor);
+  background-color: var(--whiteColor);
+  margin: 50px 300px 30px 300px;
+  padding: 10px 0px 10px 0px;
+  font-size: 40px;
+}
+
+.priceBooking-p {
+  color: aliceblue;
+  margin: 25px 100px 50px;
+
+  font-size: 25px;
+}
+
+.perMonth {
+  color: var(--redColor);
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.plan-btn {
+  color: var(--whiteColor);
+  background-color: var(--blackColor);
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+/*================================
+Pricing Area
+===================================*/
+.pricing-area {
+  background-color: var(--blackColor);
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.decision {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 60px;
+}
+
+.pricing-bg2 {
+  background-color: #e9e9e9;
+}
+
+.pricing-card {
+  position: relative;
+  border-radius: 10px;
+  min-height: 250px;
+  font-family: var(--bodyFonts);
+  padding: 35px;
+}
+
+.row {
+  --bs-gutter-x: none;
+}
+
+.col-4,
+.col-md-2,
+.col-sm-3 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: none !important;
+  padding-right: none !important;
+}
+
+.card-2 {
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+}
+.pricing-card.card-1 {
+  color: var(--whiteColor);
+  justify-content: left;
+  background-color: var(--blackColor);
+}
+.h4-card-2 {
+  color: var(--blackColor);
+}
+
+.boss-card {
+  background-color: var(--redColor);
+  color: var(--whiteColor);
+}
+.bossParent {
+  background-color: var(--blueColor);
+
+  border-radius: 10px;
+}
+
+.compareHR {
+  color: var(--whiteColor);
+  height: 1px;
+}
+
+.compare-ul.compare {
+}
+
+.compare-li {
+}
+
+.pricing-card .top img {
+  width: 120px !important;
+}
+
+.pricing-card .top img:nth-child(1) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.pricing-card .top img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  -webkit-transform: translateY(-50px);
+  transform: translateY(-50px);
+  right: 0;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.pricing-card .price-icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pricing-card h3 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.pricing-card h4 {
+  color: var(--whiteColor);
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: var(--bodyFonts);
+}
+
+.pricing-card h4 span {
+  font-size: 14px;
+  color: #a2a2a1;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.pricing-card ul li {
+  display: block;
+  margin-bottom: 10px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.pricing-card ul li i {
+  font-size: 18px;
+  color: var(--lightColor);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  margin-right: 5px;
+}
+
+.pricing-card ul li:last-child {
+  margin-bottom: 0;
+}
+
+.pricing-card ul li:hover {
+  color: var(--lightColor);
+  letter-spacing: 0.25px;
+  margin-left: 3px;
+}
+
+.pricing-card ul li:hover i {
+  color: var(--greenColor);
+}
+
+.pricing-card .price-btn-area {
+  margin-top: 23px;
+}
+
+.pricing-card .price-btn-area .price-btn {
+  padding: 10px 30px;
+  color: var(--lightColor);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-transform: capitalize;
+  background-color: #f0eeee;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.pricing-card .price-btn-area .price-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--orangeColor);
+  left: 0;
+  right: 0;
+  opacity: 0;
+  z-index: -1;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-radius: 5px;
+}
+
+.pricing-card .price-btn-area .price-btn:hover {
+  color: var(--whiteColor);
+}
+
+.pricing-card .price-btn-area .price-btn:hover::before {
+  width: 100%;
+  opacity: 1;
+}
+
+.pricing-card:hover .price-btn-area .price-btn {
+  color: var(--whiteColor);
+}
+
+.pricing-card:hover .price-btn-area .price-btn::before {
+  width: 100%;
+  opacity: 1;
+}
+
+.pricing-card:hover .top img {
+  width: 120px !important;
+}
+
+.pricing-card:hover .top img:nth-child(1) {
+  opacity: 0;
+}
+
+.pricing-card:hover .top img:nth-child(2) {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+.price-bg {
+  background-color: #f9fafd;
+}
+
+/*================================
+Pricing Area
+===================================*/
+
+/*================================
+What's Included
+===================================*/
+.includedSection {
+  height: auto;
+  background-color: var(--whiteColor);
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.included {
+  margin: auto;
+  width: 80%;
+}
+
+.includedh4 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--blackColor);
+  margin-bottom: 40px;
+}
+
+.includedImg {
+  margin-left: 45%;
+  margin-right: 45%;
+  height: 70px;
+  margin-bottom: 40px;
+}
+
+.included-ul {
+  background-color: var(--redColor);
+  border-radius: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+.included-li {
+  border: none;
+  text-align: left;
+  position: relative;
+  height: 34px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--whiteColor);
+  
+}
+.included-li::before {
+  content: "✓";
+  padding-right: 50px;
+}
+
+.col-md-4 {
+  padding-right: 20px;
+}
+
+/*================================
+What's Included
+===================================*/
+
+/*================================
+VS Cards
+===================================*/
+
+.vsSection {
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: var(--blueColor);
+}
+
+.vs {
+  margin-top: 160px;
+
+  color: var(--redColor);
+}
+
+.col-sm-5 {
+  justify-content: center;
+}
+
+.vsCardA,
+.vsCardB {
+  justify-content: center;
+  color: var(--whiteColor);
+  border-radius: 10px;
+  margin: 20px;
+  padding-bottom: 15px;
+}
+
+.vsCardA {
+  background-color: var(--blackColor);
+}
+
+.vsCardB {
+  background-color: var(--redColor);
+}
+
+.vsCardAul,
+.vsCardBul {
+  list-style: none;
+  padding-right: 15px;
+}
+
+.vsCardAh6,
+.vsCardBh6 {
+  color: var(--whiteColor);
+  text-align: center;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.vsCardAli,
+.vsCardBli {
+  margin: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*================================
+VS Cards
+===================================*/
+
+/*================================
+Media Queries
+===================================*/
+
+@media only screen and (max-width: 831px) {
+  .price-col-p {
+    font-size: 15px;
+  }
+  .price {
+    font-size: 20px;
+  }
+  .price-col-ul-li {
+    font-size: 12px;
+  }
+  .perMonth {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 724px) {
+  .price-col-p {
+    font-size: 12px;
+    padding-bottom: 0;
+  }
+  .price {
+    font-size: 18px;
+  }
+  .price-col-ul-li {
+    font-size: 10px;
+  }
+  .perMonth {
+    font-size: 8px;
+  }
+
+  .price-row {
+    grid-gap: 10px;
+  }
+  .plan-btn {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .pricing-h3 {
+    padding: 0px;
+    padding-left: 40px;
+  }
+  .pricing-desc {
+    padding: 0px;
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+
+  .price-col-p {
+    font-size: 10px;
+  }
+  .price {
+    font-size: 15px;
+  }
+  .price-col-ul-li {
+    font-size: 8px;
+  }
+  .perMonth {
+    font-size: 7px;
+  }
+
+  .price-row {
+    grid-gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .price-row {
+    display: block;
+  }
+
+  .price-col-p {
+    font-size: 20px;
+  }
+  .price {
+    font-size: 30px;
+  }
+  .price-col-ul-li {
+    font-size: 15px;
+  }
+  .perMonth {
+    font-size: 15px;
+  }
+
+  .price-row {
+    grid-gap: 10px;
+  }
+
+  .price-col {
+    margin: auto;
+    width: 60%;
+  }
+  .pricing-desc {
+    padding-bottom: 20px;
+    width: 80%;
+  }
+  .plan-btn {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 658px) {
+  .vsCardBli.noHassle {
+    padding-bottom: 40px;
+  }
+  .vs {
+    margin-top: 170px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .vsCardBli.noHassle {
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .vsCardB,
+  .vsCardA {
+    margin: 0px;
+    padding-bottom: 5px;
+  }
+  .vsCardB {
+    margin-left: 10px;
+  }
+  .vsCardA {
+    margin-right: 10px;
+  }
+  .vsCardBul,
+  .vsCardAul {
+    padding-left: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .vs {
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .vsCardBli.noHassle {
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 487px) {
+  .vsCardBli.noHassle {
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .vsCardBli.noHassle {
+    padding-bottom: 35px;
+  }
+  .vsCardBh6,
+  .vsCardAh6 {
+    padding-bottom: 0px;
+  }
+  .vs {
+    margin-top: 110px;
+  }
+  .vsCardBul,
+  .vsCardAul {
+    padding-left: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .vsCardBli,
+  .vsCardAli {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 439px) {
+  .vsCardBli.noHassle {
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .vsCardBli.efficient {
+    padding-bottom: 35px;
+  }
+  .vs {
+    margin-top: 130px;
+  }
+}
+
+@media only screen and (max-width: 377px) {
+  .vsCardBli.support {
+    padding-bottom: 35px;
+  }
+  .vs {
+    margin-top: 150px;
+  }
+}
+
+/*================================
+Whats Included Media Queries
+===================================*/
+
+
+
+@media only screen and (max-width: 1001px) {
+  .included-li:before {
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .included-li:before {
+    content: none;
+  }
+}
+@media only screen and (max-width: 925px) {
+  .included-li.easily{
+    margin-bottom: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .included-li.easily{
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .included-li.easily{
+    margin-bottom: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 467px) {
+  .included-li.zoom{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 381px) {
+  .included-li.manager{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .included-li.assistant{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .included-li.reporting{
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 338px) {
+  .included-li.time{
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .included-li.mind{
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .compare-h4 {
+    font-size: 20px;
+  }
+  .compare-li {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 514px) {
+  .pricing-card {
+    padding: 20px;
+  }
+  .compare-h4 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 423px) {
+  .compare-li.easy {
+   padding-bottom: 21px;
+  }
+  .compare-li.replacement {
+    padding-bottom: 21px;
+   }
+}
+@media only screen and (max-width: 390px) {
+  .compare-li.easy {
+   padding-bottom: 0px;
+  }
+  
+}
