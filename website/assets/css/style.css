@@ -640,7 +640,7 @@ Go Top Area
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  background: #C97358;
+  background: var(--redColor);
   border-radius: 0;
   width: 45px;
   height: 45px;
