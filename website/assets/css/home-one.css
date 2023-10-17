@@ -257,103 +257,7 @@ Banner Area
 
 /*================================
 Banner Area End
-===================================*/
-/*================================
-About Area
-===================================*/
-.about-area {
-  margin-bottom: 80px;
-  margin-top: 50px;
-}
 
-.about-img {
-  position: relative;
-  z-index: 1;
-}
-
-.about-img::after {
-  content: "";
-  left: 0;
-  position: absolute;
-  background-color: var(--whiteColor);
-  height: 10%;
-  top: -30px;
-  -webkit-transform: skewY(-175deg);
-          transform: skewY(-175deg);
-  width: 100%;
-  z-index: 1;
-}
-
-.about-img::before {
-  content: "";
-  left: 0;
-  position: absolute;
-  background-color: var(--whiteColor);
-  height: 10%;
-  bottom: -30px;
-  -webkit-transform: skewY(175deg);
-          transform: skewY(175deg);
-  width: 100%;
-  z-index: 1;
-}
-
-.about-img .line {
-  position: absolute;
-  z-index: -1;
-  top: 60px;
-  left: -30px;
-}
-
-.about-content {
-  max-width: 610px;
-}
-
-.about-content .section-title {
-  margin-bottom: 20px;
-}
-
-.about-content .about-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.about-content .about-list li {
-  display: block;
-  font-size: 18px;
-  color: var(--titleColor);
-  margin-bottom: 10px;
-  font-weight: 500;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.about-content .about-list li i {
-  color: var(--redColor);
-  margin-right: 5px;
-  position: relative;
-  top: 3px;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.about-content .about-list li:hover {
-  color: var(--redColor);
-  letter-spacing: 0.25px;
-  margin-left: 2px;
-}
-
-.about-content .about-list li:hover i {
-  color: var(--titleColor);
-}
-
-.about-content .default-btn {
-  margin-top: 15px;
-}
-
-/*================================
-About Area End
-===================================*/
 /*================================
 Choose Area
 ===================================*/
@@ -1437,37 +1341,7 @@ Services Area End
     margin-right: 10px;
   }
   /* Banner Area End */
-  /*  About Area  */
-  .about-area {
-    margin-bottom: 0;
-    padding-top: 50px;
-    padding-bottom: 45px;
-  }
-  .about-img {
-    margin-bottom: 30px;
-  }
-  .about-img::after {
-    display: none;
-  }
-  .about-img::before {
-    display: none;
-  }
-  .about-img .line {
-    display: none;
-  }
-  .about-content .section-title {
-    margin-bottom: 15px;
-  }
-  .about-content .about-list li {
-    font-size: 16px;
-  }
-  .about-content .default-btn {
-    margin-top: 5px;
-  }
-  .about-area {
-    margin-top: 0;
-  }
-  /*  About Area End */
+
   /*  Services Area  */
   .services-area .section-title {
     max-width: 100%;
@@ -1807,34 +1681,8 @@ Services Area End
     display: none;
   }
   /* Banner Area End */
-  /*  About Area  */
-  .about-area {
-    margin-bottom: 0;
-    padding-top: 50px;
-    padding-bottom: 45px;
-  }
-  .about-img {
-    margin-bottom: 30px;
-  }
-  .about-img::after {
-    display: none;
-  }
-  .about-img::before {
-    display: none;
-  }
-  .about-img .line {
-    display: none;
-  }
-  .about-content .section-title {
-    margin-bottom: 15px;
-  }
-  .about-content .about-list li {
-    font-size: 16px;
-  }
-  .about-content .default-btn {
-    margin-top: 5px;
-  }
-  /*  About Area End */
+
+  /* Services Area Start */
   .services-item {
     margin-top: 30px;
     padding-top: 0;
@@ -1864,6 +1712,8 @@ Services Area End
   .services-item:hover .services-bottom {
     display: none;
   }
+  /* Services Area End */
+
   /*  Choose Area  */
   .choose-area .container-fluid {
     width: 720px;
@@ -2006,13 +1856,13 @@ Services Area End
   .banner-shape img {
     max-width: 105px;
   }
-  .about-area {
+  /* .about-area {
     margin-top: 40px;
     margin-bottom: 60px;
   }
   .about-img .line img {
     height: 450px;
-  }
+  } */
   .services-slider .owl-nav {
     margin-top: 0;
   }
@@ -2168,10 +2018,6 @@ Services Area End
   }
   .banner-img .circle2 {
     height: 50%;
-  }
-  .about-area {
-    margin-top: 40px;
-    margin-bottom: 60px;
   }
   .about-img .line img {
     height: 570px;

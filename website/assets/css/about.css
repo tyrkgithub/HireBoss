@@ -1,0 +1,267 @@
+/*================================
+Banner Area
+===================================*/
+.ab-inner-banner {
+  position: relative;
+  background-position:center center;
+  background-size: cover;
+}
+
+.inner-bg3 {
+  opacity: 0.8;
+}
+
+.ab-inner-banner::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--titleColor);
+  opacity: 0.2;
+}
+/*================================
+About Area
+===================================*/
+  .about-area {
+    margin-bottom: 50px;
+  }
+  
+  .about-img {
+    /* float: right; */
+    height: 280px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 15px -15px 0px var(--blueColor);
+
+  }
+
+  .about-content .section-title {
+    margin-bottom: 35px;
+  }
+  
+/*================================
+  About Area Two
+ ===================================*/
+
+  .about-area-two {
+    position: relative;
+    z-index: 1;
+    background-image: url(../images/work-img2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+  }
+  
+  .about-area-two::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--whiteColor);
+    opacity: 0.9;
+  }
+  
+  .about-img-wr2 {
+    position: relative;
+    z-index: 1;
+  }
+
+  .about-img-2{
+    height: 300px;
+    object-fit: cover;
+    /* float: left; */
+    border-radius: 5px;
+    box-shadow: -15px -15px 0px var(--blueColor);
+  }
+
+  .about-content-2{
+    padding-left: 20px;
+  }
+
+  .about-title-2 {
+    margin-bottom: 30px;
+  }
+  
+  
+/*================================
+    Solutions Area
+  ===================================*/
+  
+   .about-card {
+     background-color: var(--whiteColor);
+     padding: 25px 25px 20px 25px;
+     margin-bottom: 30px;
+     border-radius: 10px;
+   }
+
+   figure {
+    margin-bottom: 0rem;
+   }
+
+  .service-img1,  .service-img2{
+    height: 210px;
+    width: 230px;
+    border-radius: 5px;
+    padding-bottom: 12px;
+  }
+
+  .service-img3{
+    height: 210px;
+    width: 240px;
+    border-radius: 5px;
+    padding-bottom: 12px;
+  }
+
+
+
+
+
+/*================================
+    Services Area
+  ===================================*/
+  .services-card .service-icon {
+    font-size: 55px;
+    color: var(--redColor);
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  
+  .services-card h3 {
+    margin-bottom: 15px;
+  }
+
+  .services-card::before {
+    background-color: var(--blackColor);
+  }
+
+  .services-card:hover .service-icon {
+    color: var(--whiteColor);
+  }
+  
+  .services-card:hover h3 a {
+    color: var(--redColor);
+  }
+
+  .cta-btn{
+    float:right;
+  }
+
+  /*================================
+    Media Quries
+  ===================================*/
+  
+  @media only screen and (max-width: 767px){
+    
+    .about-area {
+      margin-bottom: 0;
+      padding-top: 50px;
+      padding-bottom: 45px;
+    }
+
+    .about-content {
+      display:flex;
+      justify-content: center;
+      flex-direction:column;
+      margin-bottom: 35px;
+    }
+    
+    .about-content .section-title{
+      margin-bottom: 15px;
+    }
+    
+    .about-img {
+      height: 300px;
+      object-fit: cover;
+    }
+    
+    .about-img-wr2{
+      margin-bottom: 20px;
+    }
+    
+    .about-content-2{
+      margin-top: 25px;
+    }
+    
+    .about-title-2{
+      margin-bottom: 0px;
+    }
+    
+    .cta-btn{
+      float:none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+ 
+    .about-area {
+      margin-bottom: 0;
+      padding-top: 50px;
+      padding-bottom: 45px;
+    } 
+     .about-content{
+      display:flex;
+      align-items: center;
+      flex-direction:column;
+      margin-bottom: 35px;
+    }
+    .about-content .section-title {
+      margin-bottom: 15px;
+    }
+
+    .about-p{
+      max-width:85%;
+      justify-content: center;
+    }
+
+    .about-img-wr{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .about-img {
+      height: 300px;
+      float: none;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .about-content-2{
+      margin-top: 30px;
+    }
+
+    .about-title-2{
+      margin-bottom: 20px;
+    }
+
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-img{
+    /* height: 300px; */
+    object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+
+.about-img{
+  height: 300px;
+   object-fit: cover;
+}
+}
+
+@media only screen and (min-width: 1400px){
+  .about-img{
+    height: 330px;
+     object-fit: cover;
+  }
+}

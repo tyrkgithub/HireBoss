@@ -716,7 +716,7 @@ Services Area Two
   width: 100%;
   opacity: 0;
   border-radius: 10px;
-  background-color: var(--redColor);
+  background-color: var(--blackColor);
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -731,7 +731,7 @@ Services Area Two
 }
 
 .services-card:hover h3 a {
-  color: var(--whiteColor);
+  color: var(--redColor);
 }
 
 .services-card:hover p {
