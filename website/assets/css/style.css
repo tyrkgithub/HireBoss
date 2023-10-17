@@ -221,7 +221,7 @@ img {
   top: 0;
   width: 0;
   height: 100%;
-  background-color: #0D5060;
+  background-color: var(--blueColor);
   left: 0;
   right: 0;
   opacity: 0;
@@ -240,7 +240,7 @@ img {
 }
 
 .default-btn.two {
-  background-color: #0D5060;
+  background-color: var(--blueColor);
 }
 
 .default-btn.two:hover {
@@ -259,7 +259,7 @@ Section Title Style
   display: inline-block;
   line-height: 0;
   font-size: 15px;
-  color: #0D5060;
+  color: var(--blueColor);
   padding-left: 0;
   position: relative;
   font-weight: 500;
@@ -272,7 +272,7 @@ Section Title Style
   left: 0;
   height: 2px;
   width: 50px;
-  background-color: #0D5060;
+  background-color: var(--blueColor);
   display: none;
 }
 
