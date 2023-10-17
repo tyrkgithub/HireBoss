@@ -691,23 +691,25 @@ Media Queries
 Whats Included Media Queries
 ===================================*/
 
+
+
 @media only screen and (max-width: 1001px) {
   .included-li:before {
     padding-right: 20px;
   }
 }
 
-@media only screen and (max-width: 937px) {
+@media only screen and (max-width: 1110px) {
   .included-li:before {
     content: none;
   }
 }
-
-@media only screen and (max-width: 871px) {
+@media only screen and (max-width: 925px) {
   .included-li.easily{
     margin-bottom: 30px;
   }
 }
+
 
 @media only screen and (max-width: 767px) {
   .included-li.easily{
