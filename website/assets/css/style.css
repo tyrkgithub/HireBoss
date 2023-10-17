@@ -36,6 +36,7 @@ This files table contents are outlined below>>>>>
 *******************************************
 /*
 ******************************************* */
+@import url("about.css");
 @import url("navbar.css");
 @import url("home-one.css");
 @import url("home-two.css");
@@ -145,6 +146,10 @@ img {
   padding-top: 150px;
 }
 
+.pb-150 {
+  padding-bottom: 150px;;
+}
+
 .ptb-100 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -175,8 +180,16 @@ img {
   padding-top: 45px;
 }
 
+.pb-45 {
+  padding-bottom: 45px;
+}
+
 .pt-20 {
   padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
 }
 
 .pl-20 {
@@ -193,6 +206,10 @@ img {
 
 .ml-20 {
   margin-left: 20px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
 }
 
 .border-radius-5 {
