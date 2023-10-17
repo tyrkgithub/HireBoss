@@ -1,8 +1,85 @@
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+.activeAccordion:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.help-block.with-errors {
+  color: var(--whiteColor);
+}
+
+/* CALENDLEY 
+////////////
+*/
+
+.calendleyDiv {
+  background-color: var(--redColor);
+}
+
+.calendly-inline-widget {
+}
+
+/*///////////////////////////////////*/
 .contact-map iframe {
   display: block;
   width: 100%;
   height: 550px;
   margin-bottom: 30px;
+}
+
+.contact-h3 {
+  padding: 30px;
+  padding-left: 90px;
+  color: var(--blackColor) !important;
+  text-align: left;
+  width: 70%;
+  font-size: 25px;
+}
+
+.contact-desc {
+  padding: 30px;
+  padding-left: 90px;
+  color: var(--blackColor);
+  text-align: left;
+  width: 60%;
+  font-size: 15px;
+}
+
+.contact-widget-area {
+  padding: 50px;
 }
 
 .contact-widget-form .contact-form h3 {
@@ -15,12 +92,49 @@
   text-align: center;
 }
 
+.contact-parent {
+  text-align: center;
+}
+.contact-btn {
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.enquire-btn {
+  width: 40%;
+  padding: 10px 30px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+}
+
+.call-btn,
+.email-btn {
+  padding: 10px 30px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+}
+
+.contact-text {
+  color: var(--blackColor);
+  font-size: 15px;
+  text-align: center;
+}
+
 .contact-card {
   margin-bottom: 30px;
   padding: 35px;
   text-align: center;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 
 .contact-card i {
@@ -66,7 +180,7 @@
 }
 
 .contact-card:hover i {
-  background-color: var(--orangeColor);
+  background-color: var(--blueColor);
   color: var(--whiteColor);
 }
 
@@ -78,7 +192,7 @@
   padding: 30px;
   background-color: var(--whiteColor);
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 
 .user-all-form .contact-form h3 {
@@ -114,9 +228,110 @@
   margin-bottom: 30px;
 }
 
+/* MINI FAQS
+////////////
+*/
+
+.miniFaqSection {
+  height: auto;
+  padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+  width: 80%;
+}
+
+.miniFaqh4 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.miniFaqTag {
+  text-align: center;
+}
+
+.miniFaq {
+  height: auto;
+  padding-top: 20px;
+}
+
+.miniFaqQ {
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+  font-size: 20px;
+
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.miniFaqA {
+  padding: 20px;
+  margin-bottom: 20px !important;
+}
+
+.faqs-btn-parent {
+  text-align: right;
+}
+
+.faqs-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: var(--whiteColor);
+  text-align: center;
+  background-color: var(--redColor);
+  outline: none;
+  position: relative;
+}
+
+/* ABOVE FOOTER
+////////////
+*/
+
+.aboveFooterSection {
+  height: auto;
+  background-color: var(--redColor);
+  padding: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.aboveFooter {
+  width: auto;
+  width: 80%;
+}
+
+.aboveFooterh4 {
+  font-size: 40px;
+  color: var(--blackColor);
+  margin-bottom: 40px;
+}
+
+.aboveFooterP {
+  font-size: 20px;
+  color: var(--blackColor);
+}
+
+.aboveFooter-btn-parent {
+  text-align: right;
+}
+
+.aboveFooter-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 30px 60px;
+  color: var(--whiteColor);
+  text-align: center;
+  background-color: var(--blackColor);
+  outline: none;
+  position: relative;
+}
+
 /*=================================
 Responsive Css 
 ====================================*/
+
 @media only screen and (max-width: 767px) {
   .contact-card {
     padding: 30px 10px;
@@ -126,10 +341,186 @@ Responsive Css
     right: 0;
   }
 }
+@media only screen and (max-width: 340px) {
+  .miniFaqQ {
+    font-size: 10px;
+  }
+}
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 340px) and (max-width: 400px) {
+  .miniFaqQ {
+    font-size: 13px;
+  }
+  .accordion:after {
+    padding-top: 1px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .form-group {
+    margin: 20px;
+  }
+  .lableDiv {
+    font-size: 12px;
+  }
+  .agree-label {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .aboveFooterSection {
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .aboveFooterh4 {
+    font-size: 17px;
+  }
+  .aboveFooterP {
+    font-size: 10px;
+  }
+  .miniFaqSection {
+    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .miniFaqh4 {
+    font-size: 40px;
+  }
+  .miniFaqTag {
+    font-size: 12px;
+  }
+
+  .accordion:after {
+    padding-top: 2px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 527px) {
+  .form-group {
+    margin: 20px;
+  }
+  .lableDiv {
+    font-size: 12px;
+  }
+  .agree-label {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .inner-title.text-center {
+    padding-top: 40px;
+  }
+  .aboveFooter-btn-parent {
+    text-align: left !important;
+  }
+  .aboveFooterSection {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .miniFaqSection {
+    padding: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .miniFaqQ {
+    font-size: 15px;
+  }
+  .miniFaqTag {
+    font-size: 15px;
+  }
+
+  .accordion:after {
+    padding-top: 4px;
+  }
+}
+
+@media only screen and (min-width: 528px) and (max-width: 575px) {
+  .inner-title.text-center {
+    padding-bottom: 0;
+  }
+  .contact-widget-area {
+    padding: 20px;
+  }
+
+  .contact-h3 {
+    padding-left: 40px;
+  }
+  .contact-desc {
+    padding: 0;
+    padding-left: 40px;
+  }
+  .aboveFooterSection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .aboveFooterh4 {
+    font-size: 25px;
+  }
+  .aboveFooterP {
+    font-size: 15px;
+  }
+  .aboveFooter-btn {
+    padding: 20px 20px;
+  }
+  .miniFaqSection {
+    padding: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .miniFaqQ {
+    font-size: 15px;
+  }
+  .miniFaqTag {
+    font-size: 15px;
+  }
+
+  .accordion:after {
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
   .contact-card {
     padding: 30px 10px;
+  }
+  .contact-widget-area {
+    padding: 0;
+    padding-bottom: 50px;
+  }
+  .contact-h3 {
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+  }
+  .contact-desc {
+    padding: 10px;
+    padding-left: 20px;
+    width: 70%;
+  }
+  .inner-title.text-center {
+    padding-bottom: 0;
+  }
+  .aboveFooterh4 {
+    font-size: 30px;
+  }
+  .aboveFooterP {
+    font-size: 17px;
+  }
+  .aboveFooter-btn {
+    padding: 20px 40px;
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 767px) {
+  .miniFaqSection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .miniFaqQ {
+    font-size: 15px;
+  }
+  .accordion:after {
+    padding-top: 4px;
   }
 }
 
@@ -137,17 +528,57 @@ Responsive Css
   .contact-card {
     padding: 30px 10px;
   }
+  .contact-h3 {
+    padding: 10px;
+    padding-left: 70px;
+    font-size: 20px;
+  }
+  .contact-desc {
+    padding: 10px;
+    padding-left: 70px;
+    width: 70%;
+  }
+  .inner-title.text-center {
+    padding-bottom: 0;
+  }
+
+  .aboveFooterh4 {
+    font-size: 35px;
+  }
+  .aboveFooterP {
+    font-size: 20px;
+  }
+  .miniFaqSection {
+    padding: 50px;
+  }
+  .miniFaqQ {
+    font-size: 15px;
+  }
+  .accordion:after {
+    padding-top: 7px;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .contact-card {
     padding: 30px 10px;
   }
-  .contact-card h3 {
-    font-size: 19px;
-  }
-  .contact-card p {
-    font-size: 14px;
+
+  .accordion:after {
+    padding-top: 8px;
   }
 }
+
+/*Calendley*/
+@media only screen and (max-width: 650px) {
+  .calendly-inline-widget {
+    height: 775px !important;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 1000px) {
+  .calendly-inline-widget {
+    height: 950px !important;
+  }
+}
+
 /*# sourceMappingURL=contact.css.map */

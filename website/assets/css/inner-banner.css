@@ -21,7 +21,6 @@
 
 .inner-banner .inner-title {
   padding-top: 50px;
-  padding-bottom: 140px;
   position: relative;
   z-index: 1;
 }
@@ -80,7 +79,7 @@
 }
 
 .inner-bg2 {
-  background-image: url("../images/inner-banner2.jpg");
+  background-image: url("../images/close-up-businesswoman-with-big-smile.jpg");
 }
 
 .inner-bg3 {
