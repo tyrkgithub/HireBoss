@@ -1,0 +1,55 @@
+.howItWorks{
+padding-top: 50px;
+padding-bottom: 50px;
+display: flex;
+}
+
+.howBg{
+    background-image: url("../images/medium-shot-people-chatting-work.jpg");
+
+}
+
+.howBox{
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: inline;
+
+}
+
+.howBox.red{
+    background-color: var(--redColor);
+    color: var(--blackColor);
+}
+
+.howBox.white{
+    background-color: var(--whiteColor);
+}
+
+.howh3{
+    color: var(--redColor);
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--bodyFonts);}
+
+.howImg{
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+.howP{
+    color: var(--whiteColor);
+    font-size: 15px;
+    text-align: center;
+ 
+}
+
+.howP.black{
+    color: var(--blackColor);
+
+}
