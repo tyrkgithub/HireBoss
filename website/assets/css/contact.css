@@ -245,10 +245,12 @@
 .miniFaqh4 {
   text-align: center;
   font-size: 40px;
+color: var(--blackColor);
 }
 
 .miniFaqTag {
   text-align: center;
+  color: var(--blackColor);
 }
 
 .miniFaq {
@@ -269,7 +271,7 @@
 
 .miniFaqA {
   padding: 20px;
-  margin-bottom: 20px !important;
+ 
 }
 
 .faqs-btn-parent {

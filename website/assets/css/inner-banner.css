@@ -6,6 +6,8 @@
 /*  margin-top: -125px;*/
 }
 
+
+
 .inner-banner::before {
   content: '';
   position: absolute;
@@ -91,7 +93,7 @@
 }
 
 .inner-bg5 {
-  background-image: url("../images/inner-banner5.jpg");
+  background-image: url("../images/question3.jpg");
 }
 
 .inner-bg6 {
