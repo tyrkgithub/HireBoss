@@ -84,6 +84,28 @@
   display: block;
 }
 
+
+.faqs-h2 {
+ margin: auto;
+  color: var(--blackColor) !important;
+  text-align: center;
+  width: 70%;
+  padding-bottom: 30px;
+  font-size: 60px;
+}
+
+
+
+.faqs-desc {
+
+margin: auto;
+  color: var(--blackColor);
+  text-align: center;
+  width: 60%;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
 /*=================================
 Responsive Css 
 ====================================*/
@@ -99,3 +121,12 @@ Responsive Css
   }
 }
 /*# sourceMappingURL=faq.css.map */
+
+@media only screen and (max-width: 450px) {
+.faqs-h2{
+  font-size: 30px;
+}
+.faqs-desc{
+  font-size: 15px;
+}
+}
