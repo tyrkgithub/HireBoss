@@ -365,7 +365,7 @@ What's Included
 ===================================*/
 .includedSection {
   height: auto;
-  background-color: var(--whiteColor);
+  background-color: var(--blueColor);
 
   padding-top: 100px;
   padding-bottom: 100px;
@@ -427,10 +427,16 @@ VS Cards
 ===================================*/
 
 .vsSection {
-  height: auto;
+ 
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: var(--blueColor);
+  background-position: center center;
+  background-size: cover;
+}
+
+.vsimg{
+  background-image: url("../images/two-men-pulling-rope.jpg");
+
 }
 
 .vs {
