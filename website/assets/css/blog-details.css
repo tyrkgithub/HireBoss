@@ -603,6 +603,9 @@ Responsive Css
   .blog-article-content .content h3 {
     font-size: 25px;
   }
+  .blog-h5{
+    font-size: 15px;
+  }
   .article-content-area .blockquote {
     padding: 20px 27px 40px;
   }
@@ -646,6 +649,9 @@ Responsive Css
   .blog-img {
     width: 100%;
     height: 20vw;
+  }
+  .blog-h5{
+    font-size: 18px;
   }
 }
 
