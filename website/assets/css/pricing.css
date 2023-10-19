@@ -432,6 +432,12 @@ VS Cards
   padding-bottom: 70px;
   background-position: center center;
   background-size: cover;
+
+}
+
+.vsprice{
+  width: 70%;
+  margin: auto;
 }
 
 .vsimg{

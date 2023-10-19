@@ -1,3 +1,51 @@
+.top{
+    width: 80%;
+    margin: auto;
+}
+
+.vsTop{
+    text-align: left;
+}
+
+.vsTopdiv{
+    padding: 30px;
+}
+.vsToph4{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.vsTopP{
+    font-size: 15px;
+}
+
+.vsTopBox{
+    margin:20px;
+    border-radius: 10px;
+    background-color: var(--blueColor);
+
+}
+.vsTopul{
+    list-style: none;
+    padding-right: 15px;
+}
+
+.vsTopli{
+    padding: 10px;
+}
+
+.col-2.tick{
+    justify-content: center;
+ 
+}
+
+
+
+
+
+
+
+
 /*/////// Services  ///////////*/
 .indexServicesP1{
     color: var(--blackColor);
@@ -115,3 +163,17 @@ text-align: center;
     padding-right: 20px;
 }
 
+
+
+
+
+
+.text-link-p.faqs{
+    color: var(--redColor)!important;
+}
+
+
+.text-link-p.table{
+    color: var(--redColor)!important;
+    padding-right: 30px;
+}
