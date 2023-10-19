@@ -65,6 +65,13 @@ margin: auto;
 justify-content: center;
 text-align: center;
 }
+.who-titleh2{
+  font-size: 40px;
+    }
+
+    .who-titlep{
+        font-size: 20px;
+          }
 
 .services-area{
     justify-content: center;
