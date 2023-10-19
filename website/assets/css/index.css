@@ -1,10 +1,11 @@
 
 /*/////// How  ///////////*/
-
 .howItWorks{
 padding-top: 50px;
 padding-bottom: 50px;
 display: flex;
+margin: auto;
+width: 100%;
 }
 
 .howBg{
@@ -66,14 +67,34 @@ justify-content: center;
 text-align: center;
 }
 .who-titleh2{
-  font-size: 40px;
+  font-size: 35px;
     }
 
     .who-titlep{
-        font-size: 20px;
+        font-size: 15px;
+        vertical-align: middle;
+        width: 100%;
+        margin: auto;
           }
 
 .services-area{
     justify-content: center;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--blueColor);
 }
+
+.services-card.who{
+    margin:10px;
+}
+
+.service-p{
+    max-width: none!important;
+}
+
+.row.justify-content-center.who{
+    width: 100%;
+    padding-right: 20px;
+}
+
