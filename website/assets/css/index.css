@@ -1,3 +1,20 @@
+/*/////// Services  ///////////*/
+.indexServicesP1{
+    color: var(--blackColor);
+  font-weight: 600;
+}
+.indexServicesP1{
+    color: var(--redColor);
+}
+
+.text-link{
+    text-align: right;
+    margin-right: 40px;
+}
+
+.text-link-p{
+    color: var(--whiteColor)!important;
+}
 
 /*/////// How  ///////////*/
 .howItWorks{
