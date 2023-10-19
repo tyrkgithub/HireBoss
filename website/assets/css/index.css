@@ -1,3 +1,6 @@
+
+/*/////// How  ///////////*/
+
 .howItWorks{
 padding-top: 50px;
 padding-bottom: 50px;
@@ -52,4 +55,18 @@ display: flex;
 .howP.black{
     color: var(--blackColor);
 
+}
+
+/*///////Who ///////////*/
+
+.who-title{
+width: 80%;
+margin: auto;
+justify-content: center;
+text-align: center;
+}
+
+.services-area{
+    justify-content: center;
+    text-align: center;
 }
