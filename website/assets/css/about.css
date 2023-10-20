@@ -6,7 +6,19 @@ Banner Area
   background-position:center center;
   background-size: cover;
 }
+.ab-banner-content  {
+  padding-left: 50px;
+}
 
+.about-content {
+  padding-bottom: 30px;
+}
+
+.about-description {
+ color: var(--whiteColor);
+ max-width: 60%;
+ /* font-size: 15px; */
+}
 .inner-bg3 {
   opacity: 0.8;
 }
@@ -40,7 +52,7 @@ About Area
 
   }
 
-  .about-content .section-title {
+  .about-content-1 .section-title {
     margin-bottom: 35px;
   }
   
@@ -158,6 +170,12 @@ About Area
   /*================================
     Media Quries
   ===================================*/
+
+  @media only screen and (max-width: 550px){
+    .about-content-1{
+      padding-left: 30px;
+    }
+  }
   
   @media only screen and (max-width: 767px){
     
@@ -167,14 +185,14 @@ About Area
       padding-bottom: 45px;
     }
 
-    .about-content {
+    .about-content-1 {
       display:flex;
       justify-content: center;
       flex-direction:column;
       margin-bottom: 35px;
     }
     
-    .about-content .section-title{
+    .about-content-1 .section-title{
       margin-bottom: 15px;
     }
     
@@ -207,13 +225,13 @@ About Area
       padding-top: 50px;
       padding-bottom: 45px;
     } 
-     .about-content{
+     .about-content-1 {
       display:flex;
       align-items: center;
       flex-direction:column;
       margin-bottom: 35px;
     }
-    .about-content .section-title {
+    .about-content-1 .section-title {
       margin-bottom: 15px;
     }
 
