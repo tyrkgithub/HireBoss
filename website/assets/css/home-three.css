@@ -119,46 +119,7 @@ Why Area
 /*================================
 Why Area End
 ===================================*/
-/*================================
-Work Area Two
-===================================*/
-.work-area-two {
-  position: relative;
-  z-index: 1;
-  background-image: url(../images/work-img2.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
 
-.work-area-two::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--whiteColor);
-  opacity: 0.9;
-}
-
-.work-img-three {
-  position: relative;
-  z-index: 1;
-  margin-bottom: 30px;
-}
-
-.work-img-three .line {
-  position: absolute;
-  z-index: -1;
-  top: 30px;
-  left: -30px;
-}
-
-/*================================
-Work Area Two End
-===================================*/
 /*================================
 Services Tab Area
 ===================================*/

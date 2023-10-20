@@ -36,6 +36,7 @@ This files table contents are outlined below>>>>>
 *******************************************
 /*
 ******************************************* */
+@import url("about.css");
 @import url("navbar.css");
 @import url("home-one.css");
 @import url("home-two.css");
@@ -60,12 +61,18 @@ Default CSS
 :root {
   --headerFonts: 'Poppins', sans-serif;
   --bodyFonts: 'Roboto', sans-serif;
-  --orangeColor: #f85f0a;
+  --orangeColor: #dda83f;
   --lightColor: #f88240;
-  --greenColor: #0ebc40;
+  --greenColor: #2b4743;
+  --pinkColor: #ffd3db;
+  --peachColor: #ddc1a7;
+  --brownColor: #745e4d;
   --titleColor: #00042e;
   --bodyColor: #4e4e4e;
   --whiteColor: #ffffff;
+  --redColor: #ef3a5d;
+  --blackColor: #080704;
+  --blueColor: #cedeeb;
   --fontSize: 16px;
   --transition: .5s;
 }
@@ -138,6 +145,10 @@ img {
   padding-top: 150px;
 }
 
+.pb-150 {
+  padding-bottom: 150px;;
+}
+
 .ptb-100 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -168,8 +179,16 @@ img {
   padding-top: 45px;
 }
 
+.pb-45 {
+  padding-bottom: 45px;
+}
+
 .pt-20 {
   padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
 }
 
 .pl-20 {
@@ -188,6 +207,10 @@ img {
   margin-left: 20px;
 }
 
+.mb-70 {
+  margin-bottom: 70px;
+}
+
 .border-radius-5 {
   border-radius: 5px !important;
 }
@@ -196,7 +219,7 @@ img {
   border-radius: 50px !important;
 }
 
-.default-btn {
+.default-btn, .contact-btn {
   padding: 10px 30px;
   color: var(--whiteColor);
   text-align: center;
@@ -204,18 +227,18 @@ img {
   overflow: hidden;
   z-index: 1;
   text-transform: capitalize;
-  background-color: #C97358;
+  background-color: var(--blackColor);
   border: none;
   outline: none;
 }
 
-.default-btn::before {
+.default-btn::before, .contact-btn::before {
   content: '';
   position: absolute;
   top: 0;
   width: 0;
   height: 100%;
-  background-color: #0D5060;
+  background-color: var(--blueColor);
   left: 0;
   right: 0;
   opacity: 0;
@@ -224,7 +247,7 @@ img {
   transition: var(--transition);
 }
 
-.default-btn:hover {
+.default-btn:hover, .contact-btn:hover {
   color: var(--whiteColor);
 }
 
@@ -234,7 +257,7 @@ img {
 }
 
 .default-btn.two {
-  background-color: #0D5060;
+  background-color: var(--blueColor);
 }
 
 .default-btn.two:hover {
@@ -253,7 +276,7 @@ Section Title Style
   display: inline-block;
   line-height: 0;
   font-size: 15px;
-  color: #0D5060;
+  color: var(--blueColor);
   padding-left: 0;
   position: relative;
   font-weight: 500;
@@ -266,7 +289,7 @@ Section Title Style
   left: 0;
   height: 2px;
   width: 50px;
-  background-color: #0D5060;
+  background-color: var(--blueColor);
   display: none;
 }
 
@@ -634,7 +657,7 @@ Go Top Area
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  background: #C97358;
+  background: var(--redColor);
   border-radius: 0;
   width: 45px;
   height: 45px;

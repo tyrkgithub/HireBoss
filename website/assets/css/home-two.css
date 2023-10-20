@@ -566,7 +566,7 @@ Services Area Two
 
 .services-card .service-icon {
   font-size: 55px;
-  color: #C97358;
+  color: var(--redColor);
   line-height: 1;
   margin-bottom: 10px;
 }
@@ -716,7 +716,7 @@ Services Area Two
   width: 100%;
   opacity: 0;
   border-radius: 10px;
-  background-color: #C97358;
+  background-color: var(--blackColor);
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -731,7 +731,7 @@ Services Area Two
 }
 
 .services-card:hover h3 a {
-  color: var(--whiteColor);
+  color: var(--redColor);
 }
 
 .services-card:hover p {
@@ -917,182 +917,7 @@ Project Area Two
 /*================================
 Project Area Two End
 ===================================*/
-/*================================
-Pricing Area
-===================================*/
-.pricing-area {
-  background-color: #fbfbfb;
-}
 
-.pricing-bg2 {
-  background-color: #e9e9e9;
-}
-
-.pricing-card {
-  padding: 45px;
-  background-color: var(--whiteColor);
-  margin-bottom: 30px;
-  position: relative;
-  z-index: 1;
-}
-
-.pricing-card .top img {
-  width: 120px !important;
-}
-
-.pricing-card .top img:nth-child(1) {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.pricing-card .top img:nth-child(2) {
-  position: absolute;
-  top: 0;
-  -webkit-transform: translateY(-50px);
-          transform: translateY(-50px);
-  right: 0;
-  z-index: -1;
-  opacity: 0;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.pricing-card .price-icon {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.pricing-card h3 {
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.pricing-card h4 {
-  font-size: 24px;
-  color: var(--lightColor);
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.pricing-card h4 span {
-  font-size: 14px;
-  color: #a2a2a1;
-}
-
-.pricing-card ul {
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-}
-
-.pricing-card ul li {
-  display: block;
-  margin-bottom: 10px;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.pricing-card ul li i {
-  font-size: 18px;
-  color: var(--lightColor);
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-  margin-right: 5px;
-}
-
-.pricing-card ul li:last-child {
-  margin-bottom: 0;
-}
-
-.pricing-card ul li:hover {
-  color: var(--lightColor);
-  letter-spacing: 0.25px;
-  margin-left: 3px;
-}
-
-.pricing-card ul li:hover i {
-  color: var(--greenColor);
-}
-
-.pricing-card .price-btn-area {
-  margin-top: 23px;
-}
-
-.pricing-card .price-btn-area .price-btn {
-  padding: 10px 30px;
-  color: var(--lightColor);
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  text-transform: capitalize;
-  background-color: #f0eeee;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-}
-
-.pricing-card .price-btn-area .price-btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  width: 0;
-  height: 100%;
-  background-color: var(--orangeColor);
-  left: 0;
-  right: 0;
-  opacity: 0;
-  z-index: -1;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-  border-radius: 5px;
-}
-
-.pricing-card .price-btn-area .price-btn:hover {
-  color: var(--whiteColor);
-}
-
-.pricing-card .price-btn-area .price-btn:hover::before {
-  width: 100%;
-  opacity: 1;
-}
-
-.pricing-card:hover .price-btn-area .price-btn {
-  color: var(--whiteColor);
-}
-
-.pricing-card:hover .price-btn-area .price-btn::before {
-  width: 100%;
-  opacity: 1;
-}
-
-.pricing-card:hover .top img {
-  width: 120px !important;
-}
-
-.pricing-card:hover .top img:nth-child(1) {
-  opacity: 0;
-}
-
-.pricing-card:hover .top img:nth-child(2) {
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-}
-
-.price-bg {
-  background-color: #f9fafd;
-}
-
-/*================================
-Pricing Area
-===================================*/
 /*================================
 Testimonial Area Two
 ===================================*/
@@ -1218,6 +1043,15 @@ Testimonial Area Two End
 /*================================
 Contact Area
 ===================================*/
+.contact-form{
+ border-radius: 10px;
+  padding: 10px;
+}
+
+.form-group{
+  margin: 40px;
+}
+
 .contact-area {
   position: relative;
   z-index: 1;
@@ -1241,6 +1075,7 @@ Contact Area
   z-index: 1;
   margin-bottom: 0;
   max-width: 640px;
+  background-color: var(--redColor);
 }
 
 .contact-form .section-title {
@@ -1279,12 +1114,12 @@ Contact Area
 .contact-form .form-group .form-control {
   height: 60px;
   color: var(--bodyColor);
-  border: none;
   background-color: #f0eeee;
   font-size: 15px;
   padding: 15px 20px;
   width: 100%;
-  border-radius: 0;
+  border-radius: 10;
+
 }
 
 .contact-form .form-group .form-control:focus {
@@ -1298,9 +1133,14 @@ Contact Area
   height: auto;
 }
 
+.agree-label{
+  margin-left: 40px;
+}
+
 .contact-form .agree-label {
   margin-bottom: 15px;
   position: relative;
+  color: var(--whiteColor);
 }
 
 .contact-form .agree-label #chb1 {
@@ -1311,12 +1151,12 @@ Contact Area
 
 .contact-form .agree-label label {
   font-weight: 500;
-  color: var(--titleColor);
+  color: var(--whiteColor);
   margin-left: 25px;
 }
 
 .contact-form .agree-label label a {
-  color: var(--orangeColor);
+  color: var(--blueColor);
 }
 
 .contact-form .agree-label label a:hover {
@@ -1948,9 +1788,7 @@ Contact Area End
   .project-area-two .thumbs-wrap .owl-thumbs .owl-thumb-item .content {
     padding: 20px;
   }
-  .pricing-card {
-    padding: 35px;
-  }
+  
   .pricing-card .top img {
     width: 85px !important;
   }

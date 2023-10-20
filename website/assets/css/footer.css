@@ -1,5 +1,11 @@
+.dropdown-toggle {
+  outline: none!important;
+  border-radius: 10px;
+  background-color: var(--redColor);
+}
+
 .footer-area-bg {
-  background-color: #000213;
+  background-color: var(--blackColor);
 }
 
 .footer-area-bg-two {
@@ -40,7 +46,7 @@
   height: 55px;
   line-height: 65px;
   text-align: center;
-  background-color: var(--orangeColor);
+  background-color: var(--redColor);
   color: var(--whiteColor);
   font-size: 26px;
   border-radius: 5px;
@@ -81,7 +87,7 @@
 }
 
 .footer-contact:hover .content h3 a {
-  color: var(--orangeColor);
+  color: var(--redColor);
 }
 
 .footer-widget {
@@ -131,17 +137,16 @@
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background-color: #e7e5e3;
   border-radius: 0;
   text-align: center;
-  color: var(--orangeColor);
+  color: var(--redColor);
   font-size: 24px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
 
 .footer-widget .social-link li a:hover i {
-  background-color: var(--orangeColor);
+  background-color: var(--redColor);
   color: var(--whiteColor);
   border-radius: 50px;
 }
@@ -166,12 +171,12 @@
 }
 
 .footer-widget .footer-list li a:hover {
-  color: var(--orangeColor);
+  color: var(--redColor);
   letter-spacing: 0.25px;
 }
 
 .footer-widget .footer-list li:hover a {
-  color: var(--orangeColor);
+  color: var(--redColor);
   letter-spacing: 0.25px;
 }
 
@@ -203,7 +208,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-color: var(--orangeColor);
+  background-color: var(--redColor);
   color: var(--whiteColor);
   padding: 11px 16px;
   font-size: 24px;
@@ -250,7 +255,7 @@
   height: 50px;
   line-height: 55px;
   text-align: center;
-  background-color: var(--orangeColor);
+  background-color: var(--redColor);
   color: var(--whiteColor);
   font-size: 24px;
   border-radius: 5px;
@@ -291,7 +296,7 @@
 }
 
 .footer-contact-two:hover .content h3 a {
-  color: var(--orangeColor);
+  color: var(--redColor);
 }
 
 .copyright-area {
@@ -305,7 +310,7 @@
 }
 
 .copy-right-text p a {
-  color: var(--orangeColor);
+  color: var(--redColor);
 }
 
 .copy-right-text p a:hover {

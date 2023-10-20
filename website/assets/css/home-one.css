@@ -34,7 +34,7 @@ Top Header Area
 }
 
 .header-left ul li i {
-  color: #C97358;
+  color: var(--redColor);
   font-size: 17px;
   text-align: center;
   position: absolute;
@@ -64,7 +64,7 @@ Top Header Area
 }
 
 .header-left-color ul li:hover a {
-  color: #C97358;
+  color: var(--redColor);
 }
 
 .header-right {
@@ -93,7 +93,7 @@ Top Header Area
   background-color: var(--whiteColor);
   border-radius: 50px;
   text-align: center;
-  color: #C97358;
+  color: var(--redColor);
   font-size: 18px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -103,7 +103,7 @@ Top Header Area
 
 .header-right ul li a:hover i {
   color: var(--whiteColor);
-  background-color: #C97358;
+  background-color: var(--redColor);
 }
 
 /*================================
@@ -173,7 +173,7 @@ Banner Area
   height: 52%;
   width: 100%;
   border-radius: 400px 400px 0 0;
-  background-color: #C97358;
+  background-color: var(--redColor);
   -webkit-transform: rotate(100deg);
           transform: rotate(100deg);
 }
@@ -186,7 +186,7 @@ Banner Area
   height: 52%;
   width: 100%;
   border-radius: 0 0 400px 400px;
-  background-color: #C97358;
+  background-color: var(--redColor);
   -webkit-transform: rotate(100deg);
           transform: rotate(100deg);
 }
@@ -257,103 +257,7 @@ Banner Area
 
 /*================================
 Banner Area End
-===================================*/
-/*================================
-About Area
-===================================*/
-.about-area {
-  margin-bottom: 80px;
-  margin-top: 50px;
-}
 
-.about-img {
-  position: relative;
-  z-index: 1;
-}
-
-.about-img::after {
-  content: "";
-  left: 0;
-  position: absolute;
-  background-color: var(--whiteColor);
-  height: 10%;
-  top: -30px;
-  -webkit-transform: skewY(-175deg);
-          transform: skewY(-175deg);
-  width: 100%;
-  z-index: 1;
-}
-
-.about-img::before {
-  content: "";
-  left: 0;
-  position: absolute;
-  background-color: var(--whiteColor);
-  height: 10%;
-  bottom: -30px;
-  -webkit-transform: skewY(175deg);
-          transform: skewY(175deg);
-  width: 100%;
-  z-index: 1;
-}
-
-.about-img .line {
-  position: absolute;
-  z-index: -1;
-  top: 60px;
-  left: -30px;
-}
-
-.about-content {
-  max-width: 610px;
-}
-
-.about-content .section-title {
-  margin-bottom: 20px;
-}
-
-.about-content .about-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.about-content .about-list li {
-  display: block;
-  font-size: 18px;
-  color: var(--titleColor);
-  margin-bottom: 10px;
-  font-weight: 500;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.about-content .about-list li i {
-  color: #C97358;
-  margin-right: 5px;
-  position: relative;
-  top: 3px;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.about-content .about-list li:hover {
-  color: #C97358;
-  letter-spacing: 0.25px;
-  margin-left: 2px;
-}
-
-.about-content .about-list li:hover i {
-  color: var(--titleColor);
-}
-
-.about-content .default-btn {
-  margin-top: 15px;
-}
-
-/*================================
-About Area End
-===================================*/
 /*================================
 Choose Area
 ===================================*/
@@ -425,7 +329,7 @@ Choose Area
   position: absolute;
   top: 52px;
   right: 20px;
-  color: #C97358;
+  color: var(--redColor);
   line-height: 1;
 }
 
@@ -437,7 +341,7 @@ Choose Area
   height: 50px;
   width: 80px;
   border-radius: 0 0 150px 150px;
-  background-color: #C97358;
+  background-color: var(--redColor);
   -webkit-transform: rotate(89deg);
           transform: rotate(89deg);
 }
@@ -516,7 +420,7 @@ Work Area
   font-size: 20px;
   font-weight: 500;
   color: var(--whiteColor);
-  background-color: #C97358;
+  background-color: var(--redColor);
   text-align: center;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -545,7 +449,7 @@ Work Area
 }
 
 .work-content .content:hover h3 a {
-  color: #C97358;
+  color: var(--redColor);
 }
 
 .work-img {
@@ -639,7 +543,7 @@ Testimonial Area
 
 .testimonial-slider .owl-nav .owl-prev:hover {
   color: var(--whiteColor) !important;
-  background-color: #C97358 !important;
+  background-color: var(--redColor) !important;
 }
 
 .testimonial-slider .owl-nav .owl-next {
@@ -668,7 +572,7 @@ Testimonial Area
 
 .testimonial-slider .owl-nav .owl-next:hover {
   color: var(--whiteColor) !important;
-  background-color: #C97358 !important;
+  background-color: var(--redColor) !important;
 }
 
 .testimonial-slider .testimonial-item {
@@ -707,7 +611,7 @@ Testimonial Area
 }
 
 .testimonial-item .content span {
-  color: #C97358;
+  color: var(--redColor);
   font-size: 15px;
 }
 
@@ -796,7 +700,7 @@ Blog Area
 }
 
 .blog-card .content ul li a:hover {
-  color: #C97358;
+  color: var(--redColor);
 }
 
 .blog-card .content ul li a:hover i {
@@ -804,7 +708,7 @@ Blog Area
 }
 
 .blog-card .content ul li:hover {
-  color: #C97358;
+  color: var(--redColor);
 }
 
 .blog-card .content ul li:hover i {
@@ -829,7 +733,7 @@ Blog Area
 
 .blog-card .content .read-btn {
   font-size: 15px;
-  color: #C97358;
+  color: var(--redColor);
   display: inline-block;
   font-weight: 600;
   position: relative;
@@ -859,7 +763,7 @@ Blog Area
 }
 
 .blog-card:hover .content h3 a {
-  color: #C97358;
+  color: var(--redColor);
 }
 
 .blog-card:hover .read-btn {
@@ -942,7 +846,7 @@ Blog Area
 }
 
 .blog-left-content .content ul li a:hover {
-  color: #C97358;
+  color: var(--redColor);
 }
 
 .blog-left-content .content ul li a:hover i {
@@ -950,7 +854,7 @@ Blog Area
 }
 
 .blog-left-content .content ul li:hover {
-  color: #C97358;
+  color: var(--redColor);
 }
 
 .blog-left-content .content ul li:hover i {
@@ -975,7 +879,7 @@ Blog Area
 
 .blog-left-content .content .read-btn {
   font-size: 15px;
-  color: #C97358;
+  color: var(--redColor);
   display: inline-block;
   font-weight: 600;
   position: relative;
@@ -1005,7 +909,7 @@ Blog Area
 }
 
 .blog-left-content:hover .content h3 a {
-  color: #C97358;
+  color: var(--redColor);
 }
 
 .blog-left-content:hover .read-btn {
@@ -1075,7 +979,7 @@ Blog Area
 }
 
 .blog-card-two .content ul li a:hover {
-  color: #C97358;
+  color: var(--redColor);
 }
 
 .blog-card-two .content ul li a:hover i {
@@ -1083,7 +987,7 @@ Blog Area
 }
 
 .blog-card-two .content ul li:hover {
-  color: #C97358;
+  color: var(--redColor);
 }
 
 .blog-card-two .content ul li:hover i {
@@ -1103,7 +1007,7 @@ Blog Area
 
 .blog-card-two .content .read-btn {
   font-size: 15px;
-  color: #C97358;
+  color: var(--redColor);
   display: inline-block;
   font-weight: 600;
   position: relative;
@@ -1133,7 +1037,7 @@ Blog Area
 }
 
 .blog-card-two:hover .content h3 a {
-  color: #C97358;
+  color: var(--redColor);
 }
 
 .blog-card-two:hover .read-btn {
@@ -1217,7 +1121,7 @@ Services Area
 
 .services-slider .owl-nav .owl-prev:hover {
   color: var(--whiteColor) !important;
-  background-color: #C97358 !important;
+  background-color: var(--redColor) !important;
 }
 
 .services-slider .owl-nav .owl-next {
@@ -1247,7 +1151,7 @@ Services Area
 
 .services-slider .owl-nav .owl-next:hover {
   color: var(--whiteColor) !important;
-  background-color: #C97358 !important;
+  background-color: var(--redColor) !important;
 }
 
 .services-slider .services-item {
@@ -1272,7 +1176,7 @@ Services Area
 
 .services-item .content .service-icon {
   font-size: 55px;
-  color: #C97358;
+  color: var(--redColor);
   line-height: 1;
   margin-bottom: 10px;
 }
@@ -1294,7 +1198,7 @@ Services Area
 
 .services-item .content .read-btn {
   padding: 10px 30px;
-  color: #C97358;
+  color: var(--redColor);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -1311,7 +1215,7 @@ Services Area
   top: 0;
   width: 0;
   height: 100%;
-  background-color: #C97358;
+  background-color: var(--redColor);
   left: 0;
   right: 0;
   opacity: 0;
@@ -1437,37 +1341,7 @@ Services Area End
     margin-right: 10px;
   }
   /* Banner Area End */
-  /*  About Area  */
-  .about-area {
-    margin-bottom: 0;
-    padding-top: 50px;
-    padding-bottom: 45px;
-  }
-  .about-img {
-    margin-bottom: 30px;
-  }
-  .about-img::after {
-    display: none;
-  }
-  .about-img::before {
-    display: none;
-  }
-  .about-img .line {
-    display: none;
-  }
-  .about-content .section-title {
-    margin-bottom: 15px;
-  }
-  .about-content .about-list li {
-    font-size: 16px;
-  }
-  .about-content .default-btn {
-    margin-top: 5px;
-  }
-  .about-area {
-    margin-top: 0;
-  }
-  /*  About Area End */
+
   /*  Services Area  */
   .services-area .section-title {
     max-width: 100%;
@@ -1489,7 +1363,7 @@ Services Area End
     top: 0;
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    background-color: #C97358 !important;
+    background-color: var(--redColor) !important;
     color: var(--whiteColor) !important;
   }
   .services-slider .owl-nav .owl-prev:hover {
@@ -1501,7 +1375,7 @@ Services Area End
     top: 0;
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    background-color: #C97358 !important;
+    background-color: var(--redColor) !important;
     color: var(--whiteColor) !important;
   }
   .services-slider .owl-nav .owl-next:hover {
@@ -1581,7 +1455,7 @@ Services Area End
     position: absolute;
     top: 24px;
     right: 20px;
-    color: #C97358;
+    color: var(--redColor);
     line-height: 1;
   }
   .choose-card .circle {
@@ -1655,7 +1529,7 @@ Services Area End
     position: inherit;
     top: 0;
     right: 0;
-    background-color: #C97358 !important;
+    background-color: var(--redColor) !important;
     color: var(--whiteColor) !important;
   }
   .testimonial-slider .owl-nav .owl-prev:hover, .testimonial-slider .owl-nav .owl-next:hover {
@@ -1666,7 +1540,7 @@ Services Area End
     top: 0;
     right: 0;
     color: var(--whiteColor) !important;
-    background-color: #C97358 !important;
+    background-color: var(--redColor) !important;
   }
   .testimonial-slider .owl-nav .owl-next:hover {
     background-color: #0D5060 !important;
@@ -1807,34 +1681,8 @@ Services Area End
     display: none;
   }
   /* Banner Area End */
-  /*  About Area  */
-  .about-area {
-    margin-bottom: 0;
-    padding-top: 50px;
-    padding-bottom: 45px;
-  }
-  .about-img {
-    margin-bottom: 30px;
-  }
-  .about-img::after {
-    display: none;
-  }
-  .about-img::before {
-    display: none;
-  }
-  .about-img .line {
-    display: none;
-  }
-  .about-content .section-title {
-    margin-bottom: 15px;
-  }
-  .about-content .about-list li {
-    font-size: 16px;
-  }
-  .about-content .default-btn {
-    margin-top: 5px;
-  }
-  /*  About Area End */
+
+  /* Services Area Start */
   .services-item {
     margin-top: 30px;
     padding-top: 0;
@@ -1856,7 +1704,7 @@ Services Area End
     display: none;
   }
   .services-item:hover .content h3 a {
-    color: #C97358;
+    color: var(--redColor);
   }
   .services-item:hover::before {
     display: none;
@@ -1864,6 +1712,8 @@ Services Area End
   .services-item:hover .services-bottom {
     display: none;
   }
+  /* Services Area End */
+
   /*  Choose Area  */
   .choose-area .container-fluid {
     width: 720px;
@@ -1905,7 +1755,7 @@ Services Area End
     position: absolute;
     top: 24px;
     right: 20px;
-    color: #C97358;
+    color: var(--redColor);
     line-height: 1;
   }
   .choose-card .circle {
@@ -2006,13 +1856,13 @@ Services Area End
   .banner-shape img {
     max-width: 105px;
   }
-  .about-area {
+  /* .about-area {
     margin-top: 40px;
     margin-bottom: 60px;
   }
   .about-img .line img {
     height: 450px;
-  }
+  } */
   .services-slider .owl-nav {
     margin-top: 0;
   }
@@ -2040,7 +1890,7 @@ Services Area End
     display: none;
   }
   .services-item:hover .content h3 a {
-    color: #C97358;
+    color: var(--redColor);
   }
   .services-item:hover::before {
     display: none;
@@ -2072,7 +1922,7 @@ Services Area End
     position: absolute;
     top: 24px;
     right: 15px;
-    color: #C97358;
+    color: var(--redColor);
     line-height: 1;
   }
   .choose-card .circle {
@@ -2168,10 +2018,6 @@ Services Area End
   }
   .banner-img .circle2 {
     height: 50%;
-  }
-  .about-area {
-    margin-top: 40px;
-    margin-bottom: 60px;
   }
   .about-img .line img {
     height: 570px;

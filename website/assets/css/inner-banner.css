@@ -6,6 +6,8 @@
 /*  margin-top: -125px;*/
 }
 
+
+
 .inner-banner::before {
   content: '';
   position: absolute;
@@ -21,7 +23,6 @@
 
 .inner-banner .inner-title {
   padding-top: 50px;
-  padding-bottom: 140px;
   position: relative;
   z-index: 1;
 }
@@ -80,7 +81,7 @@
 }
 
 .inner-bg2 {
-  background-image: url("../images/inner-banner2.jpg");
+  background-image: url("../images/close-up-businesswoman-with-big-smile.jpg");
 }
 
 .inner-bg3 {
@@ -88,11 +89,11 @@
 }
 
 .inner-bg4 {
-  background-image: url("../images/inner-banner4.jpg");
+  background-image: url("../images/inner-banner.jpg");
 }
 
 .inner-bg5 {
-  background-image: url("../images/inner-banner5.jpg");
+  background-image: url("../images/question3.jpg");
 }
 
 .inner-bg6 {
