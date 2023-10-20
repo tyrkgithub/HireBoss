@@ -171,9 +171,20 @@ About Area
     Media Quries
   ===================================*/
 
-  @media only screen and (max-width: 550px){
+  @media only screen and (max-width: 575px){
     .about-content-1{
       padding-left: 30px;
+    }
+
+    .about-content-1 {
+      margin-bottom: 45px;
+    }
+    .about-img {
+      height: 230px;
+    } 
+
+    .about-img-2{
+      height: 230px;
     }
   }
   
@@ -195,15 +206,20 @@ About Area
     .about-content-1 .section-title{
       margin-bottom: 15px;
     }
-    
-    .about-img {
-      height: 300px;
-      object-fit: cover;
+
+     .about-img-wr {
+      text-align: center;
     }
-    
+
     .about-img-wr2{
       margin-bottom: 20px;
+      text-align: center;
     }
+
+    /* .about-img-2{
+      height: 280px;
+    } */
+    
     
     .about-content-2{
       margin-top: 25px;
@@ -236,7 +252,7 @@ About Area
     }
 
     .about-p{
-      /* max-width:80%; */
+      max-width:95%;
       justify-content: center;
     }
 
@@ -248,6 +264,7 @@ About Area
     
     .about-img {
       height: 300px;
+      object-fit: cover;
       float: none;
       text-align: center;
       margin-bottom: 20px;
