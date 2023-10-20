@@ -229,18 +229,19 @@ About Area
       display:flex;
       align-items: center;
       flex-direction:column;
-      margin-bottom: 35px;
+      margin-bottom: 55px;
     }
     .about-content-1 .section-title {
-      margin-bottom: 15px;
+      margin-bottom: 20px;
     }
 
     .about-p{
-      max-width:85%;
+      /* max-width:80%; */
       justify-content: center;
     }
 
     .about-img-wr{
+      padding-right: 50px;
       display: flex;
       justify-content: center;
     }
