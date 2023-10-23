@@ -16,9 +16,17 @@ Banner Area
 }
 
 .about-description {
-padding-top: 30px;
+ padding-top: 30px;
  color: var(--whiteColor);
  max-width: 60%;
+}
+
+h1 {
+font-family: 'Aileron', sans-serif;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .pricing-btn{
