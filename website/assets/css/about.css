@@ -7,7 +7,8 @@ Banner Area
   background-size: cover;
 }
 .ab-banner-content  {
-  padding-left: 50px;
+  padding-left: 90px;
+  padding-bottom: 70px;
 }
 
 .about-content {
@@ -15,10 +16,15 @@ Banner Area
 }
 
 .about-description {
+padding-top: 30px;
  color: var(--whiteColor);
  max-width: 60%;
- /* font-size: 15px; */
 }
+
+.pricing-btn{
+  padding-top: 20px;
+}
+
 .inner-bg3 {
   opacity: 0.8;
 }
@@ -171,7 +177,15 @@ About Area
     Media Quries
   ===================================*/
 
-  @media only screen and (max-width: 575px){
+  @media only screen and (max-width: 580px){
+    .ab-banner-content{
+      padding-left: 40px;
+    }
+    
+    .about-description{
+      max-width: 80%;
+    }
+
     .about-content-1{
       padding-left: 30px;
     }
@@ -189,7 +203,7 @@ About Area
   }
   
   @media only screen and (max-width: 767px){
-    
+
     .about-area {
       margin-bottom: 0;
       padding-top: 50px;
