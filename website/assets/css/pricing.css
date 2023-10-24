@@ -432,6 +432,12 @@ VS Cards
   padding-bottom: 70px;
   background-position: center center;
   background-size: cover;
+
+}
+
+.vsprice{
+  width: 70%;
+  margin: auto;
 }
 
 .vsimg{
@@ -701,62 +707,62 @@ Whats Included Media Queries
 
 @media only screen and (max-width: 1001px) {
   .included-li:before {
-    padding-right: 20px;
+    padding-right: 20px!important;
   }
 }
 
 @media only screen and (max-width: 1110px) {
   .included-li:before {
-    content: none;
+    content: none!important;
   }
 }
 @media only screen and (max-width: 925px) {
   .included-li.easily{
-    margin-bottom: 30px;
+    margin-bottom: 30px!important;
   }
 }
 
 
 @media only screen and (max-width: 767px) {
   .included-li.easily{
-    margin-bottom: 0px;
+    margin-bottom: 0px!important;
   }
 }
 
 @media only screen and (max-width: 539px) {
   .included-li.easily{
-    margin-bottom: 30px;
+    margin-bottom: 30px!important;
   }
 }
 
 
 @media only screen and (max-width: 467px) {
   .included-li.zoom{
-    margin-bottom: 30px;
+    margin-bottom: 30px!important;
   }
 }
 
 @media only screen and (max-width: 381px) {
   .included-li.manager{
-    margin-bottom: 30px;
+    margin-bottom: 30px!important;
   }
 }
 
 @media only screen and (max-width: 350px) {
   .included-li.assistant{
-    margin-bottom: 30px;
+    margin-bottom: 30px!important;
   }
 }
 
 @media only screen and (max-width: 345px) {
   .included-li.reporting{
-    margin-bottom: 30px;
+    margin-bottom: 30px!important;
   }
 }
 
 @media only screen and (max-width: 338px) {
   .included-li.time{
-    margin-bottom: 30px;
+    margin-bottom: 30px!important;
   }
 }
 @media only screen and (max-width: 330px) {
@@ -766,33 +772,34 @@ Whats Included Media Queries
 }
 @media only screen and (max-width: 767px) {
   .compare-h4 {
-    font-size: 20px;
+    font-size: 20px!important;
   }
   .compare-li {
-    font-size: 13px;
+    font-size: 13px!important;
   }
 }
 
 @media only screen and (max-width: 514px) {
   .pricing-card {
-    padding: 20px;
+    padding: 20px!important;
   }
   .compare-h4 {
-    font-size: 16px;
+    font-size: 16px!important;
   }
 }
 
 @media only screen and (max-width: 423px) {
   .compare-li.easy {
-   padding-bottom: 21px;
+   padding-bottom: 21px!important;
   }
   .compare-li.replacement {
-    padding-bottom: 21px;
+    padding-bottom: 21px!important;
    }
 }
 @media only screen and (max-width: 390px) {
   .compare-li.easy {
-   padding-bottom: 0px;
+   padding-bottom: 0px!important;
   }
   
 }
+

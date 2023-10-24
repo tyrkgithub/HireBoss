@@ -1,0 +1,336 @@
+.container-fluid.home{
+    padding-left:100px;
+   padding-right: 50px;
+    background-color: var(--whiteColor);
+}
+
+.banner-area.home{
+    background-color: var(--whiteColor);
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+}
+
+
+.banner-h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.banner-p{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.heroImg{
+    background-image: url("../images/redwoman.jpg");
+background-position: center;
+background-size: cover;
+margin:auto;
+height: 400px;
+width: 600px;
+ }
+
+
+.top{
+    width: 80%;
+    margin: auto;
+}
+
+.vsTop{
+    text-align: left;
+    padding: 100px;
+
+    background-color: var(--blueColor);
+  
+
+}
+
+.vsTopdiv{
+    padding: 30px;
+    padding-top: 100px;
+}
+.vsToph4{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.vsTopP{
+    font-size: 15px;
+}
+
+.vsTopBox{
+    margin:20px;
+    border-radius: 10px;
+    background-color: var(--redColor);
+padding-top: 40px;
+padding-bottom:20px;
+}
+.vsTopul{
+    list-style: none;
+    padding-right: 15px;
+    color: var(--whiteColor);}
+
+.vsTopli{
+    padding: 10px;
+}
+
+.vsSection.vsimg{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.col-2.tick-parent{
+    justify-content: center;
+padding-top: 10px;
+}
+
+.pricing-area.home{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+/*/////// Services  ///////////*/
+.indexServicesP1{
+    color: var(--blackColor);
+  font-weight: 600;
+}
+.indexServicesP1{
+    color: var(--redColor);
+}
+
+.text-link{
+    text-align: right;
+   
+}
+
+.text-link-p{
+    color: var(--whiteColor)!important;
+}
+
+.text-link-p{
+    padding-right: 50px;
+    color: var(--whiteColor)!important;
+
+}
+.text-link-p.faqs{
+    padding-right: 0px;
+    color: var(--whiteColor)!important;
+
+}
+
+/*/////// How  ///////////*/
+.howItWorks{
+padding-top: 100px;
+padding-bottom: 100px;
+display: flex;
+margin: auto;
+width: 100%;
+}
+
+.howBg{
+    background-image: url("../images/medium-shot-people-chatting-work.jpg");
+
+}
+
+.howBox{
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: inline;
+
+}
+
+.howBox.red{
+    background-color: var(--redColor);
+    color: var(--blackColor);
+}
+
+.howBox.white{
+    background-color: var(--whiteColor);
+}
+
+.howh3{
+    color: var(--redColor);
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--bodyFonts);}
+
+.howImg{
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+.howP{
+    color: var(--whiteColor);
+    font-size: 15px;
+    text-align: center;
+ 
+}
+
+.howP.black{
+    color: var(--blackColor);
+
+}
+
+/*///////Who ///////////*/
+
+.who-title{
+width: 80%;
+margin: auto;
+justify-content: center;
+text-align: center;
+}
+.who-titleh2{
+  font-size: 35px;
+    }
+
+    .who-titlep{
+        font-size: 15px;
+        vertical-align: middle;
+        width: 100%;
+        margin: auto;
+          }
+
+.services-area{
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--blueColor);
+}
+
+.services-card.who{
+    margin:10px;
+}
+
+.service-p{
+    max-width: none!important;
+}
+
+.row.justify-content-center.who{
+    width: 100%;
+ 
+}
+
+
+
+
+
+
+
+
+.text-link-p.faqs{
+    color: var(--redColor)!important;
+}
+
+
+
+
+
+@media only screen and (max-width: 1170px) {
+    .heroImg{
+        margin-left: 50px;
+        margin-right: 25px;
+        height: 350px;
+        width: 525px;
+    }
+
+    .vsTop{
+        padding-left: 50px;
+        padding-right: 50px;
+    }}
+  
+
+
+
+
+    @media only screen and (max-width: 990px) {
+        .heroImg{
+            margin-left: 50px;
+            margin-right: 25px;
+            height: 310px;
+            width: 475px;
+        }
+    
+        .vsTop{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .container-fluid.home{
+            padding:30px;
+        }
+
+        .banner-area.home{
+            padding-top: 0px;
+        }
+
+        .who-titlep{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .banner-area.home{
+            padding-bottom: 0px;
+        }
+        
+        }
+
+        @media only screen and (max-width: 840px) {
+            .heroImg{
+                margin-left: 50px;
+                margin-right: 0px;
+                height: 250px;
+                width: 375px;
+            }
+
+            .banner-h1{
+                font-size: 35px;
+            }
+            .banner-p{
+
+            }
+          
+        }
+
+        @media only screen and (max-width: 767px) {
+            .heroImg{
+                margin: auto;
+                margin-top: 30px;
+            }
+            .banner-area.home{
+                padding-bottom: 0px;
+            }
+            .vsTopdiv{
+                padding-top: 0;
+            }
+
+        }
+        
+        @media only screen and (max-width: 450px) {
+            .heroImg{
+              
+                height: 200px;
+                width: 300px;
+            }
+            .vsCardBh6, .vsCardAh6{
+font-size: 20px!important;
+            }
+
+            .vsCardAli, .vsCardBli {
+                font-size: 12px!important;
+            }
+        }
+
