@@ -251,7 +251,7 @@ text-align: center;
     .vsTop{
         padding-left: 50px;
         padding-right: 50px;
-    }
+    }}
   
 
 
@@ -277,6 +277,15 @@ text-align: center;
         .banner-area.home{
             padding-top: 0px;
         }
+
+        .who-titlep{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .banner-area.home{
+            padding-bottom: 0px;
+        }
+        
         }
 
         @media only screen and (max-width: 840px) {
@@ -304,6 +313,9 @@ text-align: center;
             .banner-area.home{
                 padding-bottom: 0px;
             }
+            .vsTopdiv{
+                padding-top: 0;
+            }
 
         }
         
@@ -312,6 +324,13 @@ text-align: center;
               
                 height: 200px;
                 width: 300px;
+            }
+            .vsCardBh6, .vsCardAh6{
+font-size: 20px!important;
+            }
+
+            .vsCardAli, .vsCardBli {
+                font-size: 12px!important;
             }
         }
 
