@@ -4,9 +4,10 @@
     background-color: var(--whiteColor);
 }
 
-.banner-area{
+.banner-area.home{
     background-color: var(--whiteColor);
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   
 }
 
@@ -27,8 +28,7 @@
     background-image: url("../images/redwoman.jpg");
 background-position: center;
 background-size: cover;
-margin-left: 100px;
-margin-right: 50px;
+margin:auto;
 height: 400px;
 width: 600px;
  }
@@ -77,12 +77,20 @@ padding-bottom:20px;
     padding: 10px;
 }
 
+.vsSection.vsimg{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .col-2.tick-parent{
     justify-content: center;
 padding-top: 10px;
 }
 
-
+.pricing-area.home{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
 
 
 
@@ -120,8 +128,8 @@ padding-top: 10px;
 
 /*/////// How  ///////////*/
 .howItWorks{
-padding-top: 50px;
-padding-bottom: 50px;
+padding-top: 100px;
+padding-bottom: 100px;
 display: flex;
 margin: auto;
 width: 100%;
@@ -199,8 +207,8 @@ text-align: center;
 .services-area{
     justify-content: center;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: var(--blueColor);
 }
 
@@ -214,8 +222,10 @@ text-align: center;
 
 .row.justify-content-center.who{
     width: 100%;
-    padding-right: 20px;
+ 
 }
+
+
 
 
 
