@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ab-inner-banner {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+
+.ab-inner-banner::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.2;
+}
+
+.outer-box {
+    border: 70px solid #EF3A5D;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* MINI FAQS
+////////////
+*/
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover {
+    background-color: #ccc;
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion:after {
+    content: "\02795";
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.activeAccordion:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+.help-block.with-errors {
+    color: var(--whiteColor);
+}
+
+/* MINI FAQS
+////////////
+*/
+
+.miniFaqSection {
+    height: auto;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    width: 100%;
+}
+
+.miniFaqh4 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.miniFaqTag {
+    text-align: center;
+}
+
+.miniFaq {
+    height: auto;
+    padding-top: 20px;
+}
+
+.miniFaqQ {
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    font-size: 20px;
+
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.miniFaqA {
+    padding: 20px;
+    margin-bottom: 20px !important;
+}
+
+.faqs-btn-parent {
+    text-align: right;
+}
+
+.faqs-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: var(--whiteColor);
+    text-align: center;
+    background-color: var(--redColor);
+    outline: none;
+    position: relative;
+}
+
+/* review section code*/
+
+.business-tips {
+    background-color: #EF3A5D;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.title-box {
+    padding: 20px;
+    text-align: center;
+}
+
+.title-box h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.title-box h5 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.review-container {
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.review-item img {
+    object-fit: cover;
+}
+
+.review-item {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+
+/* ABOVE FOOTER
+////////////
+*/
+
+.aboveFooterSection {
+    height: auto;
+    background-color: #cedeeb;
+    padding: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.aboveFooter {
+    width: auto;
+    width: 80%;
+}
+
+.aboveFooterh4 {
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.aboveFooterP {
+    font-size: 20px;
+    color: #000;
+}
+
+.aboveFooter-btn-parent {
+    text-align: right;
+}
+
+.aboveFooter-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 30px 60px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #cedeeb;
+    outline: none;
+    position: relative;
+}
+
+@media (min-width: 400px) {
+    .ab-inner-banner {
+        height: auto;
+    }
+
+    .inner-title {
+        /* padding-top: 5%; */
+    }
+
+    .banner-content {
+        font-size: 16px;
+    }
+
+    .banner-content-p {
+        font-size: 10px;
+    }
+}
+
+/* @media only screen and (min-width:401px) and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        /* Change margin for smaller screens */
+/* order: 2;
+    }
+
+    .content {
+        font-size: 14px;
+        /* Change font size for smaller screens */
+/* order: 1;
+
+    }
+}  */
+
+@media screen and (max-width: 767px) {
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-item {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item {
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 767px) {
+    .miniFaqSection {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .miniFaqQ {
+        font-size: 15px;
+    }
+
+    .accordion:after {
+        padding-top: 4px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .review-container {
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .aboveFooterSection {
+        padding: 20px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .aboveFooterh4 {
+        font-size: 17px;
+    }
+
+    .aboveFooterP {
+        font-size: 10px;
+    }
+
+    .miniFaqSection {
+        padding: 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .miniFaqh4 {
+        font-size: 40px;
+    }
+
+    .miniFaqTag {
+        font-size: 12px;
+    }
+
+    .accordion:after {
+        padding-top: 2px;
+    }
+}
+
+@media only screen and (min-width: 528px) and (max-width: 575px) {
+
+    .aboveFooterSection {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .aboveFooterh4 {
+        font-size: 25px;
+    }
+
+    .aboveFooterP {
+        font-size: 15px;
+    }
+
+    .aboveFooter-btn {
+        padding: 20px 20px;
+    }
+
+    .miniFaqSection {
+        padding: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .miniFaqQ {
+        font-size: 15px;
+    }
+
+    .miniFaqTag {
+        font-size: 15px;
+    }
+
+    .accordion:after {
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .aboveFooterh4 {
+        font-size: 35px;
+    }
+
+    .aboveFooterP {
+        font-size: 20px;
+    }
+
+    .miniFaqSection {
+        padding: 50px;
+    }
+
+    .miniFaqQ {
+        font-size: 15px;
+    }
+
+    .accordion:after {
+        padding-top: 7px;
+    }
+}
