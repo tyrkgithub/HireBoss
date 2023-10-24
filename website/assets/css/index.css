@@ -1,3 +1,39 @@
+.container-fluid.home{
+    padding-left:100px;
+   padding-right: 50px;
+    background-color: var(--whiteColor);
+}
+
+.banner-area{
+    background-color: var(--whiteColor);
+    padding-bottom: 50px;
+  
+}
+
+
+.banner-h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.banner-p{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.heroImg{
+    background-image: url("../images/redwoman.jpg");
+background-position: center;
+background-size: cover;
+margin-left: 100px;
+margin-right: 50px;
+height: 400px;
+width: 600px;
+ }
+
+
 .top{
     width: 80%;
     margin: auto;
@@ -5,10 +41,16 @@
 
 .vsTop{
     text-align: left;
+    padding: 100px;
+
+    background-color: var(--blueColor);
+  
+
 }
 
 .vsTopdiv{
     padding: 30px;
+    padding-top: 100px;
 }
 .vsToph4{
     font-size: 30px;
@@ -22,21 +64,22 @@
 .vsTopBox{
     margin:20px;
     border-radius: 10px;
-    background-color: var(--blueColor);
-
+    background-color: var(--redColor);
+padding-top: 40px;
+padding-bottom:20px;
 }
 .vsTopul{
     list-style: none;
     padding-right: 15px;
-}
+    color: var(--whiteColor);}
 
 .vsTopli{
     padding: 10px;
 }
 
-.col-2.tick{
+.col-2.tick-parent{
     justify-content: center;
- 
+padding-top: 10px;
 }
 
 
@@ -57,11 +100,22 @@
 
 .text-link{
     text-align: right;
-    margin-right: 40px;
+   
 }
 
 .text-link-p{
     color: var(--whiteColor)!important;
+}
+
+.text-link-p{
+    padding-right: 50px;
+    color: var(--whiteColor)!important;
+
+}
+.text-link-p.faqs{
+    padding-right: 0px;
+    color: var(--whiteColor)!important;
+
 }
 
 /*/////// How  ///////////*/
@@ -173,7 +227,81 @@ text-align: center;
 }
 
 
-.text-link-p.table{
-    color: var(--redColor)!important;
-    padding-right: 30px;
-}
+
+
+
+@media only screen and (max-width: 1170px) {
+    .heroImg{
+        margin-left: 50px;
+        margin-right: 25px;
+        height: 350px;
+        width: 525px;
+    }
+
+    .vsTop{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+  
+
+
+
+
+    @media only screen and (max-width: 990px) {
+        .heroImg{
+            margin-left: 50px;
+            margin-right: 25px;
+            height: 310px;
+            width: 475px;
+        }
+    
+        .vsTop{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .container-fluid.home{
+            padding:30px;
+        }
+
+        .banner-area.home{
+            padding-top: 0px;
+        }
+        }
+
+        @media only screen and (max-width: 840px) {
+            .heroImg{
+                margin-left: 50px;
+                margin-right: 0px;
+                height: 250px;
+                width: 375px;
+            }
+
+            .banner-h1{
+                font-size: 35px;
+            }
+            .banner-p{
+
+            }
+          
+        }
+
+        @media only screen and (max-width: 767px) {
+            .heroImg{
+                margin: auto;
+                margin-top: 30px;
+            }
+            .banner-area.home{
+                padding-bottom: 0px;
+            }
+
+        }
+        
+        @media only screen and (max-width: 450px) {
+            .heroImg{
+              
+                height: 200px;
+                width: 300px;
+            }
+        }
+
