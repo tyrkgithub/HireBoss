@@ -133,8 +133,7 @@ Pricing Area
 ===================================*/
 .pricing-area {
   background-color: var(--blackColor);
-  padding-top: 70px;
-  padding-bottom: 70px;
+
 }
 .decision {
   display: block;
@@ -504,6 +503,12 @@ VS Cards
 /*================================
 Media Queries
 ===================================*/
+@media only screen and (max-width: 940px) {
+  .vsprice{
+    width: 80%;
+  }
+}
+
 
 @media only screen and (max-width: 831px) {
   .price-col-p {
@@ -518,7 +523,17 @@ Media Queries
   .perMonth {
     font-size: 10px;
   }
+  .vsprice{
+    width: 90%;
+  }
 }
+
+@media only screen and (max-width: 735px) {
+  .vsprice{
+    width: 100%;
+  }
+}
+
 
 @media only screen and (max-width: 724px) {
   .price-col-p {
@@ -678,27 +693,43 @@ Media Queries
     padding-bottom: 10px;
   }
 }
-@media only screen and (max-width: 439px) {
+
+@media only screen and (max-width: 450px) {
   .vsCardBli.noHassle {
     padding-bottom: 10px;
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .vsCardBli.efficient {
-    padding-bottom: 35px;
+@media only screen and (max-width: 417px) {
+  .vsCardBli.noHassle {
+    padding-bottom: 30px;
   }
+}
+
+@media only screen and (max-width: 400px) {
+ 
   .vs {
     margin-top: 130px;
   }
 }
 
 @media only screen and (max-width: 377px) {
-  .vsCardBli.support {
-    padding-bottom: 35px;
-  }
+  
+  
   .vs {
     margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .vsCardBli.noHassle {
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 339px) {
+  .vsCardBli.efficient {
+    padding-bottom: 30px;
   }
 }
 
