@@ -621,7 +621,7 @@ Testimonial Area
 
 .testimonial-item .rating {
   font-size: 18px;
-  color: #0D5060;
+  color: var(--redColor);
 }
 
 .testimonial-item .rating i {
