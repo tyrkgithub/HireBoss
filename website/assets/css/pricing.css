@@ -390,7 +390,7 @@ What's Included
 }
 
 .included-ul {
-  background-color: var(--redColor);
+  background-color: var(--whiteColor);
   border-radius: 10px;
   list-style: none;
   margin: 0;
@@ -406,7 +406,7 @@ What's Included
   height: 34px;
   margin-top: 15px;
   margin-bottom: 15px;
-  color: var(--whiteColor);
+  color: var(--blackColor);
   
 }
 .included-li::before {
@@ -737,6 +737,11 @@ Media Queries
 Whats Included Media Queries
 ===================================*/
 
+@media only screen and (max-width: 1149px) {
+  .included-li:before {
+    content: none!important;
+  }
+}
 
 
 @media only screen and (max-width: 1001px) {
