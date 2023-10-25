@@ -50,7 +50,7 @@ width: 600px;
 
 .vsTopdiv{
     padding: 30px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .vsToph4{
     font-size: 30px;
@@ -61,17 +61,26 @@ width: 600px;
     font-size: 15px;
 }
 
-.vsTopBox{
-    margin:20px;
-    border-radius: 10px;
+.vsTopBoxParent{
     background-color: var(--redColor);
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 0;
+    border-radius: 10px;
+}
+
+.vsTopBox{
+    margin-top:10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: var(--whiteColor);
 padding-top: 40px;
 padding-bottom:20px;
 }
 .vsTopul{
     list-style: none;
     padding-right: 15px;
-    color: var(--whiteColor);}
+    color: var(--blackColor);}
 
 .vsTopli{
     padding: 10px;
