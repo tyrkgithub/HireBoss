@@ -592,7 +592,7 @@ Preloader Area
   width: 100%;
   height: 100%;
   z-index: 99999;
-  background: #C97358;
+  background: var(--blueColor);
 }
 
 .spinner {
