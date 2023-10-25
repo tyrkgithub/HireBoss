@@ -6,6 +6,32 @@ Banner Area
   background-position:center center;
   background-size: cover;
 }
+.ab-banner-content  {
+  padding-left: 90px;
+  padding-bottom: 70px;
+}
+
+.about-content {
+  padding-bottom: 30px;
+}
+
+.about-description {
+ padding-top: 30px;
+ color: var(--whiteColor);
+ max-width: 60%;
+}
+
+h1 {
+font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.pricing-btn{
+  padding-top: 20px;
+}
 
 .inner-bg3 {
   opacity: 0.8;
@@ -40,7 +66,7 @@ About Area
 
   }
 
-  .about-content .section-title {
+  .about-content-1 .section-title {
     margin-bottom: 35px;
   }
   
@@ -158,34 +184,64 @@ About Area
   /*================================
     Media Quries
   ===================================*/
+
+  @media only screen and (max-width: 580px){
+    .ab-banner-content{
+      padding-left: 40px;
+    }
+    
+    .about-description{
+      max-width: 80%;
+    }
+
+    .about-content-1{
+      padding-left: 30px;
+    }
+
+    .about-content-1 {
+      margin-bottom: 45px;
+    }
+    .about-img {
+      height: 230px;
+    } 
+
+    .about-img-2{
+      height: 230px;
+    }
+  }
   
   @media only screen and (max-width: 767px){
-    
+
     .about-area {
       margin-bottom: 0;
       padding-top: 50px;
       padding-bottom: 45px;
     }
 
-    .about-content {
+    .about-content-1 {
       display:flex;
       justify-content: center;
       flex-direction:column;
       margin-bottom: 35px;
     }
     
-    .about-content .section-title{
+    .about-content-1 .section-title{
       margin-bottom: 15px;
     }
-    
-    .about-img {
-      height: 300px;
-      object-fit: cover;
+
+     .about-img-wr {
+      text-align: center;
     }
-    
+
     .about-img-wr2{
       margin-bottom: 20px;
+      text-align: center;
     }
+
+    /* .about-img-2{
+      height: 280px;
+    } */
+    
     
     .about-content-2{
       margin-top: 25px;
@@ -207,28 +263,30 @@ About Area
       padding-top: 50px;
       padding-bottom: 45px;
     } 
-     .about-content{
+     .about-content-1 {
       display:flex;
       align-items: center;
       flex-direction:column;
-      margin-bottom: 35px;
+      margin-bottom: 55px;
     }
-    .about-content .section-title {
-      margin-bottom: 15px;
+    .about-content-1 .section-title {
+      margin-bottom: 20px;
     }
 
     .about-p{
-      max-width:85%;
+      max-width:95%;
       justify-content: center;
     }
 
     .about-img-wr{
+      padding-right: 50px;
       display: flex;
       justify-content: center;
     }
     
     .about-img {
       height: 300px;
+      object-fit: cover;
       float: none;
       text-align: center;
       margin-bottom: 20px;
