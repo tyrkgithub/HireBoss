@@ -265,7 +265,7 @@ Pricing Area
 
 .pricing-card ul li i {
   font-size: 18px;
-  color: var(--lightColor);
+  color: var(--blueColor);
   -webkit-transition: var(--transition);
   transition: var(--transition);
   margin-right: 5px;
@@ -276,7 +276,7 @@ Pricing Area
 }
 
 .pricing-card ul li:hover {
-  color: var(--lightColor);
+  color: var(--blueColor);
   letter-spacing: 0.25px;
   margin-left: 3px;
 }
