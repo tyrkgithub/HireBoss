@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+/* html, body {
+    overflow: hidden;
+} */
+
 .ab-inner-banner {
     position: relative;
     background-position: center center;
     background-size: cover;
+    width: 100%;
 }
 
 .ab-inner-banner::after {
@@ -35,7 +40,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+    /* gap: 10px; */
+    width: 100%;
 }
 
 .grid-item {
@@ -156,7 +162,6 @@
 .business-tips {
     background-color: #EF3A5D;
     padding: 20px;
-    border-radius: 5px;
     margin-top: 0px;
     display: grid;
     grid-template-columns: 1fr;
@@ -267,22 +272,55 @@
     }
 }
 
-/* @media only screen and (min-width:401px) and (max-width: 768px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 0px;
-        /* Change margin for smaller screens */
-/* order: 2;
+@media only screen and (min-width:528px) and (max-width: 575px){
+    .ab-inner-banner {
+        height: auto;
     }
 
-    .content {
-        font-size: 14px;
-        /* Change font size for smaller screens */
-/* order: 1;
-
+    .banner-content {
+        font-size: 16px;
     }
-}  */
+
+    .banner-content-p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px){
+    .ab-inner-banner {
+        height: auto;
+    }
+
+    .inner-title {
+        /* padding-top: 5%; */
+    }
+
+    .banner-content {
+        font-size: 20px;
+    }
+
+    .banner-content-p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ab-inner-banner {
+        height: auto;
+    }
+
+    .inner-title {
+        /* padding-top: 5%; */
+    }
+
+    .banner-content {
+        font-size: 24px;
+    }
+
+    .banner-content-p {
+        font-size: 18px;
+    }
+}
 
 @media screen and (max-width: 767px) {
 
