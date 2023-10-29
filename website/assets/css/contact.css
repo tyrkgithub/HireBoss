@@ -239,7 +239,7 @@
   padding-bottom: 100px;
   margin: auto;
  
-  background-color: var(--blueColor);
+  background-color: var(--whiteColor);
 }
 
 .miniFaqh4 {
@@ -295,10 +295,10 @@ color: var(--blackColor);
 
 .aboveFooterSection {
   height: auto;
-  background-color: var(--redColor);
+  background-color: var(--blueColor);
   padding: 50px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   position: relative;
 }
 

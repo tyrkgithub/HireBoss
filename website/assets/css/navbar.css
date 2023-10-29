@@ -10,8 +10,11 @@
   padding-left: 0;
   padding-bottom: 0;
 }
+.logo-2 {
+  display: none;
+}
 
-.desktop-nav .navbar .navbar-brand .logo-two {
+.desktop-nav .navbar .navbar-brand .logo-2 {
   display: none;
 }
 
@@ -1112,6 +1115,10 @@ Responsive Css
   .nav-sidebar .navbar-language {
     margin-left: 20px;
   }
+
+  .logo-1{
+    height: 25px;
+  }
   .nav-sidebar .nav-btn {
     display: inline-block;
     margin-left: 20px;
@@ -1234,6 +1241,12 @@ Responsive Css
   }
   .side-nav {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1199px){
+  .logo-1{
+    height: 25px;
   }
 }
 /*# sourceMappingURL=navbar.css.map */

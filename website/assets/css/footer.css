@@ -95,9 +95,13 @@
 }
 
 .footer-widget .footer-logo {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   position: relative;
   top: -5px;
+}
+
+.footer-hb-logo{
+  height: 20px;
 }
 
 .footer-widget h3 {
@@ -316,6 +320,8 @@
 .copy-right-text p a:hover {
   color: var(--greenColor);
 }
+
+
 
 /*=================================
 Responsive Css 
