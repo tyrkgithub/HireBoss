@@ -296,9 +296,9 @@ color: var(--blackColor);
 .aboveFooterSection {
   height: auto;
   background-color: var(--blueColor);
-  padding: 50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding: 70px; */
+  padding-top: 70px;
+  padding-bottom: 70px;
   position: relative;
 }
 
@@ -310,12 +310,13 @@ color: var(--blackColor);
 .aboveFooterh4 {
   font-size: 40px;
   color: var(--blackColor);
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .aboveFooterP {
   font-size: 20px;
   color: var(--blackColor);
+  margin-bottom: 30px;
 }
 
 .aboveFooter-btn-parent {
@@ -324,13 +325,19 @@ color: var(--blackColor);
 
 .aboveFooter-btn {
   border: none;
-  border-radius: 10px;
-  padding: 30px 60px;
+  border-radius: 5px;
+  padding: 20px;
   color: var(--whiteColor);
   text-align: center;
   background-color: var(--blackColor);
   outline: none;
   position: relative;
+}
+
+.aboveFooterImg {
+  height: 380px;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 /*=================================
@@ -507,13 +514,18 @@ Responsive Css
   }
   .aboveFooterh4 {
     font-size: 30px;
+    margin-bottom: 20px;
   }
   .aboveFooterP {
     font-size: 17px;
+    margin-bottom: 20px;
   }
   .aboveFooter-btn {
     padding: 20px 40px;
-    margin-top: 30px;
+  }
+
+  .aboveFooterImg{
+    height: 300px;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 767px) {
@@ -526,6 +538,10 @@ Responsive Css
   }
   .accordion:after {
     padding-top: 4px;
+  }
+  .aboveFooterImg {
+    height: 280px;
+  
   }
 }
 
@@ -549,9 +565,11 @@ Responsive Css
 
   .aboveFooterh4 {
     font-size: 35px;
+    margin-bottom: 20px;
   }
   .aboveFooterP {
     font-size: 20px;
+    margin-bottom: 20px;
   }
   .miniFaqSection {
     padding: 50px;
@@ -562,6 +580,14 @@ Responsive Css
   .accordion:after {
     padding-top: 7px;
   }
+
+  .aboveFooterImg{
+    padding-left: 30px;
+    height: 340px;
+    max-width: 100%;
+
+ }
+
 }
 
 @media only screen and (max-width: 942px) {
@@ -580,6 +606,10 @@ Responsive Css
   .accordion:after {
     padding-top: 8px;
   }
+
+  /* .aboveFooterImg{
+     padding-left: 30px;
+  } */
 }
 
 /*Calendley*/
