@@ -1,7 +1,7 @@
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
-  color: #444;
+  /* background-color: #eee;
+  color: #444; */
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -12,9 +12,9 @@
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.accordion:hover {
+/* .accordion:hover {
   background-color: #ccc;
-}
+} */
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
@@ -27,7 +27,7 @@
 .accordion:after {
   content: "\02795"; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
-  color: #777;
+  /* color: #777; */
   float: right;
   margin-right: 10px;
   margin-top: 0px;
@@ -245,12 +245,12 @@
 .miniFaqh4 {
   text-align: center;
   font-size: 40px;
-color: var(--blackColor);
+  /* color: var(--blackColor); */
 }
 
 .miniFaqTag {
   text-align: center;
-  color: var(--blackColor);
+  /* color: var(--blackColor); */
 }
 
 .miniFaq {
@@ -261,10 +261,10 @@ color: var(--blackColor);
 }
 
 .miniFaqQ {
-  background-color: var(--blackColor);
-  color: var(--whiteColor);
+  background-color: var(--whiteColor);
+  /* color: var(--whiteColor); */
   font-size: 20px;
-
+  border-bottom: solid 1px black;
   padding-left: 30px;
   margin-bottom: 20px;
 }
@@ -282,9 +282,9 @@ color: var(--blackColor);
   border: none;
   border-radius: 10px;
   padding: 10px 30px;
-  color: var(--whiteColor);
+  /* color: var(--whiteColor); */
   text-align: center;
-  background-color: var(--redColor);
+  /* background-color: var(--redColor); */
   outline: none;
   position: relative;
 }
