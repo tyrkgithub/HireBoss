@@ -282,9 +282,7 @@
   border: none;
   border-radius: 10px;
   padding: 10px 30px;
-  /* color: var(--whiteColor); */
   text-align: center;
-  /* background-color: var(--redColor); */
   outline: none;
   position: relative;
 }
