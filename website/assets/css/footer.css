@@ -90,14 +90,27 @@
   color: var(--redColor);
 }
 
+
+
+
+
+
+
+
+
+
 .footer-widget {
   margin-bottom: 30px;
 }
 
 .footer-widget .footer-logo {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   position: relative;
   top: -5px;
+}
+
+.footer-bg-ogo{
+  height: 20px;
 }
 
 .footer-widget h3 {
@@ -179,6 +192,12 @@
   color: var(--redColor);
   letter-spacing: 0.25px;
 }
+
+
+
+
+
+
 
 .newsletter-area .newsletter-form {
   position: relative;

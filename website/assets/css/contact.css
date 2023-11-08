@@ -295,7 +295,7 @@ color: var(--blackColor);
 
 .aboveFooterSection {
   height: auto;
-  background-color: var(--blueColor);
+  background-image: url(../images/green-seedling-growing-soil-dark-background-seedling-ground.jpg);
   padding: 50px;
   padding-top: 100px;
   padding-bottom: 100px;
