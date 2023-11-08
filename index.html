@@ -759,8 +759,8 @@
         Got a Question? Find Your Answers Here Or Over On Our FAQs Page
       </h5>
       <div class="miniFaq">
-        <button class="accordion">How Does Billing Work?</button>
-        <div class="panel">
+        <button class="accordion miniFaqQ">How Does Billing Work?</button>
+        <div class="panel" style="display:none">
           <p class="miniFaqA">
             Once you've decided how many hours you'd like to start with, you'll
             be billed for those hours and work can begin. If you choose a
@@ -772,7 +772,7 @@
         <button class="accordion miniFaqQ">
           How Does the Custom Plan Work?
         </button>
-        <div class="panel">
+        <div class="panel" style="display:none">
           <p class="miniFaqA">
             Once you've decided how many hours you'd like to start with, you'll
             be billed for those hours and work can begin. If you choose a
@@ -784,7 +784,7 @@
         <button class="accordion miniFaqQ">
           Can I Cancel After Making a Purchase?
         </button>
-        <div class="panel">
+        <div class="panel" style="display:none">
           <p class="miniFaqA">
             Once you've decided how many hours you'd like to start with, you'll
             be billed for those hours and work can begin. If you choose a
@@ -990,6 +990,27 @@
             $(this).remove();
           });
       }, 10000);
-    </script>
+
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        
+        this.classList.toggle("activeAccordion");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
   </body>
 </html>
