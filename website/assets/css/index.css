@@ -107,12 +107,32 @@ padding-top: 10px;
 
 
 /*/////// Services  ///////////*/
-.indexServicesP1{
-    color: var(--blackColor);
-  font-weight: 600;
+
+.service-img-card{
+    background-color: var(--whiteColor);
+    padding: 25px 15px 0px 15px;
+    margin-bottom: 20px;
+    border-radius: 12px;
 }
+
+.service-img{
+    height: 170px;
+    width: 212px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* margin-top: 10px */
+}
+
 .indexServicesP1{
+    font-weight: 600;
     color: var(--redColor);
+}
+
+.indexServicesP2{
+    color: var(--blackColor);
+    font-size: 15px;;
+    width: 80%;
+    margin-bottom: 15px;
 }
 
 .text-link{

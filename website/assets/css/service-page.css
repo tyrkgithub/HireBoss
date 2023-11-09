@@ -254,6 +254,8 @@
     position: relative;
 }
 
+/* MEDIA QUERIES */
+
 @media (min-width: 400px) {
     .ab-inner-banner {
         height: auto;
