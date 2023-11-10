@@ -613,45 +613,45 @@
     </div>
   </div>
 
-  <div class="miniFaqSection">
-    <h4 class="miniFaqh4">FAQS</h4>
-    <h5 class="miniFaqTag">
-      Got a Question? Find Your Answers Here Or Over On Our FAQs Page
-    </h5>
-    <div class="miniFaq">
-      <button class="accordion miniFaqQ">How Does Billing Work?</button>
-      <div class="panel">
-        <p class="miniFaqA">
-          Once you've decided how many hours you'd like to start with, you'll
-          be billed for those hours and work can begin. If you choose a
-          regular monthly plan, any unused hours that month can be rolled over
-          to the next month - we'll keep track of everything for you.
-        </p>
-      </div>
+    <div class="miniFaqSection">
+      <h4 class="miniFaqh4">FAQS</h4>
+      <h5 class="miniFaqTag">
+        Got a Question? Find Your Answers Here Or Over On Our FAQs Page
+      </h5>
+      <div class="miniFaq">
+        <button class="accordion miniFaqQ">How Does Billing Work?</button>
+        <div class="panel" style="display:none">
+          <p class="miniFaqA">
+            Once you've decided how many hours you'd like to start with, you'll
+            be billed for those hours and work can begin. If you choose a
+            regular monthly plan, any unused hours that month can be rolled over
+            to the next month - we'll keep track of everything for you.
+          </p>
+        </div>
 
-      <button class="accordion miniFaqQ">
-        How Does the Custom Plan Work?
-      </button>
-      <div class="panel">
-        <p class="miniFaqA">
-          Once you've decided how many hours you'd like to start with, you'll
-          be billed for those hours and work can begin. If you choose a
-          regular monthly plan, any unused hours that month can be rolled over
-          to the next month - we'll keep track of everything for you.
-        </p>
-      </div>
+        <button class="accordion miniFaqQ">
+          How Does the Custom Plan Work?
+        </button>
+        <div class="panel" style="display:none">
+          <p class="miniFaqA">
+            Once you've decided how many hours you'd like to start with, you'll
+            be billed for those hours and work can begin. If you choose a
+            regular monthly plan, any unused hours that month can be rolled over
+            to the next month - we'll keep track of everything for you.
+          </p>
+        </div>
 
-      <button class="accordion miniFaqQ">
-        Can I Cancel After Making a Purchase?
-      </button>
-      <div class="panel">
-        <p class="miniFaqA">
-          Once you've decided how many hours you'd like to start with, you'll
-          be billed for those hours and work can begin. If you choose a
-          regular monthly plan, any unused hours that month can be rolled over
-          to the next month - we'll keep track of everything for you.
-        </p>
-      </div>
+        <button class="accordion miniFaqQ">
+          Can I Cancel After Making a Purchase?
+        </button>
+        <div class="panel" style="display:none">
+          <p class="miniFaqA">
+            Once you've decided how many hours you'd like to start with, you'll
+            be billed for those hours and work can begin. If you choose a
+            regular monthly plan, any unused hours that month can be rolled over
+            to the next month - we'll keep track of everything for you.
+          </p>
+        </div>
 
     </div>
     <div class="text-link">
@@ -661,27 +661,30 @@
     </div>
   </div>
 
-  <div class="aboveFooterSection">
-    <div class="container aboveFooter">
-      <div class="row align-items-center">
-        <div class="col-md-6 col-sm-12">
-          <h4 class="aboveFooterh4">
-            Thinking about starting your VA journey?
-          </h4>
-          <p class="aboveFooterP">
-            Review our services and see where we fit into your business.
-          </p>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="aboveFooter-btn-parent">
-            <button class="aboveFooter-btn" onclick="window.location.href = 'https://www.hireboss.co.uk/our-services';">
+    <div class="aboveFooterSection">
+      <div class="container aboveFooter">
+        <div class="row align-items-center" style="width: 100%;">
+          <div class="col-md-7 col-sm-12">
+            <h4 class="aboveFooterh4">
+              Thinking about starting your VA journey?
+            </h4>
+            <p class="aboveFooterP">
+              Review our services and see where we fit into your business.
+            </p>
+            <button
+              class="aboveFooter-btn default-btn"
+              onclick="window.location.href = 'https://www.hireboss.co.uk/our-services';">
               View Services
             </button>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <!-- <div class="aboveFooter-btn-parent"> -->
+              <img class="aboveFooterImg" src="./website/assets/images/cta.png">
+            <!-- </div> -->
           </div>
         </div>
       </div>
     </div>
-  </div>
 
   <footer class="footer-area footer-area-bg">
     <div class="container">
@@ -828,15 +831,37 @@
 
   <script src="https://www.google.com/recaptcha/api.js"></script>
 
-  <script type="text/javascript">
-    window.setTimeout(function () {
-      $(".alert")
-        .fadeTo(500, 0)
-        .slideUp(500, function () {
-          $(this).remove();
-        });
-    }, 10000);
-  </script>
-</body>
+    <script type="text/javascript">
+      window.setTimeout(function () {
+        $(".alert")
+          .fadeTo(500, 0)
+          .slideUp(500, function () {
+            $(this).remove();
+          });
+      }, 10000);
+
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        
+        this.classList.toggle("activeAccordion");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
+  </body>
+</html>
 
 </html>
