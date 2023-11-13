@@ -132,27 +132,24 @@
 Pricing Area
 ===================================*/
 .pricing-area {
-  background-color: var(--blackColor);
+  background-image: linear-gradient( var(--blueColor), var(--whiteColor));
+padding: 50px;
+padding-left: 100px;
+padding-right: 100px;
 
 }
-.decision {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  height: 60px;
-}
 
-.pricing-bg2 {
-  background-color: #e9e9e9;
-}
 
 .pricing-card {
   position: relative;
-  border-radius: 10px;
+  border-radius: 30px;
   min-height: 250px;
   font-family: var(--bodyFonts);
   padding: 35px;
+
+  margin: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: transform ease 0.5s, box-shadow ease 0.5s;
 }
 
 .row {
@@ -166,30 +163,45 @@ Pricing Area
   padding-bottom: 45px;
   padding-left: none !important;
   padding-right: none !important;
+  ;
+}
+
+.compare-q{
+  margin-top: 116px;
+  list-style: none!important;
 }
 
 .card-2 {
-  background-color: var(--blackColor);
-  color: var(--whiteColor);
+  background-color: var(--whiteColor);
+  color: var(--blackColor);
 }
 .pricing-card.card-1 {
-  color: var(--whiteColor);
+  color: var(--blackColor);
   justify-content: left;
-  background-color: var(--blackColor);
+  background-color: var(--whiteColor);
+  padding-top: 50px;
 }
 .h4-card-2 {
   color: var(--blackColor);
 }
 
-.boss-card {
-  background-color: var(--redColor);
-  color: var(--whiteColor);
-}
-.bossParent {
-  background-color: var(--blueColor);
+.pricing-card.boss-card {
+  background-color: var(--whiteColor);
+  color: var(--blackColor);
+  border-radius: 30px;
 
-  border-radius: 10px;
+box-shadow:  19px -19px 54px #9e263d,
+             -19px 19px 54px #ff4e7d;
+
+  
+
 }
+
+.boss-card-mum{
+  background-color: var(--redColor);
+  border-radius: 30px;
+}
+
 
 .compareHR {
   color: var(--whiteColor);
@@ -197,49 +209,18 @@ Pricing Area
 }
 
 .compare-ul.compare {
+  list-style: none;
 }
 
 .compare-li {
 }
 
-.pricing-card .top img {
-  width: 120px !important;
-}
 
-.pricing-card .top img:nth-child(1) {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
 
-.pricing-card .top img:nth-child(2) {
-  position: absolute;
-  top: 0;
-  -webkit-transform: translateY(-50px);
-  transform: translateY(-50px);
-  right: 0;
-  z-index: -1;
-  opacity: 0;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
 
-.pricing-card .price-icon {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.pricing-card h3 {
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
 
 .pricing-card h4 {
-  color: var(--whiteColor);
+  color: var(--blackColor);
   text-align: center;
   margin-bottom: 20px;
   font-family: var(--bodyFonts);
@@ -263,97 +244,11 @@ Pricing Area
   transition: var(--transition);
 }
 
-.pricing-card ul li i {
-  font-size: 18px;
-  color: var(--blueColor);
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-  margin-right: 5px;
-}
 
-.pricing-card ul li:last-child {
-  margin-bottom: 0;
-}
 
-.pricing-card ul li:hover {
-  color: var(--blueColor);
-  letter-spacing: 0.25px;
-  margin-left: 3px;
-}
 
-.pricing-card ul li:hover i {
-  color: var(--greenColor);
-}
 
-.pricing-card .price-btn-area {
-  margin-top: 23px;
-}
 
-.pricing-card .price-btn-area .price-btn {
-  padding: 10px 30px;
-  color: var(--lightColor);
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  text-transform: capitalize;
-  background-color: #f0eeee;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-}
-
-.pricing-card .price-btn-area .price-btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 0;
-  height: 100%;
-  background-color: var(--orangeColor);
-  left: 0;
-  right: 0;
-  opacity: 0;
-  z-index: -1;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-  border-radius: 5px;
-}
-
-.pricing-card .price-btn-area .price-btn:hover {
-  color: var(--whiteColor);
-}
-
-.pricing-card .price-btn-area .price-btn:hover::before {
-  width: 100%;
-  opacity: 1;
-}
-
-.pricing-card:hover .price-btn-area .price-btn {
-  color: var(--whiteColor);
-}
-
-.pricing-card:hover .price-btn-area .price-btn::before {
-  width: 100%;
-  opacity: 1;
-}
-
-.pricing-card:hover .top img {
-  width: 120px !important;
-}
-
-.pricing-card:hover .top img:nth-child(1) {
-  opacity: 0;
-}
-
-.pricing-card:hover .top img:nth-child(2) {
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-}
-
-.price-bg {
-  background-color: #f9fafd;
-}
 
 /*================================
 Pricing Area
@@ -438,13 +333,16 @@ VS Cards
 }
 
 .vsprice{
-  width: 70%;
+  width: 50%;
   margin: auto;
 }
 
-.vsimg{
-  background-image: url("../images/two-men-pulling-rope.jpg");
+.vsimg{background-color: var(--whiteColor);
 
+}
+
+.vs-img{
+  padding-top: 270px;
 }
 
 .vs {
@@ -453,48 +351,118 @@ VS Cards
   color: var(--redColor);
 }
 
-.col-sm-5 {
+.col-5.a {
   justify-content: center;
+  border-radius: 30px;
+  background-color: var(--whiteColor);
+
+  margin-right: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: transform ease 0.5s, box-shadow ease 0.5s;
+
+}
+.col-5.b {
+  justify-content: center;
+  border-radius: 30px;
+  background-color: var(--redColor);
+  margin-left: 20px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: transform ease 0.5s, box-shadow ease 0.5s;
+
+}
+
+.col-5.a:hover {
+transform: scale(1.05, 1.05);
+
+box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.col-5.b:hover  {
+  transform: scale(1.05, 1.05);
+
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  }
+
+.vs-img-2{
+ 
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+
 }
 
 .vsCardA,
 .vsCardB {
   justify-content: center;
-  color: var(--whiteColor);
-  border-radius: 10px;
-  margin: 20px;
-  padding-bottom: 15px;
+  color: var(--blackColor);
+  border-radius: 30px;
+  border: 0.5px;
+  margin: 5px;
+  padding: 15px;
+  background-color: var(--whiteColor);
+
 }
 
 .vsCardA {
-  background-color: var(--blackColor);
+  border-color: var(--blackColor)!important;
 }
 
 .vsCardB {
-  background-color: var(--redColor);
+  border-color: var(--redColor);
 }
 
 .vsCardAul,
 .vsCardBul {
   list-style: none;
-  padding-right: 15px;
+  padding: 0px;
+  text-align: center;
 }
 
 .vsCardAh6,
 .vsCardBh6 {
-  color: var(--whiteColor);
+  color: var(--blackColor);
   text-align: center;
-  font-size: 25px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .vsCardAli,
 .vsCardBli {
-  margin: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*================================
 VS Cards
@@ -621,33 +589,23 @@ Media Queries
     font-size: 15px;
   }
 }
-@media only screen and (max-width: 658px) {
-  .vsCardBli.noHassle {
-    padding-bottom: 40px;
-  }
-  .vs {
-    margin-top: 170px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .vsCardBli.noHassle {
-    padding-bottom: 15px;
-  }
-}
+
+/*  */
 
 @media only screen and (max-width: 570px) {
   .vsCardB,
   .vsCardA {
+    padding: 0;
     margin: 0px;
     padding-bottom: 5px;
   }
   .vsCardB {
-    margin-left: 10px;
+    margin: 5px;
   }
   .vsCardA {
     margin-right: 10px;
   }
-  .vsCardBul,
+
   .vsCardAul {
     padding-left: 15px;
     padding-bottom: 0px;
@@ -658,29 +616,26 @@ Media Queries
   }
 }
 
-@media only screen and (max-width: 545px) {
-  .vsCardBli.noHassle {
-    padding-bottom: 40px;
-  }
-}
+
 @media only screen and (max-width: 487px) {
-  .vsCardBli.noHassle {
-    padding-bottom: 15px;
+  .vsCardAul,.vsCardBul{
+    font-size: 10px;
+  }
+  div.col-1{
+    visibility: hidden;
+    display: none;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .vsCardBli.noHassle {
-    padding-bottom: 35px;
-  }
-  .vsCardBh6,
-  .vsCardAh6 {
-    padding-bottom: 0px;
-  }
+.vsCardAh6,.vsCardBh6{
+  font-size: 20px;
+}
+ 
   .vs {
     margin-top: 110px;
   }
-  .vsCardBul,
+ 
   .vsCardAul {
     padding-left: 15px;
     padding-bottom: 0px;
@@ -695,16 +650,19 @@ Media Queries
 }
 
 @media only screen and (max-width: 450px) {
-  .vsCardBli.noHassle {
-    padding-bottom: 10px;
-  }
+.col-5.a{
+  margin-right: 2px;
+
+}
+.col-5.b{
+  margin-left: 2px;
+}
+.vs-img-2{padding-top: 5px;
+border-radius: 40px;}
+
 }
 
-@media only screen and (max-width: 417px) {
-  .vsCardBli.noHassle {
-    padding-bottom: 30px;
-  }
-}
+
 
 @media only screen and (max-width: 400px) {
  
@@ -841,4 +799,6 @@ Whats Included Media Queries
   }
   
 }
+
+
 

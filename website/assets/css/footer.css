@@ -90,6 +90,15 @@
   color: var(--redColor);
 }
 
+
+
+
+
+
+
+
+
+
 .footer-widget {
   margin-bottom: 30px;
 }
@@ -100,7 +109,7 @@
   top: -5px;
 }
 
-.footer-hb-logo{
+.footer-bg-ogo{
   height: 20px;
 }
 
@@ -183,6 +192,12 @@
   color: var(--redColor);
   letter-spacing: 0.25px;
 }
+
+
+
+
+
+
 
 .newsletter-area .newsletter-form {
   position: relative;
