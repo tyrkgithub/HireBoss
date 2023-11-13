@@ -108,6 +108,10 @@ padding-top: 10px;
 
 /*/////// Services  ///////////*/
 
+.index-service-card{
+    padding-bottom: 50px;
+}
+
 .service-img-card{
     background-color: var(--whiteColor);
     padding: 25px 0px 0px 0px;
