@@ -252,13 +252,6 @@
  
 }
 
-
-
-
-
-
-
-
 .text-link-p.faqs{
     color: var(--redColor)!important;
 }
@@ -395,8 +388,6 @@ tbody tr:nth-child(odd) td {
 
   .banner-h1 {
     font-size: 35px;
-  }
-  .banner-p {
   }
 }
 
