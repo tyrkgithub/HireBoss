@@ -114,6 +114,8 @@
     width: 212px;
     object-fit: cover;
     border-radius: 8px;
+}
+
 .indexServicesP1 {
   color: var(--blackColor);
   font-weight: 600;
@@ -141,15 +143,18 @@
 .text-link-p {
   color: var(--whiteColor) !important;
 }
+}
 
 .text-link-p{
     padding: 50px 50px 0px 0px;
     color: var(--redColor)!important;
+}
 
 .text-link-p {
   padding-right: 50px;
   color: var(--whiteColor) !important;
 }
+
 .text-link-p.faqs {
   padding-right: 0px;
   color: var(--whiteColor) !important;
@@ -163,6 +168,7 @@
   margin: auto;
   width: 100%;
 }
+
 
 .howBg {
   background-image: url("../images/medium-shot-people-chatting-work.jpg");
