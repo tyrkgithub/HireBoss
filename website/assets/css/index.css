@@ -110,7 +110,7 @@ padding-top: 10px;
 
 .service-img-card{
     background-color: var(--whiteColor);
-    padding: 25px 15px 0px 15px;
+    padding: 25px 0px 0px 0px;
     margin-bottom: 20px;
     border-radius: 12px;
 }
@@ -119,20 +119,20 @@ padding-top: 10px;
     height: 170px;
     width: 212px;
     object-fit: cover;
-    border-radius: 10px;
-    /* margin-top: 10px */
+    border-radius: 8px;
 }
 
-.indexServicesP1{
-    font-weight: 600;
+.indexServiceh5{
     color: var(--redColor);
+    font-weight: 600;
 }
 
 .indexServicesP2{
     color: var(--blackColor);
     font-size: 15px;;
-    width: 80%;
     margin-bottom: 15px;
+    max-width: 80%;
+    text-align: center;
 }
 
 .text-link{
@@ -145,8 +145,8 @@ padding-top: 10px;
 }
 
 .text-link-p{
-    padding-right: 50px;
-    color: var(--whiteColor)!important;
+    padding: 50px 50px 0px 0px;
+    color: var(--redColor)!important;
 
 }
 .text-link-p.faqs{
