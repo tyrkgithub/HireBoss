@@ -124,7 +124,7 @@
 
 /*/////// How  ///////////*/
 .howItWorks {
-  padding-top: 100px;
+  padding-top: 30px;
   padding-bottom: 100px;
   display: flex;
   margin: auto;
@@ -161,6 +161,7 @@
   text-align: center;
   font-size: 40px;
   font-family: var(--bodyFonts);
+  margin-bottom: 0px;
 }
 
 .howImg {
@@ -309,7 +310,7 @@ thead th p.promo {
   font-size: 1em;
   color: #fff;
   position: absolute;
-  top: ;
+  top: 0px;
   left: -17px;
   z-index: 1000;
   width: 100%;
@@ -551,5 +552,91 @@ tbody tr:nth-child(odd) td {
     position: relative;
     font-weight: 400;
     color: #999;
+  }
+}
+
+
+@media only screen and (max-width: 767px){
+  .container-3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left {
+    flex: 1;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .profile {
+    margin-top: 20px;
+  }
+  .container-4 {
+    margin: 0;
+  }
+}
+
+@media only screen and(max-width: 400px){
+  .title {
+    margin-top: 30px;
+  }
+  .content {
+    padding: 10px;
+  }
+  .left {
+    margin-right: 0;
+  }
+  .profile img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .left-text {
+    font-size: 16px;
+    padding: 20px;
+  }
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .howItWorks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .howItWorks img {
+    width: 100%;
+    max-width: 400px;
+  }
+  .how {
+    margin-left: 0;
+  }
+  .howBox {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .howImg {
+    width: 30px;
+    height: 30px;
+  }
+  .howP {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .howBox {
+    width: 50%;
+  }
+  
+  .howP {
+    font-size: 12px;
   }
 }
