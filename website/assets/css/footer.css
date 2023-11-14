@@ -91,14 +91,6 @@
 }
 
 
-
-
-
-
-
-
-
-
 .footer-widget {
   margin-bottom: 30px;
 }
@@ -109,8 +101,12 @@
   top: -5px;
 }
 
-.footer-bg-ogo{
-  height: 20px;
+.footer-hb-logo{
+  height: 30px;
+}
+
+.footer-p{
+  width: 90%;
 }
 
 .footer-widget h3 {

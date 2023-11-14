@@ -1,3 +1,12 @@
+  p {
+    font-family: 'Aileron', sans-serif;
+  }
+  
+  ul {
+    font-family: 'Aileron', sans-serif;
+  }
+
+
 .container-fluid.home {
   padding-left: 100px;
   padding-right: 50px;
@@ -97,10 +106,43 @@
 }
 
 /*/////// Services  ///////////*/
+
+.index-service-card{
+    padding-bottom: 50px;
+}
+
+.service-img-card{
+    background-color: var(--whiteColor);
+    padding: 25px 0px 0px 0px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.service-img{
+    height: 170px;
+    width: 212px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 .indexServicesP1 {
   color: var(--blackColor);
   font-weight: 600;
 }
+
+.indexServiceh5{
+    color: var(--blackColor);
+    font-weight: 600;
+}
+
+.indexServicesP2{
+    color: var(--blackColor);
+    font-size: 15px;;
+    margin-bottom: 15px;
+    max-width: 80%;
+    text-align: center;
+}
+
 .indexServicesP1 {
   color: var(--redColor);
 }
@@ -113,10 +155,17 @@
   color: var(--whiteColor) !important;
 }
 
+
+.text-link-p{
+    padding: 50px 50px 0px 0px;
+    color: var(--redColor)!important;
+}
+
 .text-link-p {
   padding-right: 50px;
   color: var(--whiteColor) !important;
 }
+
 .text-link-p.faqs {
   padding-right: 0px;
   color: var(--whiteColor) !important;
@@ -130,6 +179,7 @@
   margin: auto;
   width: 100%;
 }
+
 
 .howBg {
   background-image: url("../images/medium-shot-people-chatting-work.jpg");
@@ -214,12 +264,12 @@
   max-width: none !important;
 }
 
-.row.justify-content-center.who {
-  width: 100%;
+.row.justify-content-center.who{
+    width: 100%;
 }
 
-.text-link-p.faqs {
-  color: var(--redColor) !important;
+.text-link-p.faqs{
+    color: var(--redColor)!important;
 }
 
 table {
@@ -268,8 +318,8 @@ colgroup:nth-child(4) {
 
 thead th {
 
-    
-  
+
+
   background: linear-gradient(to bottom, #ffffff 0%, #fff0f0 100%);
   text-align: center;
   position: relative;
@@ -309,7 +359,6 @@ thead th p.promo {
   font-size: 1em;
   color: #fff;
   position: absolute;
-  top: ;
   left: -17px;
   z-index: 1000;
   width: 100%;
@@ -387,6 +436,17 @@ tbody tr:nth-child(odd) td {
   background-color: #fff0f0;
 }
 
+
+/* CTA Section */
+.indexCta {
+    height: auto;
+    background-color: var(--blueColor);
+    padding-bottom: 30px;
+    padding-top: 20px;
+    position: relative;
+}
+
+
 @media only screen and (max-width: 1170px) {
   .heroImg {
     margin-left: 50px;
@@ -441,8 +501,6 @@ tbody tr:nth-child(odd) td {
 
   .banner-h1 {
     font-size: 35px;
-  }
-  .banner-p {
   }
 }
 
@@ -552,8 +610,6 @@ tbody tr:nth-child(odd) td {
     font-weight: 400;
     color: #999;
   }
-}
-
 
 
 .test{
@@ -665,4 +721,5 @@ tbody tr:nth-child(odd) td {
     .testimonial .description:before{
         content: "";
     }
+
 }
