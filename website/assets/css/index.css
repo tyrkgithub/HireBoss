@@ -7,14 +7,18 @@
   }
 
 
-.container-fluid.home {
+.hero.home {
   padding-left: 100px;
   padding-right: 50px;
-  background-color: var(--whiteColor);
+  height: 600px;
+  width: 100%;
+  background-image: url('../images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.banner-area.home {
-  background-color: var(--whiteColor);
+.banner-home {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -30,14 +34,14 @@
   padding-bottom: 20px;
 }
 
-.heroImg {
+/* .heroImg {
   background-image: url("../images/redwoman.jpg");
   background-position: center;
   background-size: cover;
   margin: auto;
   height: 400px;
   width: 600px;
-}
+} */
 
 .top {
   width: 80%;
@@ -448,12 +452,6 @@ tbody tr:nth-child(odd) td {
 
 
 @media only screen and (max-width: 1170px) {
-  .heroImg {
-    margin-left: 50px;
-    margin-right: 25px;
-    height: 350px;
-    width: 525px;
-  }
 
   .vsTop {
     padding-left: 50px;
@@ -461,21 +459,18 @@ tbody tr:nth-child(odd) td {
   }
 }
 
-@media only screen and (max-width: 990px) {
-  .heroImg {
-    margin-left: 50px;
-    margin-right: 25px;
-    height: 310px;
-    width: 475px;
+@media only screen and (max-width: 1131px) {
+
+  .hero.home {
+    height: 630px; 
   }
+}
+
+@media only screen and (max-width: 990px) {
 
   .vsTop {
     padding-left: 50px;
     padding-right: 50px;
-  }
-
-  .container-fluid.home {
-    padding: 30px;
   }
 
   .banner-area.home {
@@ -488,6 +483,13 @@ tbody tr:nth-child(odd) td {
   }
   .banner-area.home {
     padding-bottom: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 990px) {
+  .hero.home{
+    height: 650px;
   }
 }
 
@@ -571,6 +573,16 @@ tbody tr:nth-child(odd) td {
     position: relative;
     font-weight: 400;
     color: #999;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .banner-home{
+    max-width: 75%;
+  }
+
+  .hero.home{
+    height: 700px;
   }
 }
 
