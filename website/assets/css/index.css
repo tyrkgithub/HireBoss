@@ -7,14 +7,18 @@
   }
 
 
-.container-fluid.home {
+.hero.home {
   padding-left: 100px;
   padding-right: 50px;
-  background-color: var(--whiteColor);
+  height: 600px;
+  width: 100%;
+  background-image: url('../images/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.banner-area.home {
-  background-color: var(--whiteColor);
+.banner-home {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -30,14 +34,14 @@
   padding-bottom: 20px;
 }
 
-.heroImg {
+/* .heroImg {
   background-image: url("../images/redwoman.jpg");
   background-position: center;
   background-size: cover;
   margin: auto;
   height: 400px;
   width: 600px;
-}
+} */
 
 .top {
   width: 80%;
@@ -447,14 +451,94 @@ tbody tr:nth-child(odd) td {
     position: relative;
 }
 
+.test{
+  padding-top: 100px;
+}
+
+.testimonial{
+    border-left: 3px solid var(--redColor);
+    padding: 100px 0 100px 275px;
+    position: relative
+}
+.testimonial:before,
+.testimonial:after{
+    content: "";
+    width: 320px;
+    height: 55px;
+    border-right: 3px solid var(--redColor);
+    position: absolute;
+    left: 0;
+}
+.testimonial:before{
+    border-top: 3px solid var(--redColor);
+    top: 0;
+}
+.testimonial:after{
+    border-bottom: 3px solid var(--redColor);
+    bottom: 0;
+}
+.testimonial .pic{
+    width: 200px;
+    height: 190px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.test-img{
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+}
+.testimonial .description{
+    font-size: 14px;
+    color: #7a7e82;
+    line-height: 27px;
+    position: relative;
+}
+.testimonial .description:before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    font-size: 20px;
+    color: #7a7e82;
+}
+.testimonial .testimonial-title{
+    font-size: 22px;
+    font-weight:800;
+    color: #22272c;
+    text-transform: capitalize;
+}
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color :var(--redColor);
+    margin-top: 10px;
+}
+.owl-theme .owl-controls{
+    text-align: right;
+    margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    background: #6ab33e;
+    border-radius: 0;
+    opacity: 1;
+    padding: 5px 10px;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    color: #fff;
+}
+.owl-next:before{
+    content: "\f054";
+}
+
 
 @media only screen and (max-width: 1170px) {
-  .heroImg {
-    margin-left: 50px;
-    margin-right: 25px;
-    height: 350px;
-    width: 525px;
-  }
 
   .vsTop {
     padding-left: 50px;
@@ -462,21 +546,19 @@ tbody tr:nth-child(odd) td {
   }
 }
 
-@media only screen and (max-width: 990px) {
-  .heroImg {
-    margin-left: 50px;
-    margin-right: 25px;
-    height: 310px;
-    width: 475px;
+@media only screen and (max-width: 1131px) {
+  .hero.home {
+    height: 630px; 
   }
+}
 
+@media only screen and (max-width: 990px) {
+  .hero.home{
+    height: 650px;
+  }
   .vsTop {
     padding-left: 50px;
     padding-right: 50px;
-  }
-
-  .container-fluid.home {
-    padding: 30px;
   }
 
   .banner-area.home {
@@ -490,6 +572,10 @@ tbody tr:nth-child(odd) td {
   .banner-area.home {
     padding-bottom: 0px;
   }
+
+  .testimonial{
+    padding: 80px 0 80px 265px;
+}
 }
 
 @media only screen and (max-width: 840px) {
@@ -516,6 +602,26 @@ tbody tr:nth-child(odd) td {
   .vsTopdiv {
     padding-top: 0;
   }
+
+  .testimonial{
+    padding: 0;
+    border: none;
+}
+.testimonial:before,
+.testimonial:after{
+    border: none;
+}
+.testimonial .pic{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.testimonial .description{
+    margin-top: 15px;
+}
+.testimonial .description:before{
+    content: "";
+}
 }
 
 @media only screen and (max-width: 450px) {
@@ -572,6 +678,16 @@ tbody tr:nth-child(odd) td {
     position: relative;
     font-weight: 400;
     color: #999;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .banner-home{
+    max-width: 75%;
+  }
+
+  .hero.home{
+    height: 700px;
   }
 }
 
@@ -697,6 +813,8 @@ tbody tr:nth-child(odd) td {
 .owl-next:before{
     content: "\f054";
 }
+}
+
 @media only screen and (max-width: 990px){
     .testimonial{
         padding: 80px 0 80px 265px;
