@@ -132,7 +132,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   color: var(--titleColor);
   line-height: 1.4;
+<<<<<<< HEAD
   font-family: 'Josefin Sans', sans-serif;
+=======
+  font-family: 'Poppins', sans-serif;;
+>>>>>>> 2aab28cee1be5101a934116e46b0a0405860365d
 }
 
 h3 {
