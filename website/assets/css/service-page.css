@@ -293,10 +293,6 @@
         height: auto;
     }
 
-    .inner-title {
-        /* padding-top: 5%; */
-    }
-
     .banner-content {
         font-size: 20px;
     }
@@ -309,10 +305,6 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .ab-inner-banner {
         height: auto;
-    }
-
-    .inner-title {
-        /* padding-top: 5%; */
     }
 
     .banner-content {
