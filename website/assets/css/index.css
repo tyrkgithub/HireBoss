@@ -173,7 +173,7 @@
 
 /*/////// How  ///////////*/
 .howItWorks {
-  padding-top: 100px;
+  padding-top: 30px;
   padding-bottom: 100px;
   display: flex;
   margin: auto;
@@ -211,6 +211,7 @@
   text-align: center;
   font-size: 40px;
   font-family: var(--bodyFonts);
+  margin-bottom: 0px;
 }
 
 .howImg {
