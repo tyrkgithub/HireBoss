@@ -114,7 +114,7 @@ Banner Area
 ===================================*/
 .banner-area {
   background-color: #f9f7f7;
-  padding: 70px 0;
+  /* padding: 70px 0; */
   overflow: hidden;
   position: relative;
   z-index: 1;
