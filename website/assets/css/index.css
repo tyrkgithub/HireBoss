@@ -1,3 +1,12 @@
+  p {
+    font-family: 'Aileron', sans-serif;
+  }
+  
+  ul {
+    font-family: 'Aileron', sans-serif;
+  }
+
+
 .container-fluid.home {
   padding-left: 100px;
   padding-right: 50px;
@@ -97,10 +106,43 @@
 }
 
 /*/////// Services  ///////////*/
+
+.index-service-card{
+    padding-bottom: 50px;
+}
+
+.service-img-card{
+    background-color: var(--whiteColor);
+    padding: 25px 0px 0px 0px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.service-img{
+    height: 170px;
+    width: 212px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 .indexServicesP1 {
   color: var(--blackColor);
   font-weight: 600;
 }
+
+.indexServiceh5{
+    color: var(--blackColor);
+    font-weight: 600;
+}
+
+.indexServicesP2{
+    color: var(--blackColor);
+    font-size: 15px;;
+    margin-bottom: 15px;
+    max-width: 80%;
+    text-align: center;
+}
+
 .indexServicesP1 {
   color: var(--redColor);
 }
@@ -113,10 +155,17 @@
   color: var(--whiteColor) !important;
 }
 
+
+.text-link-p{
+    padding: 50px 50px 0px 0px;
+    color: var(--redColor)!important;
+}
+
 .text-link-p {
   padding-right: 50px;
   color: var(--whiteColor) !important;
 }
+
 .text-link-p.faqs {
   padding-right: 0px;
   color: var(--whiteColor) !important;
@@ -130,6 +179,7 @@
   margin: auto;
   width: 100%;
 }
+
 
 .howBg {
   background-image: url("../images/medium-shot-people-chatting-work.jpg");
@@ -215,12 +265,12 @@
   max-width: none !important;
 }
 
-.row.justify-content-center.who {
-  width: 100%;
+.row.justify-content-center.who{
+    width: 100%;
 }
 
-.text-link-p.faqs {
-  color: var(--redColor) !important;
+.text-link-p.faqs{
+    color: var(--redColor)!important;
 }
 
 table {
@@ -269,8 +319,8 @@ colgroup:nth-child(4) {
 
 thead th {
 
-    
-  
+
+
   background: linear-gradient(to bottom, #ffffff 0%, #fff0f0 100%);
   text-align: center;
   position: relative;
@@ -310,7 +360,6 @@ thead th p.promo {
   font-size: 1em;
   color: #fff;
   position: absolute;
-  top: 0px;
   left: -17px;
   z-index: 1000;
   width: 100%;
@@ -388,6 +437,17 @@ tbody tr:nth-child(odd) td {
   background-color: #fff0f0;
 }
 
+
+/* CTA Section */
+.indexCta {
+    height: auto;
+    background-color: var(--blueColor);
+    padding-bottom: 30px;
+    padding-top: 20px;
+    position: relative;
+}
+
+
 @media only screen and (max-width: 1170px) {
   .heroImg {
     margin-left: 50px;
@@ -442,8 +502,6 @@ tbody tr:nth-child(odd) td {
 
   .banner-h1 {
     font-size: 35px;
-  }
-  .banner-p {
   }
 }
 
@@ -553,90 +611,116 @@ tbody tr:nth-child(odd) td {
     font-weight: 400;
     color: #999;
   }
+
+
+.test{
+  padding-top: 100px;
 }
 
-
-@media only screen and (max-width: 767px){
-  .container-3 {
-    flex-direction: column;
-    align-items: center;
-  }
-  .left {
-    flex: 1;
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-  .profile {
-    margin-top: 20px;
-  }
-  .container-4 {
-    margin: 0;
-  }
+.testimonial{
+    border-left: 3px solid var(--redColor);
+    padding: 100px 0 100px 275px;
+    position: relative
 }
-
-@media only screen and(max-width: 400px){
-  .title {
-    margin-top: 30px;
-  }
-  .content {
-    padding: 10px;
-  }
-  .left {
-    margin-right: 0;
-  }
-  .profile img {
-    width: 150px;
-    height: 150px;
-  }
+.testimonial:before,
+.testimonial:after{
+    content: "";
+    width: 320px;
+    height: 55px;
+    border-right: 3px solid var(--redColor);
+    position: absolute;
+    left: 0;
 }
-
-@media only screen and (max-width: 767px) {
-  .left-text {
-    font-size: 16px;
-    padding: 20px;
-  }
-  .card-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .card {
-    width: 80%;
-    margin: 10px;
-  }
+.testimonial:before{
+    border-top: 3px solid var(--redColor);
+    top: 0;
 }
-
-@media only screen and (max-width: 767px) {
-  .howItWorks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .howItWorks img {
+.testimonial:after{
+    border-bottom: 3px solid var(--redColor);
+    bottom: 0;
+}
+.testimonial .pic{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.testimonial .pic img{
     width: 100%;
-    max-width: 400px;
-  }
-  .how {
-    margin-left: 0;
-  }
-  .howBox {
-    width: 100%;
-    margin: 10px 0;
-  }
-  .howImg {
-    width: 30px;
-    height: 30px;
-  }
-  .howP {
+    height: auto;
+}
+.testimonial .description{
     font-size: 14px;
-  }
+    color: #7a7e82;
+    line-height: 27px;
+    position: relative;
 }
+.testimonial .description:before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    font-size: 20px;
+    color: #7a7e82;
+}
+.testimonial .testimonial-title{
+    font-size: 22px;
+    font-weight:800;
+    color: #22272c;
+    text-transform: capitalize;
+}
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color :var(--redColor);
+    margin-top: 10px;
+}
+.owl-theme .owl-controls{
+    text-align: right;
+    margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    background: #6ab33e;
+    border-radius: 0;
+    opacity: 1;
+    padding: 5px 10px;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    color: #fff;
+}
+.owl-next:before{
+    content: "\f054";
+}
+@media only screen and (max-width: 990px){
+    .testimonial{
+        padding: 80px 0 80px 265px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .testimonial{
+        padding: 0;
+        border: none;
+    }
+    .testimonial:before,
+    .testimonial:after{
+        border: none;
+    }
+    .testimonial .pic{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .testimonial .description{
+        margin-top: 15px;
+    }
+    .testimonial .description:before{
+        content: "";
+    }
 
-@media only screen and (max-width: 400px) {
-  .howBox {
-    width: 50%;
-  }
-  
-  .howP {
-    font-size: 12px;
-  }
 }
