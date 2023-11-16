@@ -324,7 +324,6 @@
 .aboveFooter-btn {
   border: none;
   border-radius: 5px;
-  padding: 20px;
   color: var(--whiteColor);
   text-align: center;
   background-color: var(--blackColor);
@@ -562,7 +561,7 @@ Responsive Css
   }
 
   .aboveFooterh4 {
-    font-size: 35px;
+    font-size: 27px;
     margin-bottom: 20px;
   }
   .aboveFooterP {
@@ -581,7 +580,7 @@ Responsive Css
 
   .aboveFooterImg{
     padding-left: 30px;
-    height: 340px;
+    height: 320px;
     max-width: 100%;
 
  }
