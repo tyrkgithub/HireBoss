@@ -8,6 +8,11 @@
     overflow: hidden;
 } */
 
+.inner-title.pb-70{
+    padding-left: 200px;
+    }
+    
+
 .ab-inner-banner {
     position: relative;
     background-position: center center;
@@ -299,3 +304,36 @@
         padding-top: 7px;
     }
 }
+
+@media only screen and (max-width: 1500px) {
+    .inner-title.pb-70{
+        margin-right: 100px;
+        padding-left: 100px;
+        }
+}
+
+@media only screen and (max-width: 850px) {
+    .inner-title.pb-70{
+        margin-right: 50px;
+        padding-left: 60px;
+        }
+}
+
+@media only screen and (max-width: 500px) {
+    .inner-title.pb-70{
+       padding-top:  10px;
+        padding-left: 20px;
+        }
+}
+
+@media only screen and (max-width: 400px) {
+  .banner-content.h1.banner-title{
+    font-size: 30px!important;
+    
+  }
+  .banner-content-p{
+    font-size: 15px!important;
+  }
+}
+
+
