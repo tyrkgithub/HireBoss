@@ -58,16 +58,12 @@
 /* review section code*/
 
 .business-tips {
-    background-color: #EF3A5D;
     padding: 20px;
     margin-top: 0px;
-    /* display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px; */
 }
 
 .title-box {
-    padding: 20px;
+    padding: 60px;
     text-align: center;
 }
 
@@ -89,26 +85,63 @@
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 50px;
-    /* display: grid; */
-    gap: 10px;
+    gap: 30px;
     width: 100%;
 }
 
-.review-item img {
+.review-img {
+    /* object-fit: cover; */
+    padding: 35px;
+    background-color: var(--whiteColor);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.review-img1{
+    height: 500px;
     object-fit: cover;
+    border-radius: 8px;
+    width: 87%;
+}
+
+.review-img2{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .review-item {
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ccc;
+    text-align: left;
     border-radius: 5px;
 }
 
-/* .item-2 ,.item-3{
+.item1 {
+    margin-bottom: 15px;
+}
+
+.article-title{
+    margin-top: 10px;
+}
+
+.article-date{
+    margin-top: 10px
+}
+
+.read-more{
+    text-decoration: none;
+}
+
+.read-more:hover{
+    color: var(--redColor)
+}
+
+.review-info{
     display: flex;
-    flex-direction: row; 
-} */
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 /* MEDIA QUERIES */
 
 @media (min-width: 400px) {
