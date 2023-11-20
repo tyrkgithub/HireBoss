@@ -113,15 +113,11 @@
 }
 
 .item1 {
-    margin-bottom: 15px;
-}
-
-.article-title{
-    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .article-date{
-    margin-top: 10px
+    margin-top: 5px
 }
 
 .read-more{
@@ -138,6 +134,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -5px;
 }
 
 
@@ -196,6 +193,18 @@
 
     .banner-content-p {
         font-size: 18px;
+    }
+
+    .review-img1{
+        height: 220px;
+    }
+
+    .review-img2{
+        height: 90px;
+    }
+
+    .item1 {
+        margin-bottom: 20px;
     }
 }
 
