@@ -1327,3 +1327,8 @@ Responsive Css
   }
 }
 /*# sourceMappingURL=style.css.map */
+@media only screen and (max-width: 625px) {
+  .go-top.active {
+    display: none;
+    visibility: hidden;}
+}
