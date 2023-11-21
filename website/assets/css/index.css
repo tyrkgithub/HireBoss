@@ -6,11 +6,10 @@
     font-family: 'Aileron', sans-serif;
   }
 
-
+/* HERO ///////////////////// */
   .hero.home {
     padding-left: 100px;
     padding-right: 50px;
-    height: 600px;
     width: 100%;
     background-image: url('../images/hero.jpg');
     background-repeat: no-repeat;
@@ -29,25 +28,20 @@
   }
 
   .banner-p {
-    font-size: 15px;
+    color: black;
+    font-size: 18px;
+    font-weight: 2000;
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-
-  /* .heroImg {
-  background-image: url("../images/redwoman.jpg");
-  background-position: center;
-  background-size: cover;
-  margin: auto;
-  height: 400px;
-  width: 600px;
-} */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   }
 
   .top {
     width: 80%;
     margin: auto;
   }
 
+
+/* VS CARDS //////////////////// */
   .vsTop {
     text-align: left;
     padding: 100px;
@@ -106,12 +100,9 @@
     padding-top: 10px;
   }
 
-  .pricing-area.home {
-    padding-bottom: 100px;
-    padding-top: 100px;
-  }
+ 
 
-  /*/////// Services  ///////////*/
+  /* SERVICES WE OFFER ///////////*/
 
   .index-service-card {
     padding-bottom: 50px;
@@ -235,6 +226,11 @@
   }
 
   /*///////Who ///////////*/
+.who-is{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 
   .who-title {
     width: 80%;
@@ -277,6 +273,14 @@
 
   .text-link-p.faqs {
     color: var(--redColor) !important;
+  }
+
+
+  /* PRICING TABLE //////////////// */
+
+  .pricing-area.home {
+    padding-bottom: 100px;
+    padding-top: 100px;
   }
 
   table {
@@ -328,9 +332,6 @@
   /* Tablehead */
 
   thead th {
-
-
-
     background: linear-gradient(to bottom, #ffffff 0%, #fff0f0 100%);
     text-align: center;
     position: relative;
@@ -463,7 +464,7 @@
   }
 
 
-  /* CTA Section */
+  /* CTA Section //////////////////////////////// */
   .indexCta {
     height: auto;
     background-color: var(--blueColor);
@@ -472,8 +473,12 @@
     position: relative;
   }
 
+
+
+/* TESTIMONIAL /////////////////////////////////// */
   .test {
     padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .testimonial {
@@ -572,6 +577,7 @@
     content: "\f054";
   }
 
+  /* MEDIA QUERIES //////////////////////////////////////// */
 
   @media only screen and (max-width: 1170px) {
 
@@ -583,13 +589,11 @@
 
   @media only screen and (max-width: 1131px) {
     .hero.home {
-      height: 630px;
     }
   }
 
   @media only screen and (max-width: 990px) {
     .hero.home {
-      height: 650px;
     }
 
     .vsTop {
@@ -786,7 +790,14 @@
     .howP {
       font-size: 14px;
     }
-  }
+    .hero.home{
+      padding-left: 50px;
+      padding-top: 50px;
+  
+    }
+.banner-home{
+  padding-top: 0px;
+}  }
 
   @media only screen and (max-width: 400px) {
     .howItWorks {
@@ -799,10 +810,7 @@
       margin-left: 30px;
     }
 
-    .howImg {
-      width: 5px;
-      height: 5px;
-    }
+
 
     .howP {
       font-size: 16px;
@@ -859,8 +867,9 @@
       max-width: 75%;
     }
 
-    .hero.home {
-      height: 700px;
+   .col-5.banner {
+
+width: 70%;
     }
   }
 
@@ -872,7 +881,7 @@
 
     thead th h2 {
       font-weight: 300;
-      font-size: 10px;
+      font-size: 12px;
       line-height: 1.2;
       color: var(--redColor);
     }
@@ -884,7 +893,7 @@
     th,
     td {
       font-family: inherit;
-      font-size: 8px;
+      font-size: 10px;
       line-height: 1.45;
       color: #444;
       height: 40px;
