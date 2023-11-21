@@ -405,12 +405,12 @@ Work Area
 
 .work-content .content {
   padding-left: 55px;
-  position: relative;
+  /* position: relative; */
   margin-bottom: 20px;
 }
 
 .work-content .content .number {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 35px;

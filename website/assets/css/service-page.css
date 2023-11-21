@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-/* html, body {
-    overflow: hidden;
-} */
 
 .ab-inner-banner {
     position: relative;
@@ -48,6 +45,55 @@
     padding: 20px;
     text-align: center;
 }
+
+.get-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+
+}
+
+figure {
+    width: 400px;
+    margin: 0;
+}
+
+img {
+    width: "600px";
+    height: "300px";
+}
+
+.get-p-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+
+
+.get-p {
+        width: 400px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    background-color: #cedeeb;
+}
+
+.get-p:hover {
+    transform: scale(1.05);
+}
+
+.row {
+    flex: 0 0 70%;
+    padding: 20px;
+    text-align: center;
+}
+
 
 
 /* MINI FAQS
@@ -274,7 +320,7 @@
     }
 }
 
-@media only screen and (min-width:528px) and (max-width: 575px){
+@media only screen and (min-width:528px) and (max-width: 575px) {
     .ab-inner-banner {
         height: auto;
     }
@@ -288,7 +334,7 @@
     }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1000px){
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
     .ab-inner-banner {
         height: auto;
     }
@@ -324,6 +370,44 @@
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .get-title-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* figure,
+    .row {
+        flex: 100%;
+    } */
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .default-btn {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .get-p-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-p {
+        width: 70%;
+    }
+
+}
+
 @media screen and (max-width: 767px) {
 
     .grid-container {
@@ -344,6 +428,8 @@
         padding: 5px;
     }
 }
+
+
 
 @media only screen and (min-width: 401px) and (max-width: 767px) {
     .miniFaqSection {
