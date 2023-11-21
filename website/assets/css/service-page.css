@@ -5,10 +5,10 @@
 }
 
 
-.inner-title.pb-70{
+.inner-title.pb-70 {
     padding-left: 200px;
-    }
-    
+}
+
 
 .ab-inner-banner {
     position: relative;
@@ -42,7 +42,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    /* gap: 10px; */
     width: 100%;
 }
 
@@ -56,7 +55,6 @@
     flex-wrap: wrap;
     align-items: center;
     padding: 50px;
-
 }
 
 figure {
@@ -77,9 +75,8 @@ img {
 
 }
 
-
 .get-p {
-        width: 400px;
+    width: 400px;
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd;
@@ -88,6 +85,7 @@ img {
     transition: transform 0.3s ease-in-out;
     background-color: #cedeeb;
 }
+
 .get-p p {
     color: #000000;
     font-weight: bold;
@@ -139,21 +137,21 @@ img {
     text-align: center;
 }
 
-.rf-1{
+.rf-1 {
     background: linear-gradient(#ddedfa, #ffefef);
     padding: 20px 20px;
     border-radius: 10px;
     text-align: center;
 }
 
-.review-img1{
+.review-img1 {
     height: 300px;
     object-fit: cover;
     border-radius: 8px;
     width: 87%;
 }
 
-.review-img2{
+.review-img2 {
     height: 120px;
     object-fit: cover;
     border-radius: 8px;
@@ -168,21 +166,21 @@ img {
     margin-bottom: 19px;
 }
 
-.article-date{
+.article-date {
     margin-top: 5px
 }
 
-.read-more{
+.read-more {
     text-decoration: none;
     cursor: pointer;
     color: var(--blackColor);
 }
 
-.read-more:hover{
+.read-more:hover {
     color: var(--redColor)
 }
 
-.review-info{
+.review-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -247,25 +245,25 @@ img {
         font-size: 18px;
     }
 
-    .review-figure{
+    .review-figure {
         width: 28rem;
     }
 
-    .aside{
+    .aside {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .review-img1{
+    .review-img1 {
         height: 280px;
     }
 
-    .review-img2{
+    .review-img2 {
         height: 190px;
     }
 
-    .review-info{
+    .review-info {
         margin-bottom: 20px;
     }
 
@@ -273,7 +271,7 @@ img {
         margin-bottom: 40px;
     }
 
-    .title-box{
+    .title-box {
         padding: 25px;
     }
 }
@@ -326,16 +324,16 @@ img {
         padding: 10px;
     }
 
-    .review-img2{
+    .review-img2 {
         height: 200px;
     }
 
-    .review-info{
+    .review-info {
         margin-bottom: 20px;
     }
 
-    
-    .aside{
+
+    .aside {
         text-align: center;
     }
 
@@ -343,7 +341,7 @@ img {
         margin-bottom: 35px;
     }
 
-    .title-box{
+    .title-box {
         padding: 20px;
     }
 }
@@ -455,16 +453,16 @@ img {
         padding-top: 5px;
     }
 
-    .review-img1{
+    .review-img1 {
         height: 210px;
     }
 
-    .review-img2{
+    .review-img2 {
         height: 150px;
     }
 
-    .title-box{
-        padding:20px;
+    .title-box {
+        padding: 20px;
     }
 }
 
@@ -492,43 +490,42 @@ img {
 }
 
 @media only screen and (max-width: 1500px) {
-    .inner-title.pb-70{
+    .inner-title.pb-70 {
         margin-right: 100px;
         padding-left: 100px;
-        }
+    }
 }
 
 @media only screen and (max-width: 850px) {
-    .inner-title.pb-70{
+    .inner-title.pb-70 {
         margin-right: 50px;
         padding-left: 60px;
-        }
+    }
 }
 
 @media only screen and (max-width: 500px) {
-    .inner-title.pb-70{
-       padding-top:  10px;
+    .inner-title.pb-70 {
+        padding-top: 10px;
         padding-left: 20px;
-        }
+    }
 }
 
 @media only screen and (max-width: 475px) {
-  .banner-content.h1.banner-title{
-    font-size: 30px!important;
-    
-  }
-  .banner-content-p{
-    font-size: 15px!important;
-  }
+    .banner-content.h1.banner-title {
+        font-size: 30px !important;
 
-  .review-img1{
-    height: 190px;
-  }
+    }
 
-  .review-info{
-    margin-bottom: 8px;
+    .banner-content-p {
+        font-size: 15px !important;
+    }
+
+    .review-img1 {
+        height: 190px;
+    }
+
+    .review-info {
+        margin-bottom: 8px;
+    }
+
 }
-
-}
-
-
