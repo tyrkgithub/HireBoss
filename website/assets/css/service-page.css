@@ -88,6 +88,10 @@ img {
     transition: transform 0.3s ease-in-out;
     background-color: #cedeeb;
 }
+.get-p p {
+    color: #000000;
+    font-weight: bold;
+}
 
 .get-p:hover {
     transform: scale(1.05);
