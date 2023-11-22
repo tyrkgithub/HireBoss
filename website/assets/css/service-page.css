@@ -58,7 +58,6 @@
 }
 
 figure {
-    width: 400px;
     margin: 0;
 }
 
@@ -98,7 +97,6 @@ img {
 .row {
     flex: 0 0 70%;
     padding: 20px;
-    text-align: center;
 }
 
 
