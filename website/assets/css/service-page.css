@@ -57,7 +57,12 @@
     padding: 50px;
 }
 
+
 figure {
+
+.get-img {
+    width: 400px;
+
     margin: 0;
 }
 
@@ -280,15 +285,10 @@ img {
         align-items: center;
     }
 
-    img {
+    .get-img {
         width: 100%;
         height: auto;
     }
-
-    /* figure,
-    .row {
-        flex: 100%;
-    } */
 
     h2 {
         font-size: 30px;
