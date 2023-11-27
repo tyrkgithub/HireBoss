@@ -300,9 +300,12 @@
   position: relative;
 }
 
-.aboveFooter {
-  width: auto;
-  width: 80%;
+.cta-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 60px;
 }
 
 .aboveFooterh4 {
@@ -329,6 +332,10 @@
   background-color: var(--blackColor);
   outline: none;
   position: relative;
+}
+
+.cta-img-wrapper{
+  padding: 0px;
 }
 
 .aboveFooterImg {
@@ -509,6 +516,10 @@ Responsive Css
   .inner-title.text-center {
     padding-bottom: 0;
   }
+
+  .cta-container{
+    padding: 0px 20px 0px 50px;
+  }
   .aboveFooterh4 {
     font-size: 30px;
     margin-bottom: 20px;
@@ -518,8 +529,9 @@ Responsive Css
     margin-bottom: 20px;
   }
   
-  .aboveFooterImg{
-    height: 300px;
+  .aboveFooterImg {
+    height: 240px;
+    padding-right: 20px;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 767px) {
@@ -532,10 +544,6 @@ Responsive Css
   }
   .accordion:after {
     padding-top: 4px;
-  }
-  .aboveFooterImg {
-    height: 280px;
-  
   }
 }
 
@@ -577,7 +585,7 @@ Responsive Css
 
   .aboveFooterImg{
     padding-left: 30px;
-    height: 320px;
+    height: 290px;
     max-width: 100%;
 
  }
@@ -600,16 +608,24 @@ Responsive Css
   .accordion:after {
     padding-top: 8px;
   }
-
-  /* .aboveFooterImg{
-     padding-left: 30px;
-  } */
 }
 
 /*Calendley*/
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 670px) {
   .calendly-inline-widget {
     height: 775px !important;
+  }
+
+  .aboveFooterh4{
+    font-size: 25px;
+  }
+
+  .aboveFooterImg{
+    height: 210px;
+  }
+
+  .aboveFooter-btn{
+    padding: 6px 18px;
   }
 }
 @media only screen and (min-width: 650px) and (max-width: 1000px) {

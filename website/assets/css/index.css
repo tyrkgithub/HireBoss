@@ -101,25 +101,22 @@
   }
 
  
-
+  
   /* SERVICES WE OFFER ///////////*/
-
+  
   .index-service-card {
-    padding-bottom: 50px;
-  }
-
-  .service-img-card {
     background-color: var(--whiteColor);
     padding: 25px 0px 0px 0px;
     margin-bottom: 20px;
-    border-radius: 12px;
+    border-radius: 20px;
+    border: 1px solid #CACACA;
   }
 
   .service-img {
-    height: 170px;
-    width: 212px;
+    width: 240px;
+    height: 140px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 20px;
   }
 
   .indexServicesP1 {
@@ -130,15 +127,14 @@
   .indexServiceh5 {
     color: var(--blackColor);
     font-weight: 600;
+    margin: 20px 0px;
   }
 
   .indexServicesP2 {
     color: var(--blackColor);
-    font-size: 15px;
-    ;
-    margin-bottom: 15px;
-    max-width: 80%;
-    text-align: center;
+    font-size: 16px;
+    margin: 0px auto 20px auto !important;
+    width: 95%;
   }
 
   .indexServicesP1 {
@@ -154,7 +150,7 @@
   }
 
 
-  .text-link-p {
+  .text-link-p:hover {
     padding: 50px 50px 0px 0px;
     color: var(--redColor) !important;
   }
