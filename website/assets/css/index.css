@@ -92,7 +92,7 @@
   .vsSection.vsimg {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: linear-gradient(var(--whiteColor), var(--blueColor));
+    background-image: var(--whiteColor);
   }
 
   .col-2.tick-parent {
