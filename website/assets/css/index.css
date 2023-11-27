@@ -100,6 +100,9 @@
     padding-top: 10px;
   }
 
+ .vsCardBh6.hire{
+  color: var(--redColor);
+ }
  
   
   /* SERVICES WE OFFER ///////////*/
@@ -318,6 +321,7 @@
   colgroup:nth-child(3) {
     width: 25%;
     border: 10px solid var(--redColor);
+    border-radius: 5px;
   }
 
   colgroup:nth-child(4) {
@@ -328,7 +332,6 @@
   /* Tablehead */
 
   thead th {
-    background: linear-gradient(to bottom, #ffffff 0%, #fff0f0 100%);
     text-align: center;
     position: relative;
     padding: 3em 0 2em;
@@ -343,6 +346,10 @@
   thead th:nth-child(3) {
     padding: 5px;
     margin: 0;
+  }
+
+  .red-hire{
+  background-color: var(--redColor)!important;
   }
 
   thead th h2 {
@@ -420,10 +427,12 @@
   .tb-cost,
   .th-full {
     border-radius: 20px 0px 0px 0px;
+    background-color: #ffffff;
   }
 
   .th-free {
     border-radius: 0px 20px 0px 0px;
+    background-color: #ffffff;
   }
 
   .tb-soft {
@@ -458,7 +467,14 @@
   tbody tr:nth-child(odd) td {
     background-color: #fff0f0;
   }
+  .red{
+    background-color: var(--redColor)!important;
+    color: var(--whiteColor);
+   }
+   .red-hire{
+    background-color: var(--redColor)!important;
 
+   }
 
   /* CTA Section //////////////////////////////// */
   .indexCta {
