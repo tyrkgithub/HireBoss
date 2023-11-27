@@ -100,8 +100,18 @@
     padding-top: 10px;
   }
 
- 
+ /* free up time and brain space*/
+.title h1 {
+  color: #ffffff;
+}
 
+ul li {
+  color: #ffffff;
+}
+
+.info h2, p, a{
+  color: #ffffff;
+}
   /* SERVICES WE OFFER ///////////*/
 
   .index-service-card {
@@ -169,7 +179,18 @@
     color: var(--whiteColor) !important;
   }
 
+/*WHO IS YOUR NEXT ASSISTANT*/
+.card p {
+  color: #000000;
+}
+
+.card img {
+  border-radius: 5px;
+}
+
   /*/////// How  ///////////*/
+  
+  
   .howItWorks {
     padding-top: 30px;
     padding-bottom: 80px;
@@ -202,7 +223,7 @@
   }
 
   .howh3 {
-    color: var(--redColor);
+    color: var(--whiteColor);
     text-align: center;
     font-size: 40px;
     font-family: var(--bodyFonts);
@@ -224,6 +245,7 @@
   .howP.black {
     color: var(--blackColor);
   }
+
 
   /*///////Who ///////////*/
 .who-is{
