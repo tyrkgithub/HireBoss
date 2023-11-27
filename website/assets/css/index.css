@@ -8,19 +8,26 @@
 
 /* HERO ///////////////////// */
   .hero.home {
-    padding-left: 100px;
-    padding-right: 50px;
     width: 100%;
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/homehero.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
-
-  .banner-home {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  .hero-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%
   }
+
+  .banner-content{
+    margin: 0rem auto;
+  }
+  
+  .banner-home {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    }
 
   .banner-h1 {
     font-size: 45px;
@@ -28,12 +35,13 @@
   }
 
   .banner-p {
-    color: black;
+    color: var(--whiteColor);
     font-size: 18px;
     font-weight: 2000;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   }
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+  }
 
   .top {
     width: 80%;
@@ -100,36 +108,23 @@
     padding-top: 10px;
   }
 
- /* free up time and brain space*/
-.title h1 {
-  color: #ffffff;
-}
-
-ul li {
-  color: #ffffff;
-}
-
-.info h2, p, a{
-  color: #ffffff;
-}
+ 
+  
   /* SERVICES WE OFFER ///////////*/
-
+  
   .index-service-card {
-    padding-bottom: 50px;
-  }
-
-  .service-img-card {
     background-color: var(--whiteColor);
     padding: 25px 0px 0px 0px;
     margin-bottom: 20px;
-    border-radius: 12px;
+    border-radius: 20px;
+    border: 1px solid #CACACA;
   }
 
   .service-img {
-    height: 170px;
-    width: 212px;
+    width: 240px;
+    height: 140px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 20px;
   }
 
   .indexServicesP1 {
@@ -140,15 +135,14 @@ ul li {
   .indexServiceh5 {
     color: var(--blackColor);
     font-weight: 600;
+    margin: 20px 0px;
   }
 
   .indexServicesP2 {
     color: var(--blackColor);
-    font-size: 15px;
-    ;
-    margin-bottom: 15px;
-    max-width: 80%;
-    text-align: center;
+    font-size: 16px;
+    margin: 0px auto 20px auto !important;
+    width: 95%;
   }
 
   .indexServicesP1 {
@@ -164,7 +158,7 @@ ul li {
   }
 
 
-  .text-link-p {
+  .text-link-p:hover {
     padding: 50px 50px 0px 0px;
     color: var(--redColor) !important;
   }
@@ -812,9 +806,9 @@ ul li {
     .howP {
       font-size: 14px;
     }
-    .hero.home{
+    .banner-content{
       padding-left: 50px;
-      padding-top: 50px;
+      padding-top: 120px;
   
     }
 .banner-home{
@@ -889,9 +883,9 @@ ul li {
       max-width: 75%;
     }
 
-   .col-5.banner {
-
-width: 70%;
+   .banner-content {
+    padding-top: 110px;
+    width: 70%;
     }
   }
 
