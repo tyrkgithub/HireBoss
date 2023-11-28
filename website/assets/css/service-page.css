@@ -133,13 +133,15 @@ img {
 
 .review-figure {
     padding: 10px 15px;
-    background: linear-gradient(#f8eaea, #ddedfa);
+    background-color: var(--blackColor);
+    /* background: linear-gradient(#f8eaea, #ddedfa); */
     border-radius: 10px;
     text-align: center;
 }
 
 .rf-1 {
-    background: linear-gradient(#ddedfa, #ffefef);
+    background-color: var(--blackColor);
+    /* background: linear-gradient(#ddedfa, #ffefef); */
     padding: 20px 20px;
     border-radius: 10px;
     text-align: center;
