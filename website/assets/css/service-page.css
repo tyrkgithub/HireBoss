@@ -58,8 +58,6 @@
 }
 
 
-figure {
-
 .get-img {
     width: 400px;
 
@@ -509,21 +507,22 @@ img {
 }
 
 @media only screen and (max-width: 475px) {
+
     .banner-content.h1.banner-title {
         font-size: 30px !important;
-
+        
     }
-
+    
     .banner-content-p {
         font-size: 15px !important;
     }
-
+    
     .review-img1 {
         height: 190px;
     }
-
+    
     .review-info {
         margin-bottom: 8px;
     }
-
 }
+    
