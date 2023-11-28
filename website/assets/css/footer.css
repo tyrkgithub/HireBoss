@@ -90,6 +90,7 @@
   color: var(--redColor);
 }
 
+
 .footer-widget {
   margin-bottom: 30px;
 }
@@ -101,7 +102,11 @@
 }
 
 .footer-hb-logo{
-  height: 20px;
+  height: 30px;
+}
+
+.footer-p{
+  width: 90%;
 }
 
 .footer-widget h3 {
@@ -118,8 +123,12 @@
 }
 
 .footer-widget p {
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   color: var(--whiteColor);
+}
+
+.footer-text{
+  padding-bottom: 30px;
 }
 
 .footer-widget .social-link {
@@ -183,6 +192,12 @@
   color: var(--redColor);
   letter-spacing: 0.25px;
 }
+
+
+
+
+
+
 
 .newsletter-area .newsletter-form {
   position: relative;
@@ -314,11 +329,20 @@
 }
 
 .copy-right-text p a {
-  color: var(--redColor);
+  color: var(--whiteColor);
 }
 
 .copy-right-text p a:hover {
-  color: var(--greenColor);
+  color: var(--redColor);
+}
+
+
+.dropdown-toggle.footer{
+  border: 0;
+}
+
+.bx.bx-world{
+  padding-top: 2px;
 }
 
 
@@ -389,7 +413,6 @@ Responsive Css
     margin-bottom: 15px;
   }
   .footer-widget p {
-    margin-bottom: 15px;
   }
   .footer-widget .footer-list li {
     margin-bottom: 10px;
@@ -599,3 +622,16 @@ Responsive Css
   }
 }
 /*# sourceMappingURL=footer.css.map */
+@media only screen and (max-width: 373px) {
+  .container.footer{
+    padding: 0;
+  }
+  .dropdown-toggle.footer{
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .go-top.active {
+    top: 80%;}
+}

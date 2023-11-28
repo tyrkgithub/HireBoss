@@ -72,7 +72,7 @@ Default CSS
   --headerFonts: 'Poppins', sans-serif;
   --bodyFonts: 'Roboto', sans-serif;
   --headingFont:'Abril Fatface', serif;
-  --bodyFont: 'Josefin Sans', sans-serif;
+  --bodyFont: 'Aileron', sans-serif;
   --orangeColor: #dda83f;
   --lightColor: #f88240;
   --greenColor: #2b4743;
@@ -125,14 +125,14 @@ button {
 
 button:focus {
   outline: 0;
-  border: 0;
+  /* border: 0; */
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   color: var(--titleColor);
   line-height: 1.4;
-  font-family: var(--headerFonts);
+  font-family: 'Poppins', sans-serif;;
 }
 
 h3 {
@@ -740,6 +740,15 @@ Buy Now Btn
   background-color: #94be5d;
 }
 
+/* CTA Section */
+.indexCta {
+  height: auto;
+  background-color: var(--blueColor);
+  padding-bottom: 30px;
+  padding-top: 20px;
+  position: relative;
+}
+
 /*==================================
 Animation CSS
 ====================================*/
@@ -1146,6 +1155,7 @@ Responsive Css
   .go-top .active {
     top: 85%;
   }
+ 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1313,3 +1323,8 @@ Responsive Css
   }
 }
 /*# sourceMappingURL=style.css.map */
+@media only screen and (max-width: 625px) {
+  .go-top.active {
+    display: none;
+    visibility: hidden;}
+}

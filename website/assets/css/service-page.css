@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
-/* html, body {
-    overflow: hidden;
-} */
+
+.inner-title.pb-70 {
+    padding-left: 200px;
+}
+
 
 .ab-inner-banner {
     position: relative;
@@ -40,7 +42,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    /* gap: 10px; */
     width: 100%;
 }
 
@@ -49,127 +50,69 @@
     text-align: center;
 }
 
-
-/* MINI FAQS
-////////////
-*/
-
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.accordion:hover {
-    background-color: #ccc;
-}
-
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-}
-
-.accordion:after {
-    content: "\02795";
-    /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-right: 10px;
-    margin-top: 0px;
-}
-
-.activeAccordion:after {
-    content: "\2796";
-    /* Unicode character for "minus" sign (-) */
-}
-
-.help-block.with-errors {
-    color: var(--whiteColor);
-}
-
-/* MINI FAQS
-////////////
-*/
-
-.miniFaqSection {
-    height: auto;
+.get-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     padding: 50px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin: auto;
-    width: 100%;
 }
 
-.miniFaqh4 {
-    text-align: center;
-    font-size: 40px;
+
+.get-img {
+    width: 400px;
+
+    margin: 0;
 }
 
-.miniFaqTag {
-    text-align: center;
+img {
+    width: "600px";
+    height: "300px";
 }
 
-.miniFaq {
-    height: auto;
-    padding-top: 20px;
+.get-p-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+
 }
 
-.miniFaqQ {
-    background-color: var(--blackColor);
-    color: var(--whiteColor);
-    font-size: 20px;
-
-    padding-left: 30px;
-    margin-bottom: 20px;
-}
-
-.miniFaqA {
+.get-p {
+    width: 400px;
+    margin: 10px;
     padding: 20px;
-    margin-bottom: 20px !important;
-}
-
-.faqs-btn-parent {
-    text-align: right;
-}
-
-.faqs-btn {
-    border: none;
-    border-radius: 10px;
-    padding: 10px 30px;
-    color: var(--whiteColor);
+    border: 1px solid #ddd;
+    border-radius: 8px;
     text-align: center;
-    background-color: var(--redColor);
-    outline: none;
-    position: relative;
+    transition: transform 0.3s ease-in-out;
+    background-color: #cedeeb;
 }
+
+.get-p p {
+    color: #000000;
+    font-weight: bold;
+}
+
+.get-p:hover {
+    transform: scale(1.05);
+}
+
+.row {
+    flex: 0 0 70%;
+    padding: 20px;
+}
+
+
 
 /* review section code*/
 
 .business-tips {
-    background-color: #EF3A5D;
     padding: 20px;
     margin-top: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
 }
 
 .title-box {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
 
@@ -178,91 +121,83 @@
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
-
-}
-
-.title-box h5 {
-    text-align: center;
-    margin-bottom: 20px;
-
 }
 
 .review-container {
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 30px;
     width: 100%;
 }
 
-.review-item img {
+.review-figure {
+    padding: 10px 15px;
+    background-color: var(--blackColor);
+    /* background: linear-gradient(#f8eaea, #ddedfa); */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.rf-1 {
+    background-color: var(--blackColor);
+    /* background: linear-gradient(#ddedfa, #ffefef); */
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.review-img1 {
+    height: 300px;
     object-fit: cover;
+    border-radius: 8px;
+    width: 87%;
+}
+
+.review-img2 {
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .review-item {
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ccc;
+    text-align: left;
     border-radius: 5px;
+}
 
+.item1 {
+    margin-bottom: 19px;
+}
+
+.article-date {
+    margin-top: 5px
+}
+
+.read-more {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--blackColor);
+}
+
+.read-more:hover {
+    color: var(--redColor)
+}
+
+.review-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5px;
 }
 
 
-/* ABOVE FOOTER
-////////////
-*/
-
-.aboveFooterSection {
-    height: auto;
-    background-color: #cedeeb;
-    padding: 50px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    position: relative;
-}
-
-.aboveFooter {
-    width: auto;
-    width: 80%;
-}
-
-.aboveFooterh4 {
-    font-size: 40px;
-    color: #000;
-    margin-bottom: 40px;
-}
-
-.aboveFooterP {
-    font-size: 20px;
-    color: #000;
-}
-
-.aboveFooter-btn-parent {
-    text-align: right;
-}
-
-.aboveFooter-btn {
-    border: none;
-    border-radius: 10px;
-    padding: 30px 60px;
-    color: #ffffff;
-    text-align: center;
-    background-color: #cedeeb;
-    outline: none;
-    position: relative;
-}
+/* MEDIA QUERIES */
 
 @media (min-width: 400px) {
     .ab-inner-banner {
         height: auto;
     }
 
-    .inner-title {
-        /* padding-top: 5%; */
-    }
-
     .banner-content {
         font-size: 16px;
     }
@@ -272,7 +207,7 @@
     }
 }
 
-@media only screen and (min-width:528px) and (max-width: 575px){
+@media only screen and (min-width:528px) and (max-width: 575px) {
     .ab-inner-banner {
         height: auto;
     }
@@ -286,13 +221,9 @@
     }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1000px){
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
     .ab-inner-banner {
         height: auto;
-    }
-
-    .inner-title {
-        /* padding-top: 5%; */
     }
 
     .banner-content {
@@ -309,10 +240,6 @@
         height: auto;
     }
 
-    .inner-title {
-        /* padding-top: 5%; */
-    }
-
     .banner-content {
         font-size: 24px;
     }
@@ -320,6 +247,69 @@
     .banner-content-p {
         font-size: 18px;
     }
+
+    .review-figure {
+        width: 28rem;
+    }
+
+    .aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-img1 {
+        height: 280px;
+    }
+
+    .review-img2 {
+        height: 190px;
+    }
+
+    .review-info {
+        margin-bottom: 20px;
+    }
+
+    .item1 {
+        margin-bottom: 40px;
+    }
+
+    .title-box {
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .get-title-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-img {
+        width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .default-btn {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .get-p-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-p {
+        width: 70%;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -330,6 +320,27 @@
 
     .grid-item {
         padding: 10px;
+    }
+
+    .review-img2 {
+        height: 200px;
+    }
+
+    .review-info {
+        margin-bottom: 20px;
+    }
+
+
+    .aside {
+        text-align: center;
+    }
+
+    .item1 {
+        margin-bottom: 35px;
+    }
+
+    .title-box {
+        padding: 20px;
     }
 }
 
@@ -342,6 +353,8 @@
         padding: 5px;
     }
 }
+
+
 
 @media only screen and (min-width: 401px) and (max-width: 767px) {
     .miniFaqSection {
@@ -401,7 +414,7 @@
     }
 }
 
-@media only screen and (min-width: 528px) and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
 
     .aboveFooterSection {
         padding-top: 40px;
@@ -437,6 +450,18 @@
     .accordion:after {
         padding-top: 5px;
     }
+
+    .review-img1 {
+        height: 210px;
+    }
+
+    .review-img2 {
+        height: 150px;
+    }
+
+    .title-box {
+        padding: 20px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -461,3 +486,45 @@
         padding-top: 7px;
     }
 }
+
+@media only screen and (max-width: 1500px) {
+    .inner-title.pb-70 {
+        margin-right: 100px;
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .inner-title.pb-70 {
+        margin-right: 50px;
+        padding-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .inner-title.pb-70 {
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+
+    .banner-content.h1.banner-title {
+        font-size: 30px !important;
+        
+    }
+    
+    .banner-content-p {
+        font-size: 15px !important;
+    }
+    
+    .review-img1 {
+        height: 190px;
+    }
+    
+    .review-info {
+        margin-bottom: 8px;
+    }
+}
+    
