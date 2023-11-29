@@ -1,6 +1,27 @@
 .inner-bg1 {
   padding-bottom: 30px;
 }
+.inner-banner.pricing{
+height: 900px;
+}
+
+.banner-pricing{
+  padding: 150px;
+  padding-left: 100px;
+  
+}
+.banner-price-h1{
+  font-size: 56px;
+  margin-bottom: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.banner-price-p{
+  width: 60%;
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: var(--whiteColor);
+}
 
 .price-img {
   display: block;
@@ -10,6 +31,9 @@
   height: auto;
 }
 
+.price-table{
+  background-color: var(--blackColor);
+}
 .priceHR {
   color: var(--blackColor);
   height: 2px;
@@ -26,6 +50,7 @@
 .price-col {
   border-radius: 10px;
   background-color: var(--redColor);
+  z-index: 1;
 }
 
 .pricing-desc {
@@ -131,12 +156,18 @@
 /*================================
 Pricing Area
 ===================================*/
+.price-table{
+  padding: 100px;
+}
 .pricing-area {
-  background-image: linear-gradient( var(--blueColor), var(--whiteColor));
-padding: 50px;
-padding-left: 100px;
-padding-right: 100px;
+padding: 20px;
 
+}
+.price-text{
+  padding-top: 95px;
+}
+.priceh4{
+  font-size: 40px;
 }
 
 
@@ -259,49 +290,58 @@ What's Included
 ===================================*/
 .includedSection {
   height: auto;
-  background-color: var(--blueColor);
+  background-color: var(--blackColor);
+  padding: 100px;
 
-  padding-top: 100px;
+  padding-top: 400px;
   padding-bottom: 100px;
   position: relative;
 }
 .included {
-  margin: auto;
-  width: 80%;
+  
+}
+
+.included-text{
+  padding-top: 50px;
 }
 
 .includedh4 {
-  text-align: center;
-  font-size: 30px;
-  color: var(--blackColor);
-  margin-bottom: 40px;
+  text-align: left;
+  font-size: 40px;
+  padding-right: 40px;
+  color: var(--whiteColor);
+  /* margin-bottom: 70px; */
+  font-weight: 600;
+  line-height: 1.2;
+
 }
 
 .includedImg {
-  margin-left: 45%;
-  margin-right: 45%;
-  height: 70px;
-  margin-bottom: 40px;
+    height: 336px;
+    border-radius: 13px;
+    background-color: var(--bgColor);
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-right: 10px;
 }
+
 
 .included-ul {
   background-color: var(--whiteColor);
+
   border-radius: 10px;
   list-style: none;
   margin: 0;
   padding: 30px;
   padding-bottom: 10px;
-  margin-bottom: 20px;
 }
 
 .included-li {
-  border: none;
-  text-align: left;
-  position: relative;
   height: 34px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 21px;
   color: var(--blackColor);
+  font-size: 18px;
   
 }
 .included-li::before {
@@ -353,7 +393,7 @@ VS Cards
 
 .col-5.a {
   justify-content: center;
-  border-radius: 30px;
+  border-radius: 10px;
   background-color: var(--whiteColor);
 
   margin-right: 20px;
@@ -363,7 +403,7 @@ VS Cards
 }
 .col-5.b {
   justify-content: center;
-  border-radius: 30px;
+  border-radius: 10px;
   background-color: var(--redColor);
   margin-left: 20px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
@@ -396,10 +436,11 @@ box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 .vsCardB {
   justify-content: center;
   color: var(--blackColor);
-  border-radius: 30px;
+  border-radius: 10px;
   border: 0.5px;
   margin: 5px;
-  padding: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   background-color: var(--whiteColor);
 
 }
@@ -410,6 +451,10 @@ box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 
 .vsCardB {
   border-color: var(--redColor);
+  margin: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+
 }
 
 .vsCardAul,
@@ -471,6 +516,15 @@ VS Cards
 /*================================
 Media Queries
 ===================================*/
+
+@media only screen and (max-width: 940px) {
+.price-text{
+  width: 100%;
+}
+.pricing-area{
+  width: 100%;
+}
+}
 @media only screen and (max-width: 940px) {
   .vsprice{
     width: 80%;
