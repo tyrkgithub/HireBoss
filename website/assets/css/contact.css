@@ -293,8 +293,7 @@
 
 .aboveFooterSection {
   height: auto;
-  background-color: var(--blueColor);
-  /* padding: 70px; */
+  background-color: var(--redColor);
   padding-top: 70px;
   padding-bottom: 70px;
   position: relative;
@@ -310,13 +309,13 @@
 
 .aboveFooterh4 {
   font-size: 40px;
-  color: var(--blackColor);
+  color: var(--whiteColor);
   margin-bottom: 30px;
 }
 
 .aboveFooterP {
   font-size: 20px;
-  color: var(--blackColor);
+  color: var(--whiteColor);
   margin-bottom: 30px;
 }
 
@@ -327,9 +326,9 @@
 .aboveFooter-btn {
   border: none;
   border-radius: 5px;
-  color: var(--whiteColor);
+  color: var(--redColor) !important;
   text-align: center;
-  background-color: var(--blackColor);
+  background-color: var(--whiteColor) !important;
   outline: none;
   position: relative;
 }
