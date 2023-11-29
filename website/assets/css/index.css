@@ -15,7 +15,7 @@
     background-position: center;
   }
   .hero-overlay{
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.89);
     width: 100%
   }
 
@@ -143,13 +143,15 @@
 
   .indexServicesP2 {
     color: var(--blackColor);
-    font-size: 16px;
     margin: 0px auto 20px auto !important;
-    width: 95%;
+    width: 93%;
+    padding-top: 20px;
+    padding-bottom: 45px;
   }
 
   .indexServicesP1 {
     color: var(--redColor);
+    padding-top: 15px;
   }
 
   .text-link {
@@ -499,7 +501,7 @@
   /* CTA Section //////////////////////////////// */
   .indexCta {
     height: auto;
-    background-color: var(--blueColor);
+    background-color: var(--redColor);
     padding-bottom: 30px;
     padding-top: 20px;
     position: relative;
