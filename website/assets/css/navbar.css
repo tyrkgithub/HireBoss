@@ -1,5 +1,5 @@
 .desktop-nav {
-  background-color: transparent;
+  background-color: var(--blackColor);
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -39,7 +39,7 @@
 
 .desktop-nav .navbar .navbar-nav .nav-item a {
   font-size: 16px;
-  color: var(--titleColor);
+  color: var(--whiteColor) !important;
   position: relative;
   z-index: 1;
   padding-left: 0;
@@ -51,7 +51,7 @@
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item a:hover, .desktop-nav .navbar .navbar-nav .nav-item a:focus, .desktop-nav .navbar .navbar-nav .nav-item a.active {
-  color: var(--redColor);
+  color: var(--redColor) !important;
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item a i {
@@ -77,7 +77,7 @@
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: var(--whiteColor);
+  background: var(--blackColor);
   position: absolute;
   visibility: hidden;
   border-radius: 0;
@@ -109,7 +109,7 @@
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
-  color: var(--titleColor);
+  color: var(--whiteColor);
   padding: 10px 15px;
   margin: 0;
   font-size: 15px;
@@ -136,7 +136,7 @@
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
-  color: var(--titleColor);
+  color: var(--whiteColor);
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
@@ -151,7 +151,7 @@
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: var(--titleColor);
+  color: var(--whiteColor);
   font-size: 15px;
 }
 
@@ -167,7 +167,7 @@
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: var(--titleColor);
+  color: var(--whiteColor);
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -182,7 +182,7 @@
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: var(--titleColor);
+  color: var(--whiteColor);
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -197,7 +197,7 @@
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: var(--titleColor);
+  color: var(--whiteColor);
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -212,7 +212,7 @@
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: var(--titleColor);
+  color: var(--whiteColor);
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .desktop-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -293,7 +293,7 @@
 }
 
 .desktop-nav-one {
-  background-color: var(--whiteColor);
+  background-color: var(--blackColor);
 }
 
 .desktop-nav-one .navbar .navbar-nav {
@@ -302,13 +302,13 @@
 }
 
 .navbar-two {
-  background-color: var(--whiteColor);
+  background-color: var(--blackColor);
   z-index: 5;
   position: relative;
 }
 
 .navbar-two .desktop-nav-two {
-  background-color: var(--whiteColor);
+  background-color: var(--blackColor);
 }
 
 .nav-sidebar .navbar-language {
@@ -322,8 +322,8 @@
 }
 
 .nav-sidebar .navbar-language .dropdown-toggle {
-  background-color: transparent;
-  color: var(--titleColor);
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
   font-size: 16px;
   font-weight: 400;
   display: -webkit-box;
@@ -553,7 +553,7 @@
 }
 
 .navbar-area {
-  background-color: var(--whiteColor);
+  background-color: var(--blackColor);
 }
 
 .navbar-area.is-sticky {
@@ -1220,7 +1220,7 @@ Responsive Css
     top: 8px;
   }
   .mobile-responsive-nav .mean-container .mean-bar {
-    background: transparent;
+    background: var(--blackColor);
     position: absolute;
     z-index: 999;
     padding: 0;
