@@ -1,9 +1,9 @@
   p {
-    font-family: 'Aileron', sans-serif;
+    font-family: var(--font);
   }
 
   ul {
-    font-family: 'Aileron', sans-serif;
+    font-family: var(--font);
   }
 
 /* HERO ///////////////////// */
@@ -40,7 +40,7 @@
     font-weight: 2000;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    font-family: var(--font);
   }
 
   .top {
@@ -72,9 +72,8 @@
 
   .vsTopBoxParent {
     background-color: var(--redColor);
+    padding-top:10px;
     padding-right: 10px;
-    padding-top: 10px;
-    padding-left: 0;
     border-radius: 10px;
   }
 
@@ -100,7 +99,7 @@
   .vsSection.vsimg {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: var(--whiteColor);
+    background-color: var(--blackColor);
   }
 
   .col-2.tick-parent {
@@ -223,7 +222,7 @@
     color: var(--whiteColor);
     text-align: center;
     font-size: 40px;
-    font-family: var(--bodyFonts);
+    font-family: var(--font);
     margin-bottom: 0px;
   }
 
@@ -316,7 +315,7 @@
   th,
   td {
     font-family: inherit;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.45;
     color: #444;
     vertical-align: middle;
@@ -340,8 +339,6 @@
 
   colgroup:nth-child(3) {
     width: 25%;
-    border: 10px solid var(--redColor);
-    border-radius: 5px;
   }
 
   colgroup:nth-child(4) {
@@ -376,7 +373,7 @@
     font-weight: 300;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--redColor);
+    color: var(--blackColor);
     margin: 0;
   }
 
@@ -447,6 +444,9 @@
   .tb-cost,
   .th-full {
     border-radius: 20px 0px 0px 0px;
+    background-color: #fff0f0;
+  }
+  .th-full{
     background-color: #ffffff;
   }
 
@@ -484,17 +484,27 @@
     border-bottom: 0 none;
   }
 
-  tbody tr:nth-child(odd) td {
+  tbody tr:nth-child(odd) td, .light-red {
     background-color: #fff0f0;
+  }
+  th{
+height: 80px;
   }
   .red{
     background-color: var(--redColor)!important;
     color: var(--whiteColor);
    }
    .red-hire{
-    background-color: var(--redColor)!important;
+    background-color: #ffffff!important;
 
    }
+   .grey{
+    background-color: var(--blueColor);
+   }
+.priceh4{
+  color: var(--whiteColor);
+}
+
 
   /* CTA Section //////////////////////////////// */
   .indexCta {
@@ -511,11 +521,10 @@
   .test {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: var(--blackColor);
   }
 
   .testimonial {
-    border-left: 3px solid var(--redColor);
-    padding: 100px 0 100px 275px;
     position: relative
   }
 
@@ -524,33 +533,39 @@
     content: "";
     width: 320px;
     height: 55px;
-    border-right: 3px solid var(--redColor);
     position: absolute;
     left: 0;
   }
 
   .testimonial:before {
-    border-top: 3px solid var(--redColor);
     top: 0;
   }
 
   .testimonial:after {
-    border-bottom: 3px solid var(--redColor);
     bottom: 0;
   }
 
   .testimonial .pic {
-    width: 200px;
+    width: 19%;
     height: 190px;
-    position: absolute;
     top: 100px;
-    left: 50px;
+    left: 12%;
+    margin-bottom: 107px;
+  }
+
+  .pic{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 34%;
+    margin-left: 28%;
   }
 
   .test-img {
     width: 200px;
     height: 180px;
     object-fit: cover;
+    border-radius: 50%;
   }
 
   .testimonial .description {
@@ -558,6 +573,7 @@
     color: #7a7e82;
     line-height: 27px;
     position: relative;
+    text-align: center;
   }
 
   .testimonial .description:before {
@@ -573,8 +589,9 @@
   .testimonial .testimonial-title {
     font-size: 22px;
     font-weight: 800;
-    color: #22272c;
+    color: var(--whiteColor);
     text-transform: capitalize;
+    text-align: center;
   }
 
   .testimonial .post {
@@ -621,6 +638,10 @@
 
 
   @media only screen and (max-width: 990px) {
+.pricing-area{
+  padding: 100px;
+}
+
 
     .vsTop {
       padding-left: 50px;
@@ -641,7 +662,6 @@
     }
 
     .testimonial {
-      padding: 80px 0 80px 265px;
     }
   }
 
@@ -694,6 +714,11 @@
 
     .testimonial .description:before {
       content: "";
+    }
+    .testimonial .pic {
+  
+  
+      margin-bottom: 25px;
     }
   }
 
@@ -1041,7 +1066,6 @@
 
   @media only screen and (max-width: 990px) {
     .testimonial {
-      padding: 80px 0 80px 265px;
     }
   }
 
@@ -1060,10 +1084,14 @@
       position: relative;
       top: 0;
       left: 0;
-    }
+      width: 34%;
+      margin-left: 32%;
+  }
+    
 
     .testimonial .description {
       margin-top: 15px;
+      text-align: center;
     }
 
     .testimonial .description:before {
