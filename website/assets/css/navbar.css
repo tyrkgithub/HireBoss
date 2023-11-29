@@ -1220,7 +1220,7 @@ Responsive Css
     top: 8px;
   }
   .mobile-responsive-nav .mean-container .mean-bar {
-    background: var(--blackColor);
+    /* background: var(--blackColor); */
     position: absolute;
     z-index: 999;
     padding: 0;
