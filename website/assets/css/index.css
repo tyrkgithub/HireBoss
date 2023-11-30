@@ -112,6 +112,10 @@
  .vsCardBh6.hire{
   color: var(--redColor);
  }
+
+ .col-1.vs{
+  z-index: 2;
+ }
  
   
   /* SERVICES WE OFFER ///////////*/
@@ -510,14 +514,7 @@ height: 80px;
 }
 
 
-  /* CTA Section //////////////////////////////// */
-  .indexCta {
-    height: auto;
-    background-color: var(--redColor);
-    padding-bottom: 30px;
-    padding-top: 20px;
-    position: relative;
-  }
+
 
 
 
