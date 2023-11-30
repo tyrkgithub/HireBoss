@@ -165,7 +165,6 @@ h3 {
 }
 
 img {
-  max-width: 100%;
 }
 
 .pt-150 {
@@ -755,14 +754,6 @@ Buy Now Btn
   background-color: #94be5d;
 }
 
-/* CTA Section */
-.indexCta {
-  height: auto;
-  background-color: var(--blueColor);
-  padding-bottom: 30px;
-  padding-top: 20px;
-  position: relative;
-}
 
 /*==================================
 Animation CSS
