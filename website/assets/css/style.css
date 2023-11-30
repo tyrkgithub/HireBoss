@@ -62,6 +62,9 @@ Default CSS
   @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans&family=Outfit:wght@400;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Josefin+Sans&family=Outfit:wght@400;700&display=swap');
 
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
   @font-face {
     font-family: 'Aileron'; 
     src: url('../fonts/Aileron.otf') format('opentype');
@@ -69,6 +72,7 @@ Default CSS
 
 
 :root {
+  --font:'Inter', sans-serif;
   --headerFonts: 'Poppins', sans-serif;
   --bodyFonts: 'Roboto', sans-serif;
   --headingFont:'Abril Fatface', serif;
@@ -95,24 +99,33 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-size: var(--fontSize);
-  font-family: var(--bodyFonts);
+  font-family: var(--font);
 }
 
 p {
   color: var(--bodyColor);
   margin-bottom: 10px;
   line-height: 1.8;
+  font-family: var(--font);
 }
 
 p:last-child {
   margin-bottom: 0;
 }
 
+li {
+  font-family: var(--font);
+
+}
+
+
 a {
   display: inline-block;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   text-decoration: none;
+  font-family: var(--font);
+
 }
 
 a:hover, a:focus {
@@ -121,6 +134,8 @@ a:hover, a:focus {
 
 button {
   outline: 0;
+  font-family: var(--font);
+
 }
 
 button:focus {
@@ -132,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   color: var(--titleColor);
   line-height: 1.4;
-  font-family: 'Poppins', sans-serif;;
+  font-family: var(--font);
 }
 
 h3 {
@@ -150,7 +165,6 @@ h3 {
 }
 
 img {
-  max-width: 100%;
 }
 
 .pt-150 {
@@ -740,14 +754,6 @@ Buy Now Btn
   background-color: #94be5d;
 }
 
-/* CTA Section */
-.indexCta {
-  height: auto;
-  background-color: var(--blueColor);
-  padding-bottom: 30px;
-  padding-top: 20px;
-  position: relative;
-}
 
 /*==================================
 Animation CSS
