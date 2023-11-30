@@ -40,7 +40,94 @@
     width: 80%;
     margin: auto;
   }
+/*FREE UP TIME*/
+.free-up-time {
+  border: 70px solid #fff;
+}
 
+.free-up {
+  background-color: #000; 
+  padding: 20px; 
+  border-radius: 15px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px; 
+}
+
+.title h1 {
+  color: #fff;
+}
+
+.container-3 {
+  display: flex; 
+  margin: 20px;
+  justify-content: center; 
+  height: auto; 
+  margin-top: auto;
+}
+
+.container-4 {
+  display: flex; 
+  margin: 10px; 
+  align-items:flex-start;
+}
+
+.profile {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;   
+  line-height: 2rem;  
+      
+}
+
+.profile img {
+  width: 250px;
+  height: 250px; 
+  border-radius: 10px;
+  
+}
+
+.profile-p {
+  font-size: 20px;
+  color: #fff; 
+  margin-bottom: 5px;
+  text-align: center;
+  color: yellow;
+ }
+
+.profile h2 {
+  color: #fff;  
+  font-size: 24px;
+  line-height: 0.5rem;
+}
+
+.profile ul {
+  list-style: none; 
+  font-size: 20px;
+}
+
+.profile ul li a {
+  color: #fff;
+  text-align: center;
+  color: red;
+}
+
+.content {
+  flex: 1; 
+  padding: 20px; 
+  color: #fff;
+}
+
+.content ul {
+  list-style-type: disc; 
+  color: #fff; 
+  font-size: 26px; 
+  margin-left: 100px; 
+  padding: 20px;
+}
 
 /* VS CARDS //////////////////// */
   .vsTop {
@@ -172,8 +259,35 @@
   }
 
 /*WHO IS YOUR NEXT ASSISTANT*/
+.text-center {
+  font-size: 18px; 
+  padding: 50px;
+  text-align: center;
+}
+
+.text-center-p {
+  font-size: 20px; 
+  color: #000000;
+}
+
+.card-container {
+  display: flex; 
+  justify-content: space-around; margin-bottom: 70px; 
+  overflow: hidden;
+}
+
+.card {
+  text-align: center;  
+  padding: 10px; 
+  border: 1px solid #000000; border-radius: 5px;  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin: 5px;color: #000000;
+}
+
 .card p {
   color: #000000;
+  margin-top: 10px; 
+  font-size: 16px;
 }
 
 .card img {
