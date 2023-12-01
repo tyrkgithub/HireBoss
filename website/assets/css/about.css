@@ -6,9 +6,16 @@ Banner Area
   background-position:center center;
   background-size: cover;
 }
+
+.ab-overlay{
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%
+}
 .ab-banner-content  {
+  padding-top: 60px;
   padding-left: 90px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
+  max-width: 70%;
 }
 
 .about-content {
@@ -18,19 +25,6 @@ Banner Area
 .about-description {
  padding-top: 30px;
  color: var(--whiteColor);
- max-width: 60%;
-}
-
-h1 {
-font-family: 'Fjalla One', sans-serif;
-}
-
-p {
-  font-family: 'Aileron', sans-serif;
-}
-
-ul {
-  font-family: 'Aileron', sans-serif;
 }
 
 .pricing-btn{
@@ -189,13 +183,28 @@ About Area
     Media Quries
   ===================================*/
 
+
+  @media only screen and (max-width: 545px){
+    .inner-title{
+      font-size: 25px;
+    }
+
+    .about-description{
+      font-size: 15px;
+    }
+  }
+
   @media only screen and (max-width: 580px){
     .ab-banner-content{
       padding-left: 40px;
     }
+
+    .inner-title{
+      font-size: 28px;
+    }
     
     .about-description{
-      max-width: 80%;
+      max-width: 100%;
     }
 
     .about-content-1{
@@ -205,6 +214,7 @@ About Area
     .about-content-1 {
       margin-bottom: 45px;
     }
+
     .about-img {
       height: 230px;
     } 
