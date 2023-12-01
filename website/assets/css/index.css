@@ -271,7 +271,7 @@
   }
 
 /*WHO IS YOUR NEXT ASSISTANT*/
-.text-center {
+.who-title {
   font-size: 18px; 
   padding: 50px;
   text-align: center;
@@ -308,6 +308,10 @@
 
   /*/////// How  ///////////*/
 
+  .how-content{
+    gap: 30px;
+  }
+
   .howItWorks-img{
     height: 500px;
     width: 380px;
@@ -335,7 +339,7 @@
   }
 
   .howIcon {
-    justify-content: center;
+    margin-right: 25px;
     height: 25px;
     width: 25px;
 
