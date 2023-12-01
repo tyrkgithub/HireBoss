@@ -382,10 +382,10 @@ VS Cards
 }
 
 .vs-img{
-  padding-top: 200px;
-  width: 130px;
+  padding-top: 272px;
+  width: 200%;
   max-height: none;
-  margin-left: -44px;
+  margin-left: -53%;
 }
 
 .vs {
@@ -515,7 +515,14 @@ VS Cards
 /*================================
 Media Queries
 ===================================*/
-
+@media only screen and (max-width: 990px) {
+ .vs-img{
+  padding-top: 217px;
+  width: 300%;
+  max-height: none;
+  margin-left: -102%;
+ }
+}
 @media only screen and (max-width: 940px) {
 .price-text{
   width: 100%;
