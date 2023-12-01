@@ -164,7 +164,6 @@ padding: 20px;
 
 }
 .price-text{
-  padding-top: 95px;
 }
 .priceh4{
   font-size: 40px;
@@ -523,11 +522,17 @@ Media Queries
   max-height: none;
   margin-left: -102%;
  }
+
 }
 @media only screen and (max-width: 940px) {
 .price-text{
   width: 100%;
+  padding-bottom: 50px;
 }
+.priceh4{
+  font-size: 30px;
+  text-align: center;
+ }
 .pricing-area{
   width: 100%;
 }
@@ -614,6 +619,9 @@ Media Queries
   .price-row {
     grid-gap: 10px;
   }
+  .priceh4{
+    font-size: 25px;
+   }
 }
 
 @media only screen and (max-width: 480px) {
