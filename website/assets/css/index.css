@@ -314,6 +314,8 @@ ul {
   /*/////// How  ///////////*/
 
   .how-content{
+    display: flex;
+    flex-direction: row;
     gap: 30px;
   }
 
@@ -748,6 +750,21 @@ th {
   }
 }
 
+@media only screen and (max-width: 926px) {
+
+  .howh3{
+    margin-top: 25px;
+  }
+
+  .howIconArea{
+    padding-top: 20px;
+  }
+
+  .howItWorks-img{
+    padding-top: 20px
+  }
+}
+
 
 @media only screen and (max-width: 990px) {
   .pricing-area {
@@ -786,6 +803,20 @@ th {
 
   .banner-h1 {
     font-size: 35px;
+  }
+
+  .how-content{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .howh3{
+    text-align: center;
+  }
+
+  .howItWorks-img{
+    width: 480px;
+    height: 350px;
   }
 }
 
@@ -957,15 +988,8 @@ th {
 
 
 @media only screen and (max-width: 767px) {
-  .howItWorks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .how {
-    margin-left: 0;
-    flex-direction: column;
+  .howh3 {
+    margin-top: 0px;
   }
 
   .howBox {
@@ -973,13 +997,9 @@ th {
     margin: 10px 0;
   }
 
-  .howImg {
-    width: 30px;
-    height: 30px;
-  }
-
-  .howP {
-    font-size: 14px;
+  .howItWorks-img {
+    width: 450px;
+    height: 380px;
   }
 
   .banner-content {
@@ -993,23 +1013,51 @@ th {
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .howItWorks {
-    text-align: center;
-    flex-direction: column;
+@media only screen and (max-width: 650px){
+  
+  .howItWorks-img{
+    height: 300px;
+    width: 380px;
   }
 
-  .howBox {
-    margin-bottom: 20px;
+  .howh3 {
+    font-size: 28px;
+  }
+
+  .howIcon{
+    height: 20px;
+    width: 20px;
+  }
+
+  .howIconArea{
     margin-left: 30px;
   }
 
-
+  .howBox{
+    padding-bottom: 20px;
+  }
 
   .howP {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
+
+@media only screen and (max-width: 575px) {
+
+  .howItWorks-img{
+    height: 200px;
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+
+  .howIconArea{
+    margin-left: 0px;
+  }
+
+}
+
 
 @media only screen and (max-width: 992px) {
   .services-card.who {
