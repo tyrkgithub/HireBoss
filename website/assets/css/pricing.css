@@ -384,6 +384,7 @@ VS Cards
 .vs-img{
   padding-top: 272px;
   width: 200%;
+  max-width: none;
   max-height: none;
   margin-left: -53%;
 }
