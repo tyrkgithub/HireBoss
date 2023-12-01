@@ -307,61 +307,43 @@
 }
 
   /*/////// How  ///////////*/
-  
-  
-  .howItWorks {
-    padding-top: 30px;
-    padding-bottom: 80px;
-    display: flex;
-    margin: auto;
-    width: 100%;
-  }
 
-
+  .howItWorks-img{
+    height: 500px;
+    width: 380px;
+    padding: 10px;
+    border-radius: 35px;
+    object-fit: cover;
+}
  
-  .howBox {
-    justify-content: center;
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    display: inline;
-  }
-
-  .howBox.red {
-    background-color: var(--redColor);
-    color: var(--blackColor);
-  }
-
-  .howBox.white {
-    background-color: var(--whiteColor);
-  }
-
   .howh3 {
     color: var(--whiteColor);
-    text-align: center;
     font-size: 40px;
     font-family: var(--font);
-    margin-bottom: 0px;
+    margin-top: 40px;
   }
 
-  .howImg {
-   
-    height: 30px;
-    width: 30px;
+  .howBox {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+  }
+
+
+  .howIconArea{
+    padding-top: 30px;
+  }
+
+  .howIcon {
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+
   }
 
   .howP {
     color: var(--whiteColor);
-    font-size: 15px;
-    text-align: center;
-  }
-
-  .howP.black {
-    color: var(--blackColor);
+    font-size: 16px;
   }
 
 
@@ -636,7 +618,6 @@ height: 80px;
   .test {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: var(--blackColor);
   }
 
   .testimonial {
