@@ -248,11 +248,15 @@
 .miniFaqSection {
   height: auto;
   padding: 50px;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   margin: auto;
- 
+}
+
+.miniFaqBg{
   background-color: var(--blackColor);
+  border-radius: 10px;
+  padding: 70px 10px;
 }
 
 .miniFaqh4 {
@@ -307,6 +311,18 @@
 ////////////
 */
 
+  /* CTA Section //////////////////////////////// */
+  .indexCta {
+    height: auto;
+    background-color: var(--redColor);
+    position: relative;
+  }
+
+  .col-md-7.col-sm-8.cta-text{
+    padding-right: 50px;
+  }
+ 
+
 .aboveFooterSection {
   height: auto;
   background-color: var(--redColor);
@@ -320,17 +336,17 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px 20px 0px 60px;
+  padding: 0px 0px 0px 100px;
 }
 
 .aboveFooterh4 {
-  font-size: 40px;
+  font-size: 35px;
   color: var(--whiteColor);
   margin-bottom: 30px;
 }
 
 .aboveFooterP {
-  font-size: 20px;
+  font-size: 15px;
   color: var(--whiteColor);
   margin-bottom: 30px;
 }
@@ -357,6 +373,7 @@
   height: 380px;
   max-width: 100%;
   object-fit: cover;
+  border-radius: 20px 0px 0px 20px;
 }
 
 /*=================================
@@ -599,7 +616,6 @@ Responsive Css
   }
 
   .aboveFooterImg{
-    padding-left: 30px;
     height: 290px;
     max-width: 100%;
 

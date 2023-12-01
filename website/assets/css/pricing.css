@@ -382,11 +382,14 @@ VS Cards
 }
 
 .vs-img{
-  padding-top: 270px;
+  padding-top: 200px;
+  width: 130px;
+  max-height: none;
+  margin-left: -44px;
 }
 
 .vs {
-  margin-top: 160px;
+  margin-top: -50px;
 
   color: var(--redColor);
 }
@@ -396,7 +399,6 @@ VS Cards
   border-radius: 10px;
   background-color: var(--whiteColor);
 
-  margin-right: 20px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   transition: transform ease 0.5s, box-shadow ease 0.5s;
 
@@ -405,7 +407,6 @@ VS Cards
   justify-content: center;
   border-radius: 10px;
   background-color: var(--redColor);
-  margin-left: 20px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   transition: transform ease 0.5s, box-shadow ease 0.5s;
 
@@ -425,9 +426,9 @@ box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 
 .vs-img-2{
  
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 3%;
   border-radius: 10px;
 
 }
@@ -440,7 +441,6 @@ box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
   border: 0.5px;
   margin: 5px;
   padding-bottom: 10px;
-  padding-left: 10px;
   background-color: var(--whiteColor);
 
 }
@@ -451,9 +451,8 @@ box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 
 .vsCardB {
   border-color: var(--redColor);
-  margin: 0;
-  margin-top: 10px;
-  margin-right: 10px;
+  margin: 2px;
+
 
 }
 

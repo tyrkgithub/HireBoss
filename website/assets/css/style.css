@@ -755,14 +755,6 @@ Buy Now Btn
   background-color: #94be5d;
 }
 
-/* CTA Section */
-.indexCta {
-  height: auto;
-  background-color: var(--blueColor);
-  padding-bottom: 30px;
-  padding-top: 20px;
-  position: relative;
-}
 
 /*==================================
 Animation CSS
