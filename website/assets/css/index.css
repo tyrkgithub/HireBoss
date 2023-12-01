@@ -188,11 +188,10 @@ ul {
   padding: 10px;
 }
 
-.vsSection.vsimg {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: var(--blackColor);
-}
+  .vsSection.vsimg {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
 .col-2.tick-parent {
   justify-content: center;
@@ -274,8 +273,8 @@ ul {
 }
 
 /*WHO IS YOUR NEXT ASSISTANT*/
-.text-center {
-  font-size: 18px;
+.who-title {
+  font-size: 18px; 
   padding: 50px;
   text-align: center;
 }
@@ -312,63 +311,49 @@ ul {
   border-radius: 5px;
 }
 
-/*/////// How  ///////////*/
+  /*/////// How  ///////////*/
 
+  .how-content{
+    gap: 30px;
+  }
 
-.howItWorks {
-  padding-top: 30px;
-  padding-bottom: 80px;
-  display: flex;
-  margin: auto;
-  width: 100%;
+  .howItWorks-img{
+    height: 500px;
+    width: 380px;
+    padding: 10px;
+    border-radius: 35px;
+    object-fit: cover;
 }
+ 
+  .howh3 {
+    color: var(--whiteColor);
+    font-size: 40px;
+    font-family: var(--font);
+    margin-top: 40px;
+  }
+
+  .howBox {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+  }
 
 
+  .howIconArea{
+    padding-top: 30px;
+  }
 
-.howBox {
-  justify-content: center;
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 5px;
-  display: inline;
-}
+  .howIcon {
+    margin-right: 25px;
+    height: 25px;
+    width: 25px;
 
-.howBox.red {
-  background-color: var(--redColor);
-  color: var(--blackColor);
-}
+  }
 
-.howBox.white {
-  background-color: var(--whiteColor);
-}
-
-.howh3 {
-  color: var(--whiteColor);
-  text-align: center;
-  font-size: 40px;
-  font-family: var(--font);
-  margin-bottom: 0px;
-}
-
-.howImg {
-
-  height: 30px;
-  width: 30px;
-}
-
-.howP {
-  color: var(--whiteColor);
-  font-size: 15px;
-  text-align: center;
-}
-
-.howP.black {
-  color: var(--blackColor);
-}
+  .howP {
+    color: var(--whiteColor);
+    font-size: 16px;
+  }
 
 
 /*///////Who ///////////*/
@@ -646,11 +631,10 @@ th {
 
 
 /* TESTIMONIAL /////////////////////////////////// */
-.test {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: var(--blackColor);
-}
+  .test {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
 .testimonial {
   position: relative
