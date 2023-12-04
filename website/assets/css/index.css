@@ -122,7 +122,7 @@ ul {
 
 .profile ul li a {
   /* justify-items: center; */
-  color: red;
+  color: var(--redColor);
   margin-right: 10px;
 }
 
@@ -306,6 +306,10 @@ ul {
   margin-top: 10px;
   font-size: 16px;
 }
+
+.card h3 {
+  font-weight: bold;
+  }
 
 .card img {
   border-radius: 5px;

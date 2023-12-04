@@ -29,26 +29,8 @@
     opacity: 0.2;
 }
 
-.outer-box {
-    border: 70px solid #EF3A5D;
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
 
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    width: 100%;
-}
-
-.grid-item {
-    padding: 20px;
-    text-align: center;
-}
+/*GETTING STARTED*/
 
 .get-title-container {
     display: flex;
